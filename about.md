@@ -4,27 +4,31 @@ title: About
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  "We embed the data scientist with the clinical team to jointly hone the predictive solution and the clinical pathway redesign for the patient care." 
+  <br> - Michael Draugelis, Chief Data Scientist
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
 
-There are currently two themes built on Poole:
+## WHAT WE DO:
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+Clinicians must rely on their reasoning, experience and bias to respond quickly to patient healthcare needs. They can pull relevant threads with stunning accuracy to change the outcome for a patient. However, recent advancements in data capture, storage, and rampant use of various devices have led to an explosion of data in terms of complexity, volume and speed. There are millions of patient signals and reams of administrative data that fall on the floor because humans can't filter the noise, speed, and variety of the data. Here at Penn Medicine, the Penn Medicine Predictive Healthcare team is creating computational solutions to pull those hidden relationships from the noise.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+Representing a combination of technical skill and dedication to enhancing health, Penn Medicine's Predictive Healthcare Team helps clinicians and researchers expand the ways patient information and research data are transmitted and used.
 
-## Setup
+Healthcare, like other business areas, use Data Analysts or Business Intelligence to provide insight into the effectiveness of business processes.  This analysis, in turn, provides strategic decision support to business leaders.
 
-Some fun facts about the setup of this project include:
+However, if the business expert does not know how to explore or resolve a problem they can’t guide the data analysts to report on the effectiveness.
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+The advent of cheap data storage, processing power, and open source software projects has provided the foundation for the application of advanced algorithms (modern signal processing, machine learning, and artificial intelligence) to solve general business problems. 
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+By combining advanced algorithms with mountains of data, fused from disparate sources from inside and beyond the enterprise, it is now possible to discover previously unseen patterns and connections. To advance core business objectives, these newly discovered connections can drive decision-making and behavioral change through real-time predictive applications. 
 
-Thanks for reading!
+Taken together, these advances are providing new insights and solutions to core problems in the business of healthcare - solutions that traditional analysts and the decision makers who guide them never knew to explore. This new application of technology is what we do at Penn Medicine Predictive Healthcare.
+
+
+## HOW WE DO IT:
+
+* Enable predictive healthcare applications for better patient care​
+* Provide predictive information at the point of care​
+* Embed data science team with the clinical teams​​
+* Focus on Service Lines and Department Goals
