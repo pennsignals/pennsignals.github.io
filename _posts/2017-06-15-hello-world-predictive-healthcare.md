@@ -8,28 +8,28 @@ Penn Medicine Predictive Healthcare
 =================
 We started our work at Penn Medicine in 2014 with the goal of making our patients lives better and creating a more efficient health system.   
 
-We've shown that a health system can create and deploy state of the art applications that saves lives.  We've done this with a commitment to collaboration, transparency and openness.
+We've shown that a health system can create and deploy state of the art applications that saves lives.  We've done this with a commitment to collaboration, transparency, and openness.
 
 My hope is by sharing our experiences we can enable other health systems to be successful using predictive systems, and help grow the community of predictive healthcare practitioners and data scientists.
  
 ## How we think about Data Science in healthcare
-Healthcare, like other business areas, uses Data Analysts to provide insight into the effectiveness of business processes. and this analysis provides strategic decision support to business leaders.  A natural tendency would be to apply the powerful tools of Data science to provide every more insightfully reports to make decisions on.  Finding the proverbial needle in the haystack.
+Healthcare, like other business areas, uses data analysts to provide insight into the effectiveness of business processes. This analysis provides strategic decision support to business leaders.  A natural tendency would be to apply the powerful tools of Data science to provide even more insightful reports to make decisions on.  Finding the proverbial needle in the haystack.
 
-However, we believe that the biggest impacts in healthcare are going to come from predictive applications inserted into the workflow of care providers and patients.  Our focus on real-time decision making has required us to get serious, super serious, about clinical data, model reproducibility, transparency and experimentation.
+However, we believe that the biggest impacts of data science in healthcare are going to come from predictive applications inserted into the workflow of care providers and patients.  Our focus on real-time decision making has required us to get serious, super serious, about clinical data, model reproducibility, transparency, and experimentation.
 
-Data Integrity
+### Data Integrity
 : Timestamps, latency, time zones (data from the future!...it happens)
 Pipeline availability (where's my freakin' data?...sometime hours late)
 Patient identifier inconsistency (80-year-old newborns?!...just weird stuff)
 Multiple fields referring to the same types of data (heart rate, pulse, etc.)
 
-Algorithms
+### Algorithms
 : Making them good enough and interpretable enough to use in a clinical setting. [^footnote1],[^footnote4]
 
-Model Reproducibility
+### Model Reproducibility
 : Knowledge management.  When did the system 'know' something and can we branch on that knowledge.  Think _software version control meets data streams_.
 
-Operations
+### Operations
 :  Developing, deploying, experimenting with and measuring predictive healthcare programs. 
 
 ## What we're working on
