@@ -1,0 +1,465 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+@import url('//fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	background: #fff;
+}
+
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+.strong{
+	font-weight: bold;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+/** Typography 8*/
+
+h1 {
+  font-size: 3.3rem;
+}
+
+h2 {
+  font-size: 3.0rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-size: 1.8rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+.top-nav{
+	background: #0d47a1;
+	overflow: hidden;
+	ul.social-media-list{
+		margin: 0 10px 0 0;
+		li{
+			float: right;
+			margin: -1px 8px;
+			a{
+				color: #bbdefb;
+			}
+			a:hover{
+				color: #fff;
+			}
+		}
+	}
+}
+
+nav {
+	h1{
+		font-size: 20px;
+		line-height: 22px;
+		font-weight: 300;
+		margin: 0px;
+		letter-spacing: 0.075em;
+	}
+	#logo-container{
+		height: 100%;
+		float: left;
+		text-align: center;
+		//width: 80%;
+		img, h1{
+			//float: left;
+		}
+		h1{
+			color: #283593;
+		}
+	}
+	ul{
+		a{
+			color: #283593;
+			margin-right: 1px;
+		}
+		.dropdown-content li > a{
+			color: #283593;
+		}
+		a:hover{
+			background: #bbdefb;
+		}
+	}
+	.button-collapse{
+		color: #0d47a1;
+	}
+}
+body.about a.about,
+body.projects a.projects,
+body.team a.team,
+body.blog a.blog,
+body.contact a.contact{
+	background: #bbdefb;
+}
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+
+/*
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body, html{
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+.bx-viewport, .bx-wrapper{
+    position:relative;
+    width:100%;
+    height:500px !important;
+    top:0;
+    left:0;
+}
+.bxslider, .bxslider li{
+    height: 100% !important;;
+}
+.bxslider li{
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.bx-wrapper .bx-viewport{
+    border: none !important;
+}
+
+.parallax-container .section {
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+}
+*/
+
+nav.nav-extended .nav-wrapper {
+	min-height: 84px;
+}
+nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+	height: 84px;
+	line-height: 84px;
+}
+.navbar-fixed {
+	height: 84px;
+}
+
+@media only screen and (max-width: 992px){
+	nav.nav-extended .nav-wrapper {
+		min-height: 104px;
+	}
+	nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+		height: 104px;
+		line-height: 104px;
+	}
+	.navbar-fixed {
+		height: 104px;
+	}
+	#logo-container{
+		position: absolute;
+		top: 1%;
+		left: 30%;
+			h1{
+				line-height: 28px;
+				font-size: 18px;
+			}
+	}
+}
+@media only screen and (max-width: 570px) {
+	nav.nav-extended .nav-wrapper {
+		min-height: 114px;
+	}
+	nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+		height: 114px;
+		line-height: 114px;
+	}
+	.navbar-fixed {
+		height: 114px;
+	}
+	nav{
+		#logo-container{
+			position: absolute;
+			top: 2%;
+			left: 25%;
+				a {
+					float: none;
+						img{
+							float: none;
+						}
+					h1{
+						width: 100%;
+						margin: 10px 0 0 0;
+						text-align: center;
+					}
+				}
+		}
+	}
+
+	.home{
+		.parallax-container{
+			h3{
+				margin: 0;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width : 1255px) {
+	nav{
+		#logo-container{
+				a {
+						img{
+							height: auto;
+							margin: 0 auto
+						}
+					h1{
+						line-height: 22px;
+						font-size: 20px;
+						margin: 4px 0 0 0;
+					}
+				}
+		}
+	}
+}
+article.section{
+	padding-bottom: 5rem;
+}
+footer.page-footer{
+	padding: 70px 0 0 0;
+	.container{
+		.row{
+			margin-bottom: 70px;
+		}
+	}
+	a{
+		color: #b3e5fc;
+	}
+	a:hover{
+		color: #e1f5fe;
+	}
+	.col.l6{
+		padding: 0 8% 0 0;
+	}
+	li ul{
+		margin: 10px 0 10px 10px;
+		li:before {
+		  content: "- ";
+		  text-indent: -5px;
+		  color: #b3e5fc;
+		}
+	}
+
+}
+/** Page Specifics **/
+
+/* home */
+.home h5{
+	-webkit-text-stroke-width: 0.01em;
+	-webkit-text-stroke-color: #999;
+}
+.home{
+		.parallax-container{
+			h3{
+				margin: 1.25em 0 0.5em 0;
+				font-size: 2.7rem;
+			}
+		}
+		#index-banner{
+			margin: 0 0 2rem 0;
+			height: 480px;
+		}
+		#index-blog{
+			padding: 4rem 0 4rem 0;
+			background: #F3F4F8;
+			height: 100%;
+			margin: 0 0 70px 0;
+			position: relative;
+			.macbook-wrap {
+			    position: absolute;
+			    width: 916px;
+			    height: 540px;
+			    background: url(../assets/images/macbook-pro.png) no-repeat center center;
+			    top: 2%;
+			    z-index: 4;
+			    right: 50%;
+			}
+		}
+		.post-list{
+			padding: 1rem;
+			li{
+				padding: 18px 0;
+				border-bottom: 1px solid #e1e1e1;
+			}
+		}
+		.card{
+			font-size: 12px;
+			.card-title{
+				width: 100%;
+				background: rgba(21,101,192, 0.8)
+			}
+		}
+	}
+
+@media only screen and (max-width : 600px) {
+	#index-banner{
+	    background: url(/assets/images/hero.jpg);
+	    background-size: 160% 100%;
+	    background-position: 55%;
+	    h3 {
+		    margin: 1.0em 0 0.5em 0;
+		    font-size: 1.9rem;
+		}
+		h5{
+			line-height: 22px;
+			font-size: 1rem
+		}
+	    .btn-large {
+		    height: 30px;
+		    line-height: 30px;
+		}
+	}
+	#index-team{
+		background: url(/assets/images/team.jpg);
+	    background-size: 100%;
+	    background-position: 55%;
+	    min-height: 200px;
+	}
+	#index-blog{
+		.devices{
+			display: none;
+		}
+		.col.offset-s6{
+			width: 95%;
+			margin: 0 2%;
+		}
+	}
+
+}
+@media only screen and (max-width : 750px) {
+	.home-projects .col.s6{
+		width: 95%;
+	}
+}
+
+.home-hero{
+	width: 100%;
+	margin: 0 auto;
+	padding: 15px;
+	text-align: center;
+	h5{
+		line-height: 28px;
+	}
+}
+/* projects */
+i.medium {
+    font-size: 2.4rem;
+    margin: -4px 20px 0 0;
+}
+.collapsible-header{
+	padding: 0.9rem 1rem;
+	h3{
+		margin: 0;
+	}
+}
+
+/* team */
+.member {
+	margin: 0 0 30px 0;
+	.chip:hover{
+		opacity: 0.7 !important;
+	}
+	.chip img {
+	    float: left;
+	    margin: 0 8px 0 -12px;
+	    height: 32px;
+	    width: 32px;
+	    border-radius: 50%;
+	}
+}
+.chip {
+	.fa-stack {
+	    float: left;
+	    margin: -1px 8px 0 -12px;
+	    height: 32px;
+	    width: 32px;
+	    border-radius: 50%;
+	}
+	.fa-lg{
+		font-size: 1.433333em;
+	}
+	.fa-stack-2x {
+    	top: -1px;
+		}
+}
+#executives .col.l2{
+	margin-left: 3%;
+	margin-bottom: 3%;
+}
+/* Contact Us */
+
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+/* Blog */
+.blog-blurb{
+	a{
+		padding: 5px 10px;
+	}
+}
+.pagination{
+	overflow: hidden;
+	padding: 20px 0;
+	.pager{
+		padding: 5px 10px;
+	}
+}
+
+#disqus_thread{
+	margin: 50px 0 0 0;
+}
