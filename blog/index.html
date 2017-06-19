@@ -1,0 +1,40 @@
+---
+layout: default
+title: Blog
+slug: blog
+---
+
+<!-- This loops through the paginated posts -->
+
+<div class="container">
+  <header class="post-header">
+      <h1 class="post-title red-text text-darken-4">{{ page.title | escape }}</h1>
+  </header>
+  {% for post in paginator.posts %}
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p class="author">
+      <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
+    </p>
+    <div class="blog-blurb">
+      {{ post.content | strip_html | truncatewords:75}}<br><br>
+      <a class="waves-effect right" href="{{ post.url }}">Read More &gt;</a><br><br>
+    </div>
+    <div class="divider"></div>
+  {% endfor %}
+
+
+  <!-- Pagination links -->
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a class="waves-effect left pager" href="{{ paginator.previous_page_path }}">Previous</a>
+    {% else %}
+      <span class="grey-text text-lighten-1 left pager">Previous</span>
+    {% endif %}
+
+    {% if paginator.next_page %}
+      <a class="waves-effect right pager" href="{{ paginator.next_page_path }}" class="next">Next</a>
+    {% else %}
+      <span class="grey-text text-lighten-1 right pager">Next</span>
+    {% endif %}
+  </div>
+</div>
