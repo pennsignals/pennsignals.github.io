@@ -6,10 +6,6 @@ date:   2017-06-15 10:59:56 -0500
 comments: true
 categories: healthcare
 ---
-
-
-Penn Medicine Predictive Healthcare
-=================
 In 2014, we started our work at Penn Medicine with one simple goal: to make our patients' lives better, and to create a more efficient health system.
 
 Three years later, Penn is now benefitting from predictive health care, with measurable results and lives saved.  State-of-the-art applications have been deployed (some running in real-time), and clinical workflows have been updated to the benefit of all involved.
