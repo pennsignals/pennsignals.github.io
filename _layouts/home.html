@@ -1,0 +1,185 @@
+---
+layout: default
+title: Healthcare Predictive
+---
+
+<div class="home">
+  <div class="parallax-container" id="index-banner">
+    <div class="section no-pad-bot">
+
+    </div>
+    <div class="parallax">
+      <img src="/assets/images/hero.jpg" alt="Penn Medicine Healthcare Predictive Team">
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+    <div class="container">
+        <h3 class="header center red-text text-darken-4">Advancing Healthcare With Predictive Analytics</h3>
+        <div class="home-hero">
+          <h5 class="header col s12 light">
+            Predictive Healthcare is focused on deploying predictive healthcare applications  with re-designed healthcare pathways that greatly improve patient health and wellness.
+          </h5>
+          <br><br>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div id="index-blog" class="section no-pad-bot row">
+    <div class="devices">
+        <div class="macbook-wrap"></div>
+    </div>
+
+    <div class="col s6 offset-s6 card-panel fafafa grey lighten-5">
+      <h4 class="page-heading"><i class="material-icons">comment</i> From our blog</h4>
+
+      {{ content }}
+
+      <ul class="post-list">
+        {% for post in site.posts limit:3 %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+            <h5>
+              <a class="post-link blue-text text-darken-4" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </h5>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+        <div class="row home-projects">
+          <h3 class="center">Projects</h3>
+          <div class="col s6">
+            <div class="card">
+              <div class="card-image">
+                <img src="/assets/images/project-sample.jpg">
+                <span class="card-title">Early Warning System (EWS)</span>
+              </div>
+              <div class="card-content">
+                <p>Reduce sepsis impact to patients through early intervention and patient management.</p>
+                <p><a href="/projects/sepsis">Learn more &gt;</a></p>
+              </div>
+              <div class="card-action">
+                <h5>Team</h5>
+                <ul>
+                  <li>Clinical Leader: Craig Umscheid</li>
+                  <li>Clinical Champion: Patrick Donnelly</li>
+                  <li>PMC Champion: Kim Pavan</li>
+                  <li>HUP Champion: Mike Lynch / Laurie Meadows</li>
+                  <li>Data Science Lead: Corey Chivers</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s6">
+            <div class="card">
+              <div class="card-image">
+                <img src="/assets/images/vent_abc.jpg">
+                <span class="card-title">Vent ABC</span>
+              </div>
+              <div class="card-content">
+                <p>The Vent ABC project is to reduce ICU LOS through total time on mechanical ventilation by providing real-time notifications and patient insight of readiness for weaning the ventilator and sedation that is integrated into a standardized protocol that coordinates care between Respiratory Therapist, Nursing, and Covering provider.</p>
+              </div>
+              <div class="card-action">
+                <h5>Team</h5>
+                <ul>
+                  <li>Clinical Leader: Barry Fuchs</li>
+                  <li>Project Lead: Steven Gudowski</li>
+                  <li>Data Science: Corey Chivers</li>
+                  <li>Innovation: Eugene Gitelman, David Do</li>
+                  <li>E-Lert: Ann Huffenberger</li>
+                  <li>PMC Champion: Huey Pigford</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s6">
+            <div class="card">
+              <div class="card-image">
+                <img src="/assets/images/lung_connect.jpg">
+                <span class="card-title">Lung Connect</span>
+              </div>
+              <div class="card-content">
+                <p>Reduce ED visits for lung cancer patients.
+If we can predict ED utilization, we can intervene in the high-risk population, and prevent ED visits </p>
+              </div>
+              <div class="card-action">
+                <h5>Team</h5>
+                <ul>
+                  <li>Clinical Leads: Tracey Evans, Abigail Berman</li>
+                  <li>Project Lead: Jennifer Braun</li>
+                  <li>Data Scientist: Asaf Hanish</li>
+                  <li>Cancer Informatics: Peter Gabriel</li>
+                  <li>Human Factors: Susan Regli</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s6">
+            <div class="card">
+              <div class="card-image">
+                <img src="/assets/images/chf_wired.jpg">
+                <span class="card-title">CHF Wired</span>
+              </div>
+              <div class="card-content">
+                <p>Optimize coordination of care across the continuum for heart failure patients.  The effort, referred to as “WIRED” is an acronym for the pathway of care developed by our multidisciplinary team with a goal of identifying heart failure patients in the Hospital and deploying targeted interventions based on risk. WIRED represents five vital pieces for HF care regardless of location.</p>
+                <a class="right" href="/projects/heart">Learn more &gt;</a>
+              </div>
+              <div class="card-action">
+                <h5>Team</h5>
+                <ul>
+                  <li>Project Lead: J. Fante-Gallagher</li>
+                  <li>Clinical Lead: Lee Goldberg</li>
+                  <li>Data Scientist: Asaf Hanish</li>
+                  <li>Human Factors: Susan Regli</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s6">
+            <div class="card">
+              <div class="card-image">
+                <img src="/assets/images/ob_ews.jpg">
+                <span class="card-title">Obstetrics - Early Warning System (OB-EWS)</span>
+              </div>
+              <div class="card-content">
+                <p>Reduce a women's risk of hemorrhage or infection during and after labor and delivery.  If we can detect hemorrhage and infection earlier than we can improve patient outcomes, shorten LOS lower ED utilization.</p>
+              </div>
+              <div class="card-action">
+                <h5>Team</h5>
+                <ul>
+                  <li>Clinical Leader:: Corrina Oxford-Horrey</li>
+                  <li>Project Lead: Stephanie Ewing</li>
+                  <li>Data Science Lead: Mike Becker</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="center col s12">
+          <br><br>
+
+          </div>
+        </div>
+
+
+    </div>
+  </div>
+</div>
