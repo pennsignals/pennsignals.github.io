@@ -5,7 +5,6 @@ author: Mike Draugelis
 date:   2017-06-15 10:59:56 -0500
 comments: true
 categories: healthcare
-slug: blog
 ---
 
 
