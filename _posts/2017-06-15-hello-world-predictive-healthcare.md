@@ -6,12 +6,16 @@ author: Mike Draugelis
 
 Penn Medicine Predictive Healthcare
 =================
-We started our work at Penn Medicine in 2014 with the goal of making our patients lives better and creating a more efficient health system.   
+In 2014, we started our work at Penn Medicine with one simple goal: to make our patients' lives better, and to create a more efficient health system.
 
-We've shown that a health system can create and deploy state of the art applications that saves lives.  We've done this with a commitment to collaboration, transparency, and openness.
+Three years later, Penn is now benefitting from predictive health care, with measurable results and lives saved.  State-of-the-art applications have been deployed (some running in real-time), and clinical workflows have been updated to the benefit of all involved.
+
+Penn's success has depended, in large part, on a deep commitment to collaboration, transparency, and openness.
+
+But there is still much work to be done.  Integrating predictive applications into clinical workflows is complex and challenging, as is the constant adaptation required in an ever-changing technology landscape.  Add to this mix the general misunderstanding of exactly what data science is and how it can help, coupled with the immense complexities of clinical data.....it's hard.
 
 My hope is by sharing our experiences we can enable other health systems to be successful using predictive systems, and help grow the community of predictive healthcare practitioners and data scientists.
- 
+
 ## How we think about Data Science in healthcare
 Healthcare, like other business areas, uses data analysts to provide insight into the effectiveness of business processes. This analysis provides strategic decision support to business leaders.  A natural tendency would be to apply the powerful tools of Data science to provide even more insightful reports to make decisions on.  Finding the proverbial needle in the haystack.
 
@@ -30,10 +34,10 @@ Multiple fields referring to the same types of data (heart rate, pulse, etc.)
 : Knowledge management.  When did the system 'know' something and can we branch on that knowledge.  Think _software version control meets data streams_.
 
 ### Operations
-:  Developing, deploying, experimenting with and measuring predictive healthcare programs. 
+:  Developing, deploying, experimenting with and measuring predictive healthcare programs.
 
 ## What we're working on
-We have a set of clinical projects that keeps use busy but we're always building on and from our predictive pipeline we call [Penn Signals](https://www.pennmedicine.org/news/news-releases/2016/may/penn-medicine-information-serv). 
+We have a set of clinical projects that keeps use busy but we're always building on and from our predictive pipeline we call [Penn Signals](https://www.pennmedicine.org/news/news-releases/2016/may/penn-medicine-information-serv).
 
 Penn Signals
 : A real-time pipeline of micro-services, to generate multiple predictive applications delivered to clinical and operational teams. Penn Signals removes barriers for data scientists and application developers to create, deploy and maintain predictive applications in support of Penn Medicine’s shift to value based care, preventive healthcare, and precision medicine.  We will begin open sourcing our micro-services, docker containers and applications in 2017-2018.
@@ -45,7 +49,7 @@ High Risk Heart Failure Patient
 : [Predicting heart failure patients at risk of hospitalization](https://www.pennmedicine.org/news/news-blog/2017/february/the-little-algorithm-that-could)
 
 Maternal Decline Risk
-: Identify women after delivery that are at risk of hemorrhage, infection and hypertension.  
+: Identify women after delivery that are at risk of hemorrhage, infection and hypertension.
 
 Lung Connect (Lung Cancer)
 : [Predicting cancer patients at risk of hospitalization](https://www.pennmedicine.org/news/news-blog/2017/january/can-big-data-help-cancer-patients-avoid-er-visits)
