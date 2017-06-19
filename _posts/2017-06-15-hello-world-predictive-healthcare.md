@@ -2,7 +2,12 @@
 layout: post
 title: Penn Medicine Predictive Healthcare
 author: Mike Draugelis
+date:   2017-06-15 10:59:56 -0500
+comments: true
+categories: healthcare
+slug: blog
 ---
+
 
 Penn Medicine Predictive Healthcare
 =================
