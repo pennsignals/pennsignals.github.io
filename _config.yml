@@ -18,7 +18,8 @@ email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   A site that describes the goals and solutions of the Penn Medicine Predictive Healthcare team.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+relative_permalinks: false
+url: "http://predictivehealthcare.pennmedicine.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 disqus:
