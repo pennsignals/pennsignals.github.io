@@ -28,7 +28,7 @@ In addition to weirdnesses like data arriving from the future, the distinction b
 ## Instrumentation
     
 Many risk models that are in current use in the health care space are deployed as paper worksheets, or as simple applets into which the clinician enters some data and a score is returned. These implementations decouple the prediction from the outcome, and generally lack even the most rudimentary instrumentation.
-Given the various issues that can arrise with healthcare data, the importance of monitoring data inputs, model outputs, and overall system performance is paramount. 
+Given the various issues that can arrise with healthcare data, the importance of monitoring data inputs, model outputs, and overall system performance is paramount.
 
 ## Clinical Decision Making
 
@@ -40,11 +40,13 @@ Ultimately, we're trying to improve patient outcomes by helping clinicians make 
     - Is the problem a knowledge gap, or a process breakdown? 
 
 ## What we're doing at Penn
-    - A series of comming posts
-        - Aptos
-        - PennSignals
-        - Model explainers
-        - Decision theory baked into design
+
+In a series of comming posts, we'll be describing several projects we're undertaking, and how we're attempting to address the issues and challenges we've encountered in applying predictive data solutions in healthcare. 
+
+- Aptos
+- PennSignals
+- Model explainers
+- Decision theory baked into design
 
 
 
