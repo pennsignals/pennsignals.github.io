@@ -7,13 +7,7 @@ comments: true
 categories: healthcare, AI, data
 ---
 
-<<<<<<< HEAD
 Here at Penn Medicine, we're developing uses of AI and machine learning to help improve medical decision making. As the electronic medical record (EMR) has matured, and it's adoption become widespread, there has been an increasing amount of data available to work with toward this end. However, this data comes with several unique challenges -- many of which we have encountered first hand, and others that we expect to face soon. Some aspects of these are specific to healthcare, while others apply to data science more broadly, but with a healthcare spin. This post is the first in a series we're doing on the particular challenges presented by medical and healthcare data in machine learning applications, and how we're tackling these challenges head on. 
-=======
-# Challenges faced by predictive healthcare solutions
-
-Here at Penn Medicine, we're developing uses of AI and machine learning to help improve medical decision making. As the electronic medical record (EMR) has matured, and its adoption become widespread, there has been an increasing amount of data available to work with toward this end. However, this data comes with several unique challenges -- many of which we have encountered first hand, and others that we expect to face soon. Some aspects of these are specific to healthcare, while others apply to data science more broadly but with a healthcare spin. This post is the first in a series we're doing on the particular challenges presented by medical and healthcare data in machine learning applications, and how we're tackling these challenges head on. 
->>>>>>> ac9ade78152faa1e3dd67c0c6311255d6d08141b
 
 ## It's gonna be messy
 
@@ -64,7 +58,7 @@ In a series of coming posts, we'll be describing several projects we're undertak
 
 
 -----------------------------------------
-
+Notes
         - Sampling issues
             - consequences for 'interpretable' models vs pure predictions
             - Informed presence bias
