@@ -58,7 +58,7 @@ In a series of comming posts, we'll be describing several projects we're underta
 
 
 -----------------------------------------
-
+Notes
         - Sampling issues
             - consequences for 'interpretable' models vs pure predictions
             - Informed presence bias
