@@ -23,16 +23,19 @@ In addition to these issues, the observation time (e.g., the 'valid time' when a
 
 In addition to weirdnesses like data arriving from the future, the distinction between 'valid time' and 'machine time' has important consequences when building and validating machine learning models. For instance, any erroneously entered data that was subsequently corrected may not be captured in an enterprise data warehouse intended to capture only the final state of the patient record. The consequence of this is that any model built and evaluated on the cleaned final state data will not perform as expected in the wild. The distribution of data in the live data stream will differ from both the training and test data used in development.
 
+A model of the data generating process in real-time looks something like this:
+
 <img src="https://user-images.githubusercontent.com/1396669/28382041-c783864e-6c8a-11e7-9fab-1266130723b5.png" width="100%">
 
-These updates and deletes happen quite often
+While the data warehouse is likely to only contain the final state of each observation. We found that these updates and deletes happen quite often:
 
 <img src="https://user-images.githubusercontent.com/1396669/28382049-cf8d5522-6c8a-11e7-8015-d4f50b0d8f8f.png" width="100%">
 
-And users tend to round their estimate of when the observation was actually taken, often to the coarseness of the nearest hour.
+In addition to this, users tend to round their estimate of when the observation was actually taken, often to the coarseness of the nearest hour.
 
 <img src="https://user-images.githubusercontent.com/1396669/28382059-d5445b78-6c8a-11e7-941d-0f069280bd13.png" width="100%">
 
+While vital signs and other direct patient observations come with the above considerations, another important source of health data are lab values. These are the blood workups, bacterial cultures, urinalysis, and the like. This data stream comes with similar set of time-related issues. There are no less than three unique time-stamps associated with a lab observation: a) Ordered time, b) Drawn time, and c) resulted time. To which we could consider others, including d) reviewed time (when the clinician actually sees the result), and for cultures, results can arrive in parts over time as the organism develops, and trials of antibiotic susceptibility play out.  
 
 ## Instrumentation
     
