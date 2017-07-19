@@ -23,7 +23,7 @@ In addition to these issues, the observation time (e.g., the 'valid time' when a
 
 In addition to weirdnesses like data arriving from the future, the distinction between 'valid time' and 'machine time' has important consequences when building and validating machine learning models. For instance, any erroneously entered data that was subsequently corrected may not be captured in an enterprise data warehouse intended to capture only the final state of the patient record. The consequence of this is that any model built and evaluated on the cleaned final state data will not perform as expected in the wild. The distribution of data in the live data stream will differ from both the training and test data used in development.
 
-![streaming_not_at_rest]({{ site.url }}/assets/images/posts/StreamingPredsUpdates2.png)
+<img src="{{ site.url }}/assets/images/posts/StreamingPredsUpdates2.png" width="100%">
 
 ## Instrumentation
     
