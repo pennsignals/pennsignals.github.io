@@ -25,6 +25,8 @@ In addition to these issues, the observation time (e.g., the 'valid time' when a
 
 In addition to weirdnesses like data arriving from the future, the distinction between 'valid time' and 'machine time' have important consequences when building and validating machine learning models. For instance, any erroneously entered data that was subsequently corrected may not be captured in an enterprize data warehouse intended to capture only the final state of the patient record. The consequence of this is that any model built and evaluated on the cleaned final state data will not perform as expected in the wild. The distribution of data in the live data stream will differ from both the training and test data used in development.
 
+![streaming_not_at_rest]({{ site.url }}/assets/images/posts/StreamingPredsUpdates2.png)
+
 ## Instrumentation
     
 Many risk models that are in current use in the health care space are deployed as paper worksheets, or as simple applets into which the clinician enters some data and a score is returned. These implementations decouple the prediction from the outcome, and generally lack even the most rudimentary instrumentation.
