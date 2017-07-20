@@ -7,7 +7,7 @@ comments: true
 categories: healthcare, AI, data
 ---
 
-Here at Penn Medicine, we're developing uses of AI and machine learning to help improve medical decision making. As the electronic medical record (EMR) has matured, and it's adoption become widespread, there has been an increasing amount of data available to work with toward this end. However, this data comes with several unique challenges -- many of which we have encountered first hand, and others that we expect to face soon. Some aspects of these are specific to healthcare, while others apply to data science more broadly, but with a healthcare spin. This post is the first in a series we're doing on the particular challenges presented by medical and healthcare data in machine learning applications, and how we're tackling these challenges head on.
+Here at Penn Medicine, we're developing uses of AI and machine learning to help improve medical decision making. As the electronic medical record (EMR) has matured, and its adoption become widespread, there has been an increasing amount of data available to work with toward this end. However, this data comes with several unique challenges -- many of which we have encountered firsthand, and others that we expect to face soon. Some aspects of these are specific to healthcare, while others apply to data science more broadly, but with a healthcare spin. This post is the first in a series we're doing on the particular challenges presented by medical and healthcare data in machine learning applications, and how we're tackling these challenges head on.
 
 ## It's gonna be messy
 
@@ -46,7 +46,7 @@ Given the various issues that can arise with healthcare data, the importance of 
 
 Ultimately, we're trying to improve patient outcomes by helping clinicians make better decisions with the plethora of data they increasingly have available to them. That means that this is fundamentally a human process, and hence, involving the relevant humans from the get-go is of the utmost import. Important questions we have learned to ask up front in this collaborative process include:
 
-- What are the current work-flows?
+- What are the current workflows?
 - How are decisions about risks being made at present?
     - Is there any opportunity to improve on this?
     - Is the problem a knowledge gap, or a process breakdown? 
