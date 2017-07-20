@@ -2,9 +2,9 @@
 layout: post
 title: Some challenges in creating predictive healthcare solutions
 author: Corey Chivers <corey.chivers@uphs.upenn.edu>
-date:   2017-07-18 12:00:00 -0500
+date:   2017-07-20 12:00:00 -0500
 comments: true
-categories: healthcare, AI, data, data science, machine learning, pipelines
+tags: [healthcare, AI, data, data science, machine learning, pipelines]
 ---
 
 Here at Penn Medicine, we're developing uses of AI and machine learning to help improve medical decision making. As the electronic medical record (EMR) has matured, and its adoption becomes widespread, there has been an increasing amount of data available to work with toward this end. However, this data comes with several unique challenges -- many of which we have encountered firsthand, and others that we expect to face soon. Some aspects of these are specific to healthcare, while others apply to data science more broadly, but with a healthcare spin. This post is the first in a series we have planned on the particular challenges presented by medical and healthcare data in machine learning applications, and how we're tackling them head on.
