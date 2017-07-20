@@ -42,6 +42,7 @@ While vital signs and other direct patient observations come with the above cons
 ### Instrumentation
     
 Many prediction/risk models that are in current use in the healthcare space are deployed as paper worksheets, or as simple applets into which the clinician enters some data and a score is returned. These implementations decouple the prediction from the outcome, and generally lack even the most rudimentary instrumentation.
+
 Given the various issues that can arise with healthcare data, the importance of monitoring data inputs, model outputs, and overall system performance is paramount.
 
 ### Clinical decision making
