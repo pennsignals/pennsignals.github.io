@@ -27,7 +27,7 @@ In addition to weirdnesses like data arriving from the future, the distinction b
 
 A model of the data generating process in real-time looks something like this:
 
-<img src="https://user-images.githubusercontent.com/1396669/28382041-c783864e-6c8a-11e7-9fab-1266130723b5.png" width="80%">
+<img src="https://user-images.githubusercontent.com/1396669/28430269-dade1894-6d4d-11e7-93fb-8ea12be579b3.png" width="80%">
 
 The consequences for real-world model performance compared with that evaluated on the EDW's fixed, historical data can be profound. We found that in the real-time setting, updates and deletes indeed happen quite often:
 
