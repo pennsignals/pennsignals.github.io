@@ -1,0 +1,67 @@
+---
+layout: default
+title: Tag
+---
+
+<div class="container">
+    {% comment %}
+    Extracts all the tags from your posts and sort tags.
+    {% endcomment %}
+    {% assign rawtags = "" %}
+    {% for post in site.posts %}
+        {% assign ttags = post.tags | join:'|' | append:'|' %}
+        {% assign rawtags = rawtags | append:ttags %}
+    {% endfor %}
+    {% assign rawtags = rawtags | split:'|' | sort %}
+
+    {% comment %}
+    Removes dulpicated tags and blank tags.
+    {% endcomment %}
+    {% assign tags = "" %}
+    {% for tag in rawtags %}
+        {% if tag != "" %}
+            {% if tags == "" %}
+                {% assign tags = tag | split:'|' %}
+            {% endif %}
+            {% unless tags contains tag %}
+                {% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+            {% endunless %}
+        {% endif %}
+    {% endfor %}
+
+    {% comment %}
+    List all the tags you have in the blog.
+    {% endcomment %}
+    <div class="card-panel grey lighten-4">
+    {% for tag in tags %}
+        <a href="#{{ tag | slugify }}">
+          <div class="chip">
+            <i class="close material-icons">local_offer</i>
+            {{ tag }}
+          </div>
+        </a>
+    {% endfor %}
+    </div>
+    <br>
+    <div>
+    {% comment %}
+    List all your posts posted with a certain tag.
+    {% endcomment %}
+    {% for tag in tags %}
+        <ul>
+        <h4 id="{{ tag | slugify }}">{{ tag }}</h4>
+        {% for post in site.posts %}
+            <li>
+            {% if post.tags contains tag %}
+                <a href="{{ post.url }}">
+                {{ post.title }}<br>
+                </a>
+                <small>{{ post.date | date_to_string }}</small>
+            {% endif %}
+            </li>
+        {% endfor %}
+        </ul>
+    {% endfor %}
+    </div>
+    <br>
+</div>
