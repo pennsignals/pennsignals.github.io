@@ -19,6 +19,9 @@ body{
 .strong{
 	font-weight: bold;
 }
+strong{
+	font-weight: 700;
+}
 .icon-block {
   padding: 0 15px;
 }
@@ -50,7 +53,12 @@ h5 {
 h6 {
   font-size: 1rem;
 }
-
+.container ul {
+	margin: 0 0 0 20px;
+	li{
+		list-style-type: disc;
+	}
+}
 .top-nav{
 	background: #0d47a1;
 	overflow: hidden;
