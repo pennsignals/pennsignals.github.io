@@ -13,7 +13,7 @@ The goal of data science in health care is to build systems which make use of da
 2. Will the prediction sometimes be wrong, and if so would we be better off without it?
 3. How much better off would we be if we could improve the algorithm?
 
-In order to go from a machine learning model which generates a risk score to an actual _decision_ about what to do with it, we need to think about how we the [expected utility](https://plato.stanford.edu/entries/rationality-normative-utility/) of our options. This post provides a gentle introduction to making decisions in situations of uncertainty using the concept of expected utility, then demonstrates how to apply the same thinking to risk models in predictive healthcare applications.
+In order to go from a machine learning model which generates a risk score to an actual _decision_ about what to do with it, we need to think about the [expected utility](https://plato.stanford.edu/entries/rationality-normative-utility/) of our options. This post provides a gentle introduction to making decisions in situations of uncertainty using the concept of expected utility, then demonstrates how to apply the same thinking to risk models in predictive healthcare applications.
 
 
 ### Expected Utility
@@ -23,9 +23,9 @@ Expected utility can be thought of as the mathematical formulation of how much b
 1. An estimate or evaluation of the benefit (utility) you would get for each of a range of possible outcomes.
 2. An estimate of the probability of each of the possible outcomes.
 
-Take for example a trick or treater picking candy from a bowl. There are two types of candy in the bowl, \\( \frac{1}{3} \\) are peanut butter cups, and the other \\( \frac{2}{3} \\) are raisinets. The trick or treater is from the planet earth and therefore prefers peanut butter cups to raisinets by a factor of 5. We can assign the utility of peanut butter cups a value of 5 and raisinets utility of 1.
+Take for example a trick-or-treater picking candy from a bowl. There are two types of candy in the bowl, \\( \frac{1}{3} \\) are peanut butter cups, and the other \\( \frac{2}{3} \\) are raisinets. The trick-or-treater is from the planet earth and therefore prefers peanut butter cups to raisinets by a factor of 5. We can assign the utility of peanut butter cups a value of 5 and raisinets utility of 1.
 
-What is the trick or treater's expected utility of picking candy at random from this bowl?
+What is the trick-or-treater's expected utility of picking candy at random from this bowl?
 
 \\(\frac{2}{3} \\)rds of the time they'll get a raisinets and the associated 1 unit of utility, the other \\( \frac{1}{3} \\)rd of the time, they'll score and get peanut butter cups (utility=5), the expectation is therefore:
 
@@ -33,13 +33,13 @@ What is the trick or treater's expected utility of picking candy at random from 
 
 With this in hand, we can ask a variety of interesting questions, for example: 
 
-- If the trick or treater has the option to choose from this bowl A or some other bowl B, which one should she choose?
+- If the trick-or-treater has the option to choose from this bowl A or some other bowl B, which one should she choose?
 
-Let's work through this question to see how the concept of expected utility helps us decide. Suppose bowl B contains \\( \frac{1}{2} \\) peanut butter cups, and \\( \frac{1}{2} \\) [rockets, or as my American colleagues call them: "smarties"](http://orgjunkie.com/2010/12/rockets-and-smarties.html). Our trick or treater likes these even less than raisinets, and assigns them a utility of \\( \frac{1}{10} \\). The expected utility of a random candy from bowl B therefore:
+Let's work through this question to see how the concept of expected utility helps us decide. Suppose bowl B contains \\( \frac{1}{2} \\) peanut butter cups, and \\( \frac{1}{2} \\) [rockets, or as my American colleagues call them: "smarties"](http://orgjunkie.com/2010/12/rockets-and-smarties.html). Our trick-or-treater likes these even less than raisinets, and assigns them a utility of \\( \frac{1}{10} \\). The expected utility of a random candy from bowl B therefore:
 
 \\( 5(\frac{1}{2}) + (\frac{1}{10})(\frac{1}{2}) = 2.55 \\)
 
-Which is more than the expected utility from the first bowl. Given the option to draw random candies from bowl A or bowl B, our trick or treater would be better off by choosing bowl B, since it has the higher expected utility. 
+Which is more than the expected utility from the first bowl. Given the option to draw random candies from bowl A or bowl B, our trick-or-treater would be better off by choosing bowl B, since it has the higher expected utility. 
 
 - How many more peanut butter cups would need to be added to bowl A before it became a better option than bowl B?
 
