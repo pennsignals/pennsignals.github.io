@@ -49,6 +49,10 @@ You can turn off Disqus comments by setting `comments: false`. Additionally, you
 4. View your website at http://127.0.0.1:4000/
 5. Commit any changes and push everything to the master branch of your GitHub user repository. GitHub Pages will then rebuild and serve your website.
 
+If the above doesn't work, follow these steps:
+1. Install `sudo gem install bundler jekyll`
+2. Install all the required gems `bundle install`
+3. Run the site by `bundle exec jekyll serve`
 
 
 ## Credits
