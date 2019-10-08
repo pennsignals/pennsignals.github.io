@@ -15,9 +15,9 @@ slug: speaker-series
 
 <li>Computer science</li>
 <li>AI/machine learning</li>
-<li>Human Factors</li>
+<li>Human factors and human computer interaction</li>
 <li>Real-time and big data architectures</li>
-<li>Process Improvement</li>
+<li>Process improvement</li>
 <li>Clinical/medical research</li>
 
 
