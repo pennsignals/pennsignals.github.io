@@ -11,7 +11,7 @@ slug: speaker-series
 <p>
   As interest in applying the tools of data science to clinical and operational healthcare problems increases, the success of the solutions will depend on much more than the performance of a particular algorithm. 
 </p>
-  The Penn Medicine Predictive Healthcare speaker series aims to bring together the wide array of players from across the institution who have a stake in the successful operationalization of data science solutions in health care. The topics will encompass separate disciplines that come together to deliver these solutions, including:
+  The Penn Medicine Predictive Healthcare speaker series aims to bring together a wide array of players from across the institution who have a stake in the successful operationalization of data science solutions in health care. The topics will encompass separate disciplines that come together to deliver these solutions, including:
 
 <li>Computer science</li>
 <li>AI/machine learning</li>
