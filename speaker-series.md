@@ -30,3 +30,22 @@ slug: speaker-series
 </p>
 
 Speaker/Topic Suggestions? <i class="fa fa-envelope"></i><a href="mailto:pennsignals@uphs.upenn.edu"> Email Us</a>
+
+
+####  Inaugural Predictive Healthcare Speaker Series Talk!
+
+<img src="https://user-images.githubusercontent.com/1396669/67399215-dda5f680-f579-11e9-8b4a-7da2ea25c909.jpg" ALIGN="left" HSPACE="30" VSPACE="10">
+
+##### Speaker 
+Katherine Courtright, MD, Assistant Professor of Medicine
+
+Dr. Courtright will discuss the development and implementation of Palliative-Connect, a predictive healthcare initiative to improve patient access to specialty palliative care services. 
+
+With introduction from Dr. Bill Hanson, CMIO.
+
+##### Location
+Flyers/76ers Surgery Theatre
+
+##### Date
+**November 8th, 2019, 12:00-1:00pm**
+
