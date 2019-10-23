@@ -36,6 +36,8 @@ Speaker/Topic Suggestions? <i class="fa fa-envelope"></i><a href="mailto:pennsig
 
 <img src="https://user-images.githubusercontent.com/1396669/67399215-dda5f680-f579-11e9-8b4a-7da2ea25c909.jpg" ALIGN="left" HSPACE="30" VSPACE="10">
 
+##### Title: Precision palliative care: Leveraging big data to improve serious illness care
+
 ##### Speaker 
 Katherine Courtright, MD, Assistant Professor of Medicine
 
@@ -46,6 +48,6 @@ With introduction from Dr. Bill Hanson, CMIO.
 ##### Location
 Flyers/76ers Surgery Theatre
 
-##### Date
 **November 8th, 2019, 12:00-1:00pm**
 
+<a href="/assets/Inaugural Predictive Healthcare Speaker Series Talk.ics">Add to Calendar</a>

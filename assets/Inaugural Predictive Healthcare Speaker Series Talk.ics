@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Microsoft Corporation//Outlook for Mac MIMEDIR//EN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Eastern Time (US & Canada)
+X-ENTOURAGE-CFTIMEZONE:US/Eastern
+X-ENTOURAGE-TZID:4
+BEGIN:STANDARD
+RRULE:FREQ=YEARLY;INTERVAL=1;BYSECOND=0;BYMINUTE=0;BYHOUR=2;BYDAY=1SU;BYMO
+ NTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+DTSTART:20071104T020000
+END:STANDARD
+BEGIN:DAYLIGHT
+RRULE:FREQ=YEARLY;INTERVAL=1;BYSECOND=0;BYMINUTE=0;BYHOUR=2;BYDAY=2SU;BYMO
+ NTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+DTSTART:20070311T020000
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:040000008200E00074C5B7101A82E00800000000B4366F80D189D50100000000000000
+ 0010000000A4A0DE16BBFF5E4ABEFC6D80B038FB77
+X-ENTOURAGE_UUID:D3929094-6D49-4333-A4F6-433949D21D0B
+X-MICROSOFT-EXCHANGE-ID:AAMkAGVhODQxZTYzLWE1MDgtNGRlZC1iNTI0LWU2Y2ZlMWJhNj
+ NkNgBGAAAAAAB0VC2Vw3otTY-fbVcKzAMCBwAoxXyAQIDkT56D1eoRRgZ-AAAAgbGuAAAgriCQ
+ Q6CcQqfyw6yVA_1oAAEu5pvMAAA=
+X-MICROSOFT-EXCHANGE-CHANGEKEY:IK4gkEOgnEKn8sOslQPtaAABLoTCCg==
+DTSTAMP:20191023T215256Z
+DTSTART;TZID="Eastern Time (US & Canada)":20191108T120000
+DTEND;TZID="Eastern Time (US & Canada)":20191108T130000
+LAST-MODIFIED:20191023T215256Z
+SUMMARY:Inaugural Predictive Healthcare Speaker Series Talk
+DESCRIPTION:From ideation in the lab to scaled deployment in operations\,
+  improving clinical practice and health system goals requires a many
+  people and systems to work together. The Penn Medicine Predictive
+  Healthcare speaker series aims to bring together the diverse
+  perspectives of those individuals from across Penn Medicine and beyond
+  who have a stake in the successful operationalization of data science
+  solutions in health care. \n\n\n\nSpeaker\n\nKatherine Courtright\, MD\,
+  Assistant Professor of Medicine\n\nTitle: Precision palliative care:
+  Leveraging big data to improve serious illness care\n\n\n\nDr.
+  Courtright will discuss the development and implementation of
+  Palliative-Connect\, a predictive healthcare initiative to improve
+  patient access to specialty palliative care services.\n\nWith
+  introduction from Dr. William C. Hanson III\,
+  CMIO.\n\n\n\nLocation\n\nFlyers/76ers Surgery
+  Theatre\n\n\n\nDate\n\nNovember 8th\, 2019\, 12:00-1:00pm\n\nNo RSVP
+  required.\n\n\n\nhttp://predictivehealthcare.pennmedicine.org/speaker-ser
+ ies/\n\n\n
+LOCATION:Flyers/76ers Surgery Theatre
+ORGANIZER:MAILTO:Corey.Chivers@pennmedicine.upenn.edu
+SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-INSTTYPE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT00H05M00S
+END:VALARM
+END:VEVENT
+END:VCALENDAR
