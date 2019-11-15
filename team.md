@@ -55,7 +55,7 @@ slug: team
   </div>
 
   <div class="member col s12 m4 l2">
-    <img src="/assets/images/profile/chivers_biopic_2019_bw.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+    <img src="/assets/images/profile/coreyc.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
     <div class="name strong">Corey Chivers, PhD </div>
     <div class="title">Sr. Data Scientist</div>
   </div>
