@@ -11778,12 +11778,13 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Eigenvectors-from-Eigenvalues">Eigenvectors from Eigenvalues<a class="anchor-link" href="#Eigenvectors-from-Eigenvalues">&#182;</a></h1><h4 id="Corey-Chivers,-Phd">Corey Chivers, Phd<a class="anchor-link" href="#Corey-Chivers,-Phd">&#182;</a></h4><p>In the recent paper from Peter B. Denton, Stephen J. Parke, Terence Tao, Xining Zhang, a new proof is presented demonstrating the contruction of the squared norm of the eigenvectors of a Hermition matrix using only the Eigenvalues and the submatrix Eigenvalues.</p>
+<h1 id="Eigenvectors-from-Eigenvalues">Eigenvectors from Eigenvalues<a class="anchor-link" href="#Eigenvectors-from-Eigenvalues">&#182;</a></h1><h4 id="Corey-Chivers-@cjbayesian">Corey Chivers <a href="https://twitter.com/CjBayesian">@cjbayesian</a><a class="anchor-link" href="#Corey-Chivers-@cjbayesian">&#182;</a></h4><p>In the recent paper from Peter B. Denton, Stephen J. Parke, Terence Tao, Xining Zhang, a new proof is presented demonstrating the contruction of the squared norm of the eigenvectors of a Hermition matrix using only the Eigenvalues and the submatrix Eigenvalues.</p>
 <p>From the abstract:</p>
 <blockquote><p>We present a new method of succinctly determining eigenvectors from eigenvalues. Specifically, we relate the norm squared of the elements of eigenvectors to the eigenvalues and the submatrix eigenvalues.</p>
 </blockquote>
 <p>This seems like a cool result. This is an implementation of the key identity in the paper which confirms the result computationally.</p>
 <p><a href="https://arxiv.org/pdf/1908.03795.pdf">https://arxiv.org/pdf/1908.03795.pdf</a></p>
+<p>The key identity they discovered is,</p>
 
 </div>
 </div>
@@ -11794,7 +11795,7 @@ div#notebook {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 $$ 
-|\nu_{i,1}|^2 \prod_{k=1;k\ne i}^{n}(\lambda_i(A) - \lambda_k(A)) = \prod_{k=1}^{n-1}(\lambda_i(A) - \lambda_k(M_j)) 
+|\nu_{i,1}|^2 \prod_{k=1;k\ne i}^{n}(\lambda_i(A) - \lambda_k(A)) = \prod_{k=1}^{n-1}(\lambda_i(A) - \lambda_k(M_j)). 
 $$
 </div>
 </div>
@@ -11804,10 +11805,11 @@ $$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Rearanging, we get,</p>
+<p>Rearanging, we get a formula for directly computing the squared norms of the Eigenvectors using only the Eigenvalues of a matrix $A$ and it's submatrices $M$.</p>
 $$ 
-|\nu_{i,1}|^2 = \frac{\prod_{k=1}^{n-1}(\lambda_i(A) - \lambda_k(M))}{\prod_{k=1;k\ne i}^{n}(\lambda_i(A) - \lambda_k(A))}
-$$
+|\nu_{i,j}|^2 = \frac{\prod_{k=1}^{n-1}(\lambda_i(A) - \lambda_k(M_j))}{\prod_{k=1;k\ne i}^{n}(\lambda_i(A) - \lambda_k(A))}
+$$<p>Let's see if it works!</p>
+
 </div>
 </div>
 </div>
@@ -11937,7 +11939,7 @@ $$
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([ 3.75919271,  2.08627917, -2.52746599, -1.53062314, -0.2333477 ])</pre>
+<pre>array([-2.71730039, -0.37797842,  3.3977025 ,  1.13219619,  2.22101484])</pre>
 </div>
 
 </div>
@@ -11997,11 +11999,11 @@ $$
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([[0.56420566, 0.69040202, 0.25538919, 0.36053954, 0.09901826],
-       [0.57903309, 0.18618002, 0.74997957, 0.05162242, 0.25480081],
-       [0.33629455, 0.65183758, 0.28525841, 0.38818506, 0.47953492],
-       [0.07194516, 0.19518512, 0.29555317, 0.49414794, 0.79069134],
-       [0.47762173, 0.16028906, 0.45120169, 0.68736929, 0.26481201]])</pre>
+<pre>array([[0.15944006, 0.32033089, 0.34272924, 0.84941419, 0.18165677],
+       [0.49034503, 0.42177828, 0.52367554, 0.0776065 , 0.54900455],
+       [0.23351321, 0.06077293, 0.7504709 , 0.19922366, 0.58213537],
+       [0.82393898, 0.26935207, 0.03951184, 0.16898056, 0.46739534],
+       [0.02714311, 0.80202701, 0.20864524, 0.45191621, 0.32902102]])</pre>
 </div>
 
 </div>
@@ -12043,11 +12045,11 @@ $$
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([[0.56420566, 0.69040202, 0.25538919, 0.36053954, 0.09901826],
-       [0.57903309, 0.18618002, 0.74997957, 0.05162242, 0.25480081],
-       [0.33629455, 0.65183758, 0.28525841, 0.38818506, 0.47953492],
-       [0.07194516, 0.19518512, 0.29555317, 0.49414794, 0.79069134],
-       [0.47762173, 0.16028906, 0.45120169, 0.68736929, 0.26481201]])</pre>
+<pre>array([[0.15944006, 0.32033089, 0.34272924, 0.84941419, 0.18165677],
+       [0.49034503, 0.42177828, 0.52367554, 0.0776065 , 0.54900455],
+       [0.23351321, 0.06077293, 0.7504709 , 0.19922366, 0.58213537],
+       [0.82393898, 0.26935207, 0.03951184, 0.16898056, 0.46739534],
+       [0.02714311, 0.80202701, 0.20864524, 0.45191621, 0.32902102]])</pre>
 </div>
 
 </div>
