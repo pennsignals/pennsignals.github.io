@@ -98,6 +98,10 @@ slug: team
     <div class="title">Data Science Software Engineer</div>
   </div>
 
-
+  <div class="member col s12 m4 l2">
+    <img src="/assets/images/profile/susanhr.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+    <div class="name strong">Susan Harkness Regli, PhD</div>
+    <div class="title">Human Factors Scientist</div>
+  </div>
 
 </div><!-- #team -->
