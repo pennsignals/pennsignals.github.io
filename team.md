@@ -89,7 +89,7 @@ slug: team
   <div class="member col s12 m4 l2">
     <img src="/assets/images/profile/andrewcd.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
     <div class="name strong">Andrew Crane-Droesch, PhD</div>
-    <div class="title">Data Science Software Engineer</div>
+    <div class="title">Data Scientist</div>
   </div>
 
   <div class="member col s12 m4 l2">
