@@ -43,19 +43,10 @@ slug: team
   </div>
 </div>
 
+
+
 <h2 class="red-text text-darken-4">Team</h2>
 <div id="team" class="row center-align">
-  <div class="member col s12 m4 l2">
-    <img src="/assets/images/profile/mikeb.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
-    <div class="name strong">Michael Becker</div>
-    <div class="title">Sr. Data Scientist</div>
-  </div>
-
-  <div class="member col s12 m4 l2">
-    <img src="/assets/images/profile/coreyc.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
-    <div class="name strong">Corey Chivers, PhD </div>
-    <div class="title">Sr. Data Scientist</div>
-  </div>
 
   <div class="member col s12 m4 l2">
     <img src="/assets/images/profile/miked.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
@@ -64,18 +55,30 @@ slug: team
   </div>
 
   <div class="member col s12 m4 l2">
-    <img src="/assets/images/profile/jasonl.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
-    <div class="name strong">Jason Lubken</div>
-    <div class="title">Sr. Data Science Software Engineer</div>
+    <img src="/assets/images/profile/chivers_biopic_2019_bw.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+    <div class="name strong">Corey Chivers, PhD </div>
+    <div class="title">Sr. Data Scientist</div>
   </div>
 
   <div class="member col s12 m4 l2">
     <img src="/assets/images/profile/asafh.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
-    <div class="name strong">Asaf Hanish</div>
+    <div class="name strong">Asaf Hanish, MS</div>
     <div class="title">Data Scientist</div>
     <br>
   </div>
 
+  <div class="member col s12 m4 l2">
+    <img src="/assets/images/profile/mikeb.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+    <div class="name strong">Michael Becker</div>
+    <div class="title">Sr. Data Scientist</div>
+  </div>
+
+
+  <div class="member col s12 m4 l2">
+    <img src="/assets/images/profile/jasonl.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+    <div class="name strong">Jason Lubken</div>
+    <div class="title">Sr. Data Science Software Engineer</div>
+  </div>
 
   <div class="member col s12 m4 l2">
     <img src="/assets/images/profile/thaibinh.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
@@ -84,15 +87,17 @@ slug: team
   </div>
 
   <div class="member col s12 m4 l2">
+    <img src="/assets/images/profile/andrewcd.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+    <div class="name strong">Andrew Crane-Droesch, PhD</div>
+    <div class="title">Data Science Software Engineer</div>
+  </div>
+
+  <div class="member col s12 m4 l2">
     <img src="/assets/images/profile/hessams.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
     <div class="name strong">Hessam Shahriari</div>
     <div class="title">Data Science Software Engineer</div>
   </div>
 
-  <div class="member col s12 m4 l2">
-    <img src="/assets/images/profile/headshot.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
-    <div class="name strong">Jason Walsh</div>
-    <div class="title">Data Science Software Engineer</div>
-  </div>
+
 
 </div><!-- #team -->
