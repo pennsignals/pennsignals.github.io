@@ -11794,6 +11794,16 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>Let $A$ be a $n \times n$ Hermitian matrix with eigenvalues $\lambda_i(A)$ and normed eigenvectors $\nu_i$. Let $M_j$ be the $n - 1 \times n-1$ submatrix of $A$ that results from deleting the $j^{th}$ column and the $j^{th}$ row, with eigenvalues $\lambda_k(M_j)$.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 $$ 
 |\nu_{i,1}|^2 \prod_{k=1;k\ne i}^{n}(\lambda_i(A) - \lambda_k(A)) = \prod_{k=1}^{n-1}(\lambda_i(A) - \lambda_k(M_j)). 
 $$
@@ -11870,11 +11880,11 @@ $$<p>Let's see if it works!</p>
 <div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">m</span> <span class="o">=</span> <span class="mi">5</span>
-<span class="n">N</span> <span class="o">=</span> <span class="n">m</span> <span class="o">*</span> <span class="n">m</span>
-<span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">normal</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="n">N</span><span class="p">)</span><span class="o">.</span><span class="n">reshape</span><span class="p">((</span><span class="n">m</span><span class="p">,</span><span class="n">m</span><span class="p">))</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">m</span><span class="p">):</span>
-    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">i</span><span class="p">,</span><span class="n">m</span><span class="p">):</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">n</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="n">N</span> <span class="o">=</span> <span class="n">n</span> <span class="o">*</span> <span class="n">n</span>
+<span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">normal</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="n">N</span><span class="p">)</span><span class="o">.</span><span class="n">reshape</span><span class="p">((</span><span class="n">n</span><span class="p">,</span><span class="n">n</span><span class="p">))</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">i</span><span class="p">,</span><span class="n">n</span><span class="p">):</span>
         <span class="n">A</span><span class="p">[</span><span class="n">j</span><span class="p">,</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="n">j</span><span class="p">]</span>
 
 
@@ -11939,7 +11949,7 @@ $$<p>Let's see if it works!</p>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([-2.71730039, -0.37797842,  3.3977025 ,  1.13219619,  2.22101484])</pre>
+<pre>array([-3.8997065 , -2.16114163,  0.40540416,  1.83168771,  3.35678958])</pre>
 </div>
 
 </div>
@@ -11964,20 +11974,20 @@ $$<p>Let's see if it works!</p>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">lambda_A</span> <span class="o">=</span> <span class="n">LA</span><span class="o">.</span><span class="n">eigvals</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
-<span class="n">lambda_M</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">((</span><span class="n">m</span><span class="p">,</span><span class="n">m</span><span class="o">-</span><span class="mi">1</span><span class="p">))</span>
-<span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">m</span><span class="p">):</span>
-    <span class="n">idx</span> <span class="o">=</span> <span class="p">[</span><span class="n">r</span> <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">m</span><span class="p">)</span> <span class="k">if</span> <span class="n">r</span><span class="o">!=</span><span class="n">j</span><span class="p">]</span>
+<span class="n">lambda_M</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">((</span><span class="n">n</span><span class="p">,</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">))</span>
+<span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="n">idx</span> <span class="o">=</span> <span class="p">[</span><span class="n">r</span> <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">)</span> <span class="k">if</span> <span class="n">r</span><span class="o">!=</span><span class="n">j</span><span class="p">]</span>
     <span class="n">Mj</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="n">idx</span><span class="p">,:][:,</span><span class="n">idx</span><span class="p">]</span>
     <span class="n">lambda_M</span><span class="p">[</span><span class="n">j</span><span class="p">,:]</span> <span class="o">=</span> <span class="n">LA</span><span class="o">.</span><span class="n">eigvals</span><span class="p">(</span><span class="n">Mj</span><span class="p">)</span>
 
-<span class="n">v_norm</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">m</span><span class="o">*</span><span class="n">m</span><span class="p">)</span><span class="o">.</span><span class="n">reshape</span><span class="p">((</span><span class="n">m</span><span class="p">,</span><span class="n">m</span><span class="p">))</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">m</span><span class="p">):</span>
-    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">m</span><span class="p">):</span>
+<span class="n">v_norm</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">n</span><span class="o">*</span><span class="n">n</span><span class="p">)</span><span class="o">.</span><span class="n">reshape</span><span class="p">((</span><span class="n">n</span><span class="p">,</span><span class="n">n</span><span class="p">))</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
         <span class="n">numerator</span> <span class="o">=</span> <span class="mi">1</span>
         <span class="n">denominator</span> <span class="o">=</span> <span class="mi">1</span>
-        <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">m</span><span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+        <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">):</span>
             <span class="n">numerator</span> <span class="o">*=</span> <span class="n">lambda_A</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">-</span> <span class="n">lambda_M</span><span class="p">[</span><span class="n">j</span><span class="p">,</span><span class="n">k</span><span class="p">]</span>
-        <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">m</span><span class="p">):</span>    
+        <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>    
             <span class="k">if</span> <span class="p">(</span><span class="n">k</span> <span class="o">!=</span> <span class="n">i</span><span class="p">):</span>
                 <span class="n">denominator</span> <span class="o">*=</span> <span class="n">lambda_A</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">-</span> <span class="n">lambda_A</span><span class="p">[</span><span class="n">k</span><span class="p">]</span>
         <span class="n">v_norm</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">numerator</span><span class="o">/</span><span class="n">denominator</span>
@@ -11999,11 +12009,11 @@ $$<p>Let's see if it works!</p>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([[0.15944006, 0.32033089, 0.34272924, 0.84941419, 0.18165677],
-       [0.49034503, 0.42177828, 0.52367554, 0.0776065 , 0.54900455],
-       [0.23351321, 0.06077293, 0.7504709 , 0.19922366, 0.58213537],
-       [0.82393898, 0.26935207, 0.03951184, 0.16898056, 0.46739534],
-       [0.02714311, 0.80202701, 0.20864524, 0.45191621, 0.32902102]])</pre>
+<pre>array([[0.08528184, 0.27970007, 0.94307936, 0.15063128, 0.0490553 ],
+       [0.40224246, 0.3381635 , 0.00614825, 0.79876121, 0.29289789],
+       [0.5378696 , 0.47276685, 0.08457036, 0.17450692, 0.6705095 ],
+       [0.7003725 , 0.10930429, 0.08303973, 0.48950144, 0.50102263],
+       [0.22605898, 0.75627865, 0.31066989, 0.26310915, 0.45956255]])</pre>
 </div>
 
 </div>
@@ -12045,11 +12055,11 @@ $$<p>Let's see if it works!</p>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([[0.15944006, 0.32033089, 0.34272924, 0.84941419, 0.18165677],
-       [0.49034503, 0.42177828, 0.52367554, 0.0776065 , 0.54900455],
-       [0.23351321, 0.06077293, 0.7504709 , 0.19922366, 0.58213537],
-       [0.82393898, 0.26935207, 0.03951184, 0.16898056, 0.46739534],
-       [0.02714311, 0.80202701, 0.20864524, 0.45191621, 0.32902102]])</pre>
+<pre>array([[0.08528184, 0.27970007, 0.94307936, 0.15063128, 0.0490553 ],
+       [0.40224246, 0.3381635 , 0.00614825, 0.79876121, 0.29289789],
+       [0.5378696 , 0.47276685, 0.08457036, 0.17450692, 0.6705095 ],
+       [0.7003725 , 0.10930429, 0.08303973, 0.48950144, 0.50102263],
+       [0.22605898, 0.75627865, 0.31066989, 0.26310915, 0.45956255]])</pre>
 </div>
 
 </div>
@@ -12109,7 +12119,7 @@ $$<p>Let's see if it works!</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Neat!">Neat!<a class="anchor-link" href="#Neat!">&#182;</a></h1>
+<h1 id="Neat-o!">Neat-o!<a class="anchor-link" href="#Neat-o!">&#182;</a></h1>
 </div>
 </div>
 </div>
