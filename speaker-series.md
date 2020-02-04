@@ -32,6 +32,24 @@ slug: speaker-series
 Speaker/Topic Suggestions? <i class="fa fa-envelope"></i><a href="mailto:pennsignals@uphs.upenn.edu"> Email Us</a>
 
 
+####  Predictive Healthcare Speaker Series - Jon Pomeroy
+
+<img src="https://user-images.githubusercontent.com/1396669/73671369-d0200280-4678-11ea-8177-5fa66764efb1.png" ALIGN="left" HSPACE="30" VSPACE="10">
+
+##### Title: Physician Insight on Predictive Models
+
+##### Speaker
+Jon Pomeroy, DO, MSHI, Senior Provider Clinical Application Analyst
+
+Dr. Pomeroy will discuss the physician perspective on what it takes to make a predictive healthcare project operationally successful.
+
+##### Location
+Flyers/76ers Surgery Theatre
+
+**February 28th, 2020, 11:00-12:00pm**
+
+<a href="/assets/Predictive Healthcare Speaker Series - Jon Pomeroy.ics">Add to Calendar</a>
+
 ####  Inaugural Predictive Healthcare Speaker Series Talk
 
 <img src="https://user-images.githubusercontent.com/1396669/67399215-dda5f680-f579-11e9-8b4a-7da2ea25c909.jpg" ALIGN="left" HSPACE="30" VSPACE="10">
