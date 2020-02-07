@@ -10,7 +10,13 @@ tags: [healthcare, AI, data, data science, machine learning]
 
 "Can we trust this data?"
 "Is this data correct?"
-It is erroneous (wrong value, wrong patient, human entry error)
-It doesn't mean what you think it means (wrong definition of clinical concept)
-It was valid once, but is not any more
-It represents a user workaround, rather than expected utilization.
+
+
+- It is erroneous
+    - wrong value, wrong patient, human entry error
+- It doesn't mean what you think it means
+    - wrong definition of clinical concept
+    - This can change over time
+- It was valid once, but is not any more
+    - eg Problem lists where 'active' status not always updated
+- It represents a user workaround, rather than expected utilization.
