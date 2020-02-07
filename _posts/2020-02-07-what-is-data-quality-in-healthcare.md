@@ -7,22 +7,37 @@ comments: true
 tags: [healthcare, AI, data, data science, machine learning]
 ---
 
-Everyone wants quality data. In healthcare, clinicians need to make complex decisions based on a vast array of data from multiple sources.  Thankfully for patients, clinicians are perennially skeptical when it comes to the quality of every data point put in front of them. As data scientists, when building tools to help data-driven clinical (or indeed, operational) decision making, we invariably hear the refrain:  
+Everyone wants quality data. Healthcare is no different. However, over time our team has come to notice that there are some ways in which data may be considered _no bueno_ that feel particular (at least in part) to the healthcare setting.
 
-<p align="center"><b>"Can I trust this data?"</b></p>
+In healthcare, clinicians need to make complex decisions based on a vast array of data from multiple sources. Thankfully for patients, clinicians are perennially skeptical when it comes to the quality of every data point put in front of them. As data scientists, when building tools to help data-driven clinical (or indeed, operational) decision making, we invariably hear the refrain:  
+
+<p align="center"><b>"Is this data any good?"</b></p>
+
+Trust in data - and in machine learning models upon which they are built - can be lost in many ways. Here's a list of 4 of the most common ones we've seen in working with healthcare data, and EHR (electronic health records) data in particular.
 
 
+## Data can be bad in a variety of ways
 
 ### 1) It is erroneous
 - wrong value, wrong patient, human entry error
+- 'dualing flowsheets' example
 
 ### 2) It doesn't mean what you think it means
 - wrong definition of clinical concept
 - This can change over time
+- Pressure ulcer -- > Pressure injuring example
+- Orders for colonoscopy over time
+- Biased data falls under this category. Ignoring sampling effects leads us to treat data as representative of a population which it is not. 
+
 
 ### 3) It was valid once, but is not any more
 - eg Problem lists where 'active' status not always updated
+- 
 
 ### 4) It represents a user workaround, rather than expected utilization.
 
-In healthcare data, and EHR data in particular, the vast majority of the 'data' is created by a human user who is trying to get something done.
+In healthcare data, and EHR data in particular, the vast majority of the 'data' is created by a human user who is trying to get something done. Humans are smart and will come up with ingenious ways to get things done that work for them, even when the tool they have available wants them to do it another way.
+
+![image](https://user-images.githubusercontent.com/1396669/74063518-932c7680-49be-11ea-872b-22b07022a398.png)
+
+Related to 2),
