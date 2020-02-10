@@ -19,6 +19,9 @@ Trust in data - and in machine learning models upon which they are built - can b
 ## Data can be bad in a variety of ways
 
 ### 1) It is erroneous
+
+Someone or something just plain goofed. Either a device or sensor is generating bogus values, or a human has entered data misstakenly. To err is human, and to break down is machine. Either way, the result can be bad data.
+
 - wrong value, wrong patient, human entry error
 
 ![image](https://user-images.githubusercontent.com/1396669/74168329-8e063c00-4bf7-11ea-96a9-d674ede1b557.png)
@@ -43,10 +46,14 @@ Trust in data - and in machine learning models upon which they are built - can b
 
 ![image](https://user-images.githubusercontent.com/1396669/74168731-27355280-4bf8-11ea-8ceb-3aa982148139.png)
 
+- open, hanging states like 'on vent'.
+
 ### 4) It represents a user workaround, rather than expected utilization.
 
 In healthcare data, and EHR data in particular, the vast majority of the 'data' is created by a human user who is trying to get something done. Humans are smart and will come up with ingenious ways to get things done that work for them, even when the tool they have available wants them to do it another way.
 
 ![image](https://user-images.githubusercontent.com/1396669/74063518-932c7680-49be-11ea-872b-22b07022a398.png)
+
+![image](https://user-images.githubusercontent.com/1396669/74171311-5fd72b00-4bfc-11ea-9ff8-d8b42db18862.png)
 
 Related to 2),
