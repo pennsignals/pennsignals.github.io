@@ -39,7 +39,9 @@ Trust in data - and in machine learning models upon which they are built - can b
 
 ### 3) It was valid once, but is not any more
 - eg Problem lists where 'active' status not always updated
-- 
+- Latency
+
+![image](https://user-images.githubusercontent.com/1396669/74168731-27355280-4bf8-11ea-8ceb-3aa982148139.png)
 
 ### 4) It represents a user workaround, rather than expected utilization.
 
