@@ -22,6 +22,9 @@ Trust in data - and in machine learning models upon which they are built - can b
 - wrong value, wrong patient, human entry error
 - 'dualing flowsheets' example
 
+![image](https://user-images.githubusercontent.com/1396669/74166363-6feb0c80-4bf4-11ea-8f8c-f461a49a8619.png)
+
+
 ### 2) It doesn't mean what you think it means
 - wrong definition of clinical concept
 - This can change over time
@@ -29,6 +32,7 @@ Trust in data - and in machine learning models upon which they are built - can b
 - Orders for colonoscopy over time
 - Biased data falls under this category. Ignoring sampling effects leads us to treat data as representative of a population which it is not. 
 
+![image](https://user-images.githubusercontent.com/1396669/74167638-8b571700-4bf6-11ea-9800-3f6cde955407.png)
 
 ### 3) It was valid once, but is not any more
 - eg Problem lists where 'active' status not always updated
