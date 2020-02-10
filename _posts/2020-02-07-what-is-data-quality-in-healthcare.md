@@ -20,6 +20,9 @@ Trust in data - and in machine learning models upon which they are built - can b
 
 ### 1) It is erroneous
 - wrong value, wrong patient, human entry error
+
+![image](https://user-images.githubusercontent.com/1396669/74168329-8e063c00-4bf7-11ea-96a9-d674ede1b557.png)
+
 - 'dualing flowsheets' example
 
 ![image](https://user-images.githubusercontent.com/1396669/74166363-6feb0c80-4bf4-11ea-8f8c-f461a49a8619.png)
