@@ -20,12 +20,12 @@ Trust in data - and in machine learning models upon which they are built - can b
 
 ### 1) It is erroneous
 
-Someone or something just plain goofed. Either a device or sensor is generating bogus values, or a human has entered data misstakenly. To err is human, and to break down is machine. Either way, the result can be bad data.
+Someone or something just plain goofed. Either a device or sensor is generating bogus values, or a human has entered data mistakenly. To err is human, and to break down is machine. Either way, the result can be bad data.
 
 *Example: Blood pressure is entered as a pair of values, Systolic and Diastolic. It's all too easy to invert them.*
 ![image](https://user-images.githubusercontent.com/1396669/74168329-8e063c00-4bf7-11ea-96a9-d674ede1b557.png)
 
-*Example: The O2 delivery method being entered by two providers who dissagree. A common occurance when disciplines have distinct flowsheets in the chart. We call this phenomenon 'dualing flowsheets'*
+*Example: The O2 delivery method being entered by two providers who disagree. A common occurrence when disciplines have distinct flowsheets in the chart. We call this phenomenon 'dueling flowsheets'*
 ![image](https://user-images.githubusercontent.com/1396669/74166363-6feb0c80-4bf4-11ea-8f8c-f461a49a8619.png)
 
 
@@ -40,7 +40,7 @@ Clinical concepts change over time, and with them their representation in data.
 
 Data can become 'stale' for a variety of reasons. Both technical and human components can delay the input and processing of critical data. 
 
-*Example: Latency in a realtime data pipeline processing HL7 messages can have a long tail, resulting in data which may be obsolete by the time it reaches the downstream system.* 
+*Example: Latency in a real-time data pipeline processing HL7 messages can have a long tail, resulting in data which may be obsolete by the time it reaches the downstream system.* 
 ![image](https://user-images.githubusercontent.com/1396669/74168731-27355280-4bf8-11ea-8ceb-3aa982148139.png)
 
 Additionally, clinical states which are best described as *spans*, with start times and stop times, are often recorded as point in time events. This can lead to 'hanging' states, where it is unclear if the previous point in time record continues to accurately represent the patient state.
@@ -55,6 +55,5 @@ In healthcare data, and EHR data in particular, the vast majority of the 'data' 
 <p align="center">The user will find a way.</p>
 ![image](https://user-images.githubusercontent.com/1396669/74063518-932c7680-49be-11ea-872b-22b07022a398.png)
 
-
-
+*Example: Patient checkouts being done in batches before lunch and at end of day. Total 'in clinic' time artificially inflated by this.*
 ![image](https://user-images.githubusercontent.com/1396669/74171311-5fd72b00-4bfc-11ea-9ff8-d8b42db18862.png)
