@@ -2,7 +2,7 @@
 layout: post
 title: What does 'data quality' mean in Healthcare?
 author: Corey Chivers, PhD <corey.chivers@pennmedicine.upenn.edu>
-date:   2020-02-07 12:00:00 -0500
+date:   2020-02-13 12:00:00 -0500
 comments: true
 tags: [healthcare, AI, data, data science, machine learning]
 ---
