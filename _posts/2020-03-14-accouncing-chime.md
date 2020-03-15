@@ -21,9 +21,9 @@ While the default parameters are customized and continually updated to reflect t
 
 The most impactful parameter in a SIR model is the **Doubling Time**. This parameter defines how rapidly a disease spreads. Experiences in other geographical contexts suggest that doubling time may range from 3 to 13 days or more, with notable examples:
 
- * Wuhan, China: 6 days ([Reference](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30260-9/fulltext))
- * South Korea: 13 days ([As of March 14, 2020](https://ourworldindata.org/coronavirus#growth-country-by-country-view))
- * Italy: 5 days ([As of March 14, 2020](https://ourworldindata.org/coronavirus#growth-country-by-country-view))
+ * [Wuhan, China](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30260-9/fulltext): 6 days
+ * [South Korea](https://ourworldindata.org/coronavirus#growth-country-by-country-view): 13 days (As of March 14, 2020)
+ * [Italy](https://ourworldindata.org/coronavirus#growth-country-by-country-view): 5 days (As of March 14, 2020)
 
 This value is particularly important because of the exponential nature of the spread of infectious diseases such as COVID-19. This is also why public health officials recommend measures like social distancing and hand washing: the more we can slow down the spread of COVID-19, the lower the peak demand on our healthcare system. [Try out our live version of CHIME](https://pennchime.herokuapp.com/) and see what happens when you modify the **Doubling Time** parameter. You can also experiment with scenarios involving different levels of incidence severity and average lengths of stay for each severity class.
 
