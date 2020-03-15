@@ -19,9 +19,9 @@ To this end, the [Predictive Healthcare](http://predictivehealthcare.pennmedicin
 
 While the default parameters are customized and continually updated to reflect the situation at Penn Medicine, [CHIME](https://github.com/pennsignals/chime) can be adapted for use by any hospital system by modifying parameters to reflect local contexts.
 
-The most impactful parameter in a SIR model is the **Doubling Time**. This parameter defines how rapidly a disease spreads. Experiences in other geographical contexts suggest that doubling time may range from 4 to 12 days, with notable examples:
+The most impactful parameter in a SIR model is the **Doubling Time**. This parameter defines how rapidly a disease spreads. Experiences in other geographical contexts suggest that doubling time may range from 3 to 13 days or more, with notable examples:
 
- * Wuhan, China: 6 days ([ref](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30260-9/fulltext))
+ * Wuhan, China: 6 days ([Reference](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30260-9/fulltext))
  * South Korea: 13 days ([As of March 14, 2020](https://ourworldindata.org/coronavirus#growth-country-by-country-view))
  * Italy: 5 days ([As of March 14, 2020](https://ourworldindata.org/coronavirus#growth-country-by-country-view))
 
