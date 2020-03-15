@@ -19,7 +19,7 @@ To this end, the [Predictive Healthcare](http://predictivehealthcare.pennmedicin
 
 While the default parameters are customized and continually updated to reflect the situation at Penn Medicine, [CHIME](https://github.com/pennsignals/chime) can be adapted for use by any hospital system by modifying parameters to reflect local contexts.
 
-The most impactful parameter in an SIR model is the **Doubling Time**. This parameter defines how rapidly a disease spreads. Experiences in other geographical contexts suggest that doubling time may range from 4 to 12 days, with notable examples:
+The most impactful parameter in a SIR model is the **Doubling Time**. This parameter defines how rapidly a disease spreads. Experiences in other geographical contexts suggest that doubling time may range from 4 to 12 days, with notable examples:
 
  * China reports a rate of around 6 days
  * South Korea is reporting a rate around 12 days
@@ -33,7 +33,6 @@ We've put effort into determining good estimates for all the parameters to the m
 * **Currently Hospitalized COVID-19 Patients**
 * **Hospital Market Share (%)**
 
-As local spread progresses, revised estimates can be made for some of the values in CHIME. We will try our best to keep things up to date with the latest research, but if you find an issue with any of the values we are using we'd appreciate your [feedback](http://predictivehealthcare.pennmedicine.org/contact/) and [contributions](https://github.com/pennsignals/chime).
-
+As local spread progresses, revised estimates can be made for some of the values in CHIME. We will try our best to keep things up to date with the latest research, but if you find an issue with any of the values we are using we'd appreciate your [feedback](http://predictivehealthcare.pennmedicine.org/contact/) and [contributions](https://github.com/pennsignals/chime). We also have a [Slack channel](https://codeforphilly.org/chat?channel=covid19-chime-penn) setup if you'd like to chat with us.
 
 -- Penn Predictive Healthcare Team
