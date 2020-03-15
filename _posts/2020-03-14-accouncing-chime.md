@@ -13,9 +13,9 @@ To this end, the [Predictive Healthcare](http://predictivehealthcare.pennmedicin
 
 
 ##### Introducing CHIME: The **C**OVID-19 **H**ospital **I**mpact **M**odel for **E**pidemics.
-[![CHIME](https://user-images.githubusercontent.com/1069047/76693244-5e07e980-6638-11ea-9e02-1c265c86fd2b.gif)](https://pennchime.herokuapp.com/)
+[![CHIME](https://user-images.githubusercontent.com/1069047/76693244-5e07e980-6638-11ea-9e02-1c265c86fd2b.gif)](/chime)
 
-[CHIME](https://github.com/pennsignals/chime) allows hospitals to enter information about their population and modify assumptions around the spread and behavior of COVID-19. It then runs a standard SIR model to project the number of new hospital admissions each day, along with the daily hospital census. These projections can then be used to create best- and worst-case scenarios to assist with capacity planning. We're announcing today that we're [open-sourcing CHIME](https://github.com/pennsignals/chime) and [making it available](https://pennchime.herokuapp.com/) to the healthcare community.
+[CHIME](https://github.com/pennsignals/chime) allows hospitals to enter information about their population and modify assumptions around the spread and behavior of COVID-19. It then runs a standard SIR model to project the number of new hospital admissions each day, along with the daily hospital census. These projections can then be used to create best- and worst-case scenarios to assist with capacity planning. We're announcing today that we're [open-sourcing CHIME](https://github.com/pennsignals/chime) and [making it available](/chime) to the healthcare community.
 
 While the default parameters are customized and continually updated to reflect the situation at Penn Medicine, [CHIME](https://github.com/pennsignals/chime) can be adapted for use by any hospital system by modifying parameters to reflect local contexts.
 
@@ -25,7 +25,7 @@ The most impactful parameter in a SIR model is the **Doubling Time**. This param
  * [South Korea](https://ourworldindata.org/coronavirus#growth-country-by-country-view): 13 days (As of March 14, 2020)
  * [Italy](https://ourworldindata.org/coronavirus#growth-country-by-country-view): 5 days (As of March 14, 2020)
 
-This value is particularly important because of the exponential nature of the spread of infectious diseases such as COVID-19. This is also why public health officials recommend measures like social distancing and hand washing: the more we can slow down the spread of COVID-19, the lower the peak demand on our healthcare system. [Try out our live version of CHIME](https://pennchime.herokuapp.com/) and see what happens when you modify the **Doubling Time** parameter. You can also experiment with scenarios involving different levels of incidence severity and average lengths of stay for each severity class.
+This value is particularly important because of the exponential nature of the spread of infectious diseases such as COVID-19. This is also why public health officials recommend measures like social distancing and hand washing: the more we can slow down the spread of COVID-19, the lower the peak demand on our healthcare system. [Try out our live version of CHIME](/chime) and see what happens when you modify the **Doubling Time** parameter. You can also experiment with scenarios involving different levels of incidence severity and average lengths of stay for each severity class.
 
 We've put effort into determining good estimates for all model parameters and have set default values accordingly. Some of the default values are based on the current situation in our home region of Philadelphia. If you're working somewhere outside of the Philadelphia region you can simply modify the following parameters to suit your patient population: 
 
