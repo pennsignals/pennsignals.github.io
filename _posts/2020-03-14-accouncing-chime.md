@@ -12,7 +12,7 @@ As we prepare for the additional demands that the [COVID-19 outbreak](https://ww
 To this end, the [Predictive Healthcare](http://predictivehealthcare.pennmedicine.org/) team at Penn Medicine has developed a tool that leverages [SIR modeling](https://mathworld.wolfram.com/SIRModel.html) to assist hospitals with capacity planning around COVID-19.
 
 
-##### Introducing CHIME: The **C**OVID-19 **H**ospital **I**mpact **M**odel for **E**pidemics.
+##### Introducing [CHIME](/chime): The **C**OVID-19 **H**ospital **I**mpact **M**odel for **E**pidemics.
 [![CHIME](https://user-images.githubusercontent.com/1069047/76693244-5e07e980-6638-11ea-9e02-1c265c86fd2b.gif)](/chime)
 
 [CHIME](https://github.com/pennsignals/chime) allows hospitals to enter information about their population and modify assumptions around the spread and behavior of COVID-19. It then runs a standard SIR model to project the number of new hospital admissions each day, along with the daily hospital census. These projections can then be used to create best- and worst-case scenarios to assist with capacity planning. We're announcing today that we're [open-sourcing CHIME](https://github.com/pennsignals/chime) and [making it available](/chime) to the healthcare community.
