@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Announcing CHIME: A tool for COVID-19 capacity planning
+title: Announcing CHIME, A tool for COVID-19 capacity planning
 author: Michael Becker <michael.becker@pennmedicine.upenn.edu>
 date:   2020-02-13 12:00:00 -0500
 comments: true
