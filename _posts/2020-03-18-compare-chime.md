@@ -6,10 +6,6 @@ date:   2020-03-18 12:00:00 -0500
 comments: true
 tags: [healthcare, data, data science, forecasting, COVID]
 ---
-
-CHIME comparison against Imperial College COVID-19 Publication
------
-
 The [Imperial College COVID-19 Response Team recently published a compelling paper](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf) showing that strong public health policies are needed to protect our health system. 
 
 In the paper they compared the impacts of various public health measures called non-pharmaceutical interventions (NPIs).  
@@ -39,7 +35,7 @@ CHIME parameters to replicate US "Do Nothing" scenerio:
 |--|--|-- |
 |Regional Population  | 331,002,651 | Same |
 |Currently Hospitalized COVID-19 Patients | 2200 | N/A |
-| Currently Known Regional Infections | 5000| Trigger Population |
+| Currently Known Regional Infections | 5000 (March 16)| ~ 75 Trigger Population |
 |Doubling time before social distancing (days) | 7 (Ro=2.46) | Ro=2.4|
 | Social distancing (% reduction in social contact) | 0 | 0 |
 |Hospitalization %(total infections) | 5 | 5 |
@@ -74,6 +70,5 @@ In the Philadelphia region freedom of travel remains, but all Pennsylvanians are
 | Tuesday, March 17| SD | All nonessential business are ordered closed.  Supermarkets, pharmacies, and gas stations will remain open. Businesses that offer carry-out, delivery, and drive-through food and beverage service may continue|
 | Monday, March 16| SD | Suggestions to restrict to 10 people or less| 
 | Friday, March 13| SD | UPHS and  other business moved many employees employee to work at | 
-
 -- Penn Predictive Healthcare Team
 
