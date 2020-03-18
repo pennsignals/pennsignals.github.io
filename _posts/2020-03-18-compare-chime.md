@@ -6,6 +6,9 @@ date:   2020-03-18 12:00:00 -0500
 comments: true
 tags: [healthcare, data, data science, forecasting, COVID]
 ---
+CHIME comparison against Imperial College COVID-19 Publication
+-----
+
 The [Imperial College COVID-19 Response Team recently published a compelling paper](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf) showing that strong public health policies are needed to protect our health system. 
 
 In the paper, they compared the impacts of various public health measures called non-pharmaceutical interventions (NPIs).  
@@ -23,7 +26,7 @@ In addition to these researchers helping to turn the tide of US Government opini
 1. Validate the CHIME tool against the 'do nothing' scenario
 2. Provide guidance on our new CHIME parameter Social Distancing. 
 
-My hope is to provide transparency for feedback and discussion to enable better use of local simulations.
+We hope to provide transparency for feedback and discussion to enable better use of local simulations.
 
 Validation against Imperial College Analysis
 ------
@@ -69,9 +72,20 @@ As of March 16, here are the regional policies in place to reduce social contact
 | Monday, March 16 | PC | All K-12 Pennsylvania schools will be closed for ten business days effective Monday, March 16.|
 | Tuesday, March 17| SD | All nonessential businesses are ordered closed.  Supermarkets, pharmacies, and gas stations will remain open. Businesses that offer carry-out, delivery, and drive-through food and beverage service may continue|
 | Monday, March 16| SD | Suggestions to restrict to 10 people or less| 
-| UNK| HG | 
+| UNK| HQ or CI| Its unclear how many people are voluntarily self quarantined| 
 
-These policies and guidelines moved towards the paper's definition of Social Distancing of the entire population (SD), but it's challenging to guess the adherence.
+These policies and guidelines have moved the US towards the paper's definition of Social Distancing of the entire population (SD), but it's challenging to guess the adherence.
+
+So we can take advantage of the paper's full estimate of 'PC' but have to make conservative estimates of SD, HQ, and CI.
+
+The paper provides a range of 14% to 69% peak reduction.  However, I _believe_ that we are falling short of the paper's assumption of adherence to SD, CI, and HQ.  For instance, on my run yesterday, I saw many families playing in several playgrounds like it was Sunday afternoon.  So, I'm selecting a range of 14% to 50% social distance reduction. 
+|Social Distance Reduction| Justicication | Peak Reduction|
+|--|--|--|
+| 5% | PC Only | 15% |
+| 10% | PC + SD nonessential business closures (SDNE) | 31%  |
+| 15% | PC + SDNE + SD recommened social distancing (SDRS) | 56%  |
+
+
 
 -- Penn Predictive Healthcare Team
 
