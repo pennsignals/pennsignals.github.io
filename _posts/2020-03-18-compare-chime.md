@@ -117,7 +117,7 @@ In other words, we need to *guess*.  Here is our best guess:
 
 Finally, we assume (*guess*) that social distancing will result in a 50% reduction of contact with friends and "Other" interactions (as defined above).
 
-With some quick algebra we arrive a the following parameters:
+With some quick arithmetic we arrive a the following parameters:
 
 | Intervention | % reduction of social contact  |
 |--|--|
