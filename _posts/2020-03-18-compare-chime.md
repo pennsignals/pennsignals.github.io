@@ -9,9 +9,7 @@ tags: [healthcare, data, data science, forecasting, COVID]
 
 A few days ago we launched [CHIME](/2020/03/14/accouncing-chime.html), a tool for COVID-19 hospital capacity planning. CHIME's simplified model design and interface enables quick support for hospital planners to assess potential demand for resources over time.  It also allows transparent and understandable parameters for our partners to interrogate and modify as more information becomes available.
 
-The recent paper from [Imperial College COVID-19 Response Team](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf) gives us a window into a disease model that has been used by world leadership to forecast capacity demands on healthcare systems.    If CHIME predicts similar outcomes, it potentially increases trust in both models. Furthermore, we've recently introduced a new variable into the CHIME model, a "Social Distancing" parameter, in order for planners to better estimate the potential impacts of social distancing strategies.  
-
-This blog post is not intending to thread-the-needle, translating the work of the Imperial Collage COVID-19 Response Team to ours.  Instead, we aim here to make reasonable assumptions and compare our results.   
+The recent paper from [Imperial College COVID-19 Response Team](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf) gives us a window into another model and set of projections that has been used by world leadership to forecast capacity demands on healthcare systems.  If CHIME predicts similar outcomes, it potentially increases trust in both models. Furthermore, we've recently introduced a new variable into the CHIME model, a "Social Distancing" parameter, in order for planners to better estimate the potential impacts of social distancing strategies.  
 
 Goals:
 1. Compare CHIME and Imperial College team's 'Do nothing' scenario
