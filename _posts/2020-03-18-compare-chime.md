@@ -1,12 +1,13 @@
 ---
 layout: post
 title: CHIME comparison against Imperial College COVID-19 Publication
-author: Mike Draugelis <michael.draugelis@pennmedicine.upenn.edu> & Asaf Hanish <asaf.hanish@pennmedicine.upenn.edu>date:   2020-03-18 12:00:00 -0500
+author: Mike Draugelis <michael.draugelis@pennmedicine.upenn.edu> & Asaf Hanish <asaf.hanish@pennmedicine.upenn.edu>
+date:   2020-03-18 12:00:00 -0500
 comments: true
 tags: [healthcare, data, data science, forecasting, COVID]
 ---
 
-A few days ago we launch [CHIME](/2020/03/14/accouncing-chime.html), a tool for COVID-19 hospital capacity planning.Since then, we've been running [CHIME](/chime) on a daily bases to create reports for our  health system leadership. CHIME's simple design and interface enables quick support for tens of scenarios a day for hospital planners.  It also allows transparent and understandable parameters for our partners to assess.
+A few days ago we launched [CHIME](/2020/03/14/accouncing-chime.html), a tool for COVID-19 hospital capacity planning. Since then, we've been running [CHIME](/chime) on a daily bases to create reports for our  health system leadership. CHIME's simple design and interface enables quick support for hospital planners to assess potential demand for resources over time.  It also allows transparent and understandable parameters for our partners to interrogate and modify as more information becomes available.
 
 The recent paper from [Imperial College COVID-19 Response Team](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf) gives us a window into a disease model that has been used by world leadership to forecast capacity demands on healthcare systems.  
 
