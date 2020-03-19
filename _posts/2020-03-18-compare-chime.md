@@ -1,23 +1,19 @@
 ---
 layout: post
 title: CHIME comparison against Imperial College COVID-19 Publication
-author: Mike Draugelisg <michael.draugelis@pennmedicine.upenn.edu> & Asaf Hanish <asaf.hanish@pennmedicine.upenn.edu>
+author: Mike Draugelis <michael.draugelis@pennmedicine.upenn.edu> & Asaf Hanish <asaf.hanish@pennmedicine.upenn.edu>
 date:   2020-03-18 12:00:00 -0500
 comments: true
 tags: [healthcare, data, data science, forecasting, COVID]
 ---
-CHIME comparison against Imperial College COVID-19 Publication
------
 
-CHIME comparison against Imperial College COVID-19 Publication
------
-We've been running CHIME on a daily bases to create reports for our  health system leadership.  CHIME's simple design and interface enables quick support for tens of scenarios a day for hospital planners.  It also allows transparent and understandable parameters for our partners to assess.
+A few days ago we launch [CHIME](/2020/03/14/accouncing-chime.html), a tool for COVID-19 hospital capacity planning.Since then, we've been running [CHIME](/chime) on a daily bases to create reports for our  health system leadership. CHIME's simple design and interface enables quick support for tens of scenarios a day for hospital planners.  It also allows transparent and understandable parameters for our partners to assess.
 
-The challenge is, in the absense or uncertainty of information, it's left to the team to make reasonable estimates and bounded scenarios.  But it's tough doing this work in a vacuum without comparisons and feedback!  
+The challenge is that in the absense or uncertainty of information, it's left to the team to make reasonable estimates and bounded scenarios.  But it's tough doing this work in a vacuum without comparisons and feedback!  
 
-The recent paper from [Imperial College COVID-19 Response Team](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf) is giving us a window into another simulation that enables gives us a comparison of our model and assumptions!
+The recent paper from [Imperial College COVID-19 Response Team](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf) is giving us a window into another simulation approach, and enables us to compare of our model and assumptions with what other groups are projecting.
 
-In the paper, they compared the impacts of various public health measures called non-pharmaceutical interventions (NPIs).  
+In the paper, the authors compared the impacts of various public health measures called non-pharmaceutical interventions (NPIs).  
 ![Interventions"](https://i.ibb.co/5xq4Dy5/imp-table2.png)
 They applied a previously published microsimulation model to two populations, the UK (Great Britain specifically) and the US.  When they ran various scenarios of "public distancing", they demonstrated that decisive action could mitigate impacts to health systems.  
 
