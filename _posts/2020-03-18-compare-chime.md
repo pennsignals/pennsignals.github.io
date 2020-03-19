@@ -66,7 +66,7 @@ NOTE:  The Imperial College's Team assumes every critical care patient is ventil
 
 The CHIME results show a peak need of 600,000 critical care beds in mid-June. 
 
-Note that these results are very similar to the results predicted by the Imperial College COVID-19 Response Team: 
+These results are very similar to the results predicted by the Imperial College COVID-19 Response Team: 
 
 | Parameter | CHIME Scenario | Imp Col |   
 |--|--|--|
@@ -104,14 +104,14 @@ To quickly summarize the paper:
 
 In order to evaluate the closing of schools or other 'non-essential' businesses, we need to break down the "Other" category in the chart above.  
 
-In other words, we need to *guess*.  Here is our best guess:
+In other words, we need to *make an educated guess*.  Here is our best guess:
 
 |Parameters| Ratio of _Other_ Interactions|
 |--|--|
 | Kids | 70% school , 12% nonessential , 18% essential  |
 | Adults | 30% essential, 70% nonessential |
 
-Finally, we assume (*guess*) that social distancing will result in a 50% reduction of contact with friends and "Other" interactions (as defined above).
+Finally, we assume (*guess*) that the guidance for general social distancing (fewer in-person social gatherings, maintaining safe distance when meeting in person, etc.) will result in a 50% reduction of contact with friends and "Other" interactions (as defined above).
 
 With some quick arithmetic we arrive a the following parameters:
 
