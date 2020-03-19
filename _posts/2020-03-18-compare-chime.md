@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CHIME comparison against Imperial College COVID-19 Publication
+title: CHIME comparison with Imperial College COVID-19 Publication
 author: Mike Draugelis <michael.draugelis@pennmedicine.upenn.edu> & Asaf Hanish <asaf.hanish@pennmedicine.upenn.edu>
 date:   2020-03-18 12:00:00 -0500
 comments: true
