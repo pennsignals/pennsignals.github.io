@@ -9,11 +9,11 @@ tags: [healthcare, data, data science, forecasting, COVID]
 
 A few days ago we launched [CHIME](/2020/03/14/accouncing-chime.html), a tool for COVID-19 hospital capacity planning. CHIME's simplified model design and interface enables quick support for hospital planners to assess potential demand for resources over time.  It also allows transparent and understandable parameters for our partners to interrogate and modify as more information becomes available.
 
-The recent paper from [Imperial College COVID-19 Response Team](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf) gives us a window into another model and set of projections that has been used by world leadership to forecast capacity demands on healthcare systems.  If CHIME predicts similar outcomes, it potentially increases trust in both models. Furthermore, we've recently introduced a new variable into the CHIME model, a "Social Distancing" parameter, in order for planners to better estimate the potential impacts of social distancing strategies.  
+The recent paper from [Imperial College COVID-19 Response Team](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf) gives us a window into another model, set of assumptions, and resulting projections.  If CHIME predicts similar outcomes, it potentially increases trust in both models. Furthermore, we've recently introduced a new variable into the CHIME model, a "Social Distancing" parameter, in order for planners to better estimate the potential impacts of social distancing strategies.  
 
 Goals:
 1. Compare CHIME and Imperial College team's 'Do nothing' scenario
-2. Put CHIME's Social Distancing parameter into context by comparison with different scenarios from Imperial College's.
+2. Put CHIME's Social Distancing parameter into context through comparison with different scenarios from the Imperial College model.
 
 
 Imperial College's Scenarios & Outputs As Documented by their COVID-19 Response Team
@@ -150,9 +150,9 @@ Furthermore, if we compare the Imperial College Team's 33% reduction from social
 
 Finally, we can look at the additive effect of combining all of our interventions together and compare against the Imperial College Team's projections under the full set of interventions. In this case CHIME predicts a 65% reduction while the Imperial College Team predicts a 69% reduction in the Critical Care Capacity Curve.
 
-Bottom line?  
+##### Bottom line?  
 
-The projections being made by CHIME (with associated assumptions) are similar to projections being made in the Imperial College report.  Furthermore, the intuition around CHIME's social distancing parameter (top down overall % reduction in contact) can be translated and lined up with bottom up estimates of policy interventions.
+The projections being made by CHIME (with associated assumptions) are similar to projections being made in the Imperial College report.  Furthermore, CHIME's Social Distancing parameter (top down overall % reduction in contact) can be lined up with the bottom up estimates of policy interventions in the report.
 
 
 -- Penn Predictive Healthcare Team
