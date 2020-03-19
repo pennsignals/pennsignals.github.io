@@ -144,15 +144,15 @@ From Table 3 in the Imperial College Team's paper:
 ![enter image description here](https://i.ibb.co/jbLrS1w/comparison-social.png)
 
 
-The two models are predicting *very* similar outcomes for school closings.
+The two models are predicting similar outcomes for school closings.
 
 Furthermore, if we compare the Imperial College Team's 33% reduction from social distancing (denoted as CI_HQ_SD in Table 3), this is very similar to CHIME's PASD category, which, when used as an input, predicts  a 42% reduction in the Critical Care Capacity Curve.
 
-Lastly, by adding all of our interventions together...and one could argue this is similar to the Imperial College Team's full set of interventions...we see CHIME predicts a 65% reduction while the Imperial College Team predicts a 69% reduction in the Critical Care Capacity Curve.
+Finally, we can look at the additive effect of combining all of our interventions together and compare against the Imperial College Team's projections under the full set of interventions. In this case CHIME predicts a 65% reduction while the Imperial College Team predicts a 69% reduction in the Critical Care Capacity Curve.
 
 Bottom line?  
 
-The CHIME model (and associated assumptions) favorably compare with other validated SIR models.  Furthermore, the intuition around CHIME's social distancing parameter fits with these external models as well.
+The projections being made by CHIME (with associated assumptions) are similar to projections being made in the Imperial College report.  Furthermore, the intuition around CHIME's social distancing parameter (top down overall % reduction in contact) can be translated and lined up with bottom up estimates of policy interventions.
 
 
 -- Penn Predictive Healthcare Team
