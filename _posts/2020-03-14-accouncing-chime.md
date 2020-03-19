@@ -15,9 +15,9 @@ To this end, the [Predictive Healthcare](http://predictivehealthcare.pennmedicin
 ##### Introducing [CHIME](/chime): The **C**OVID-19 **H**ospital **I**mpact **M**odel for **E**pidemics.
 [![CHIME](https://user-images.githubusercontent.com/1069047/76693244-5e07e980-6638-11ea-9e02-1c265c86fd2b.gif)](/chime)
 
-[CHIME](https://github.com/pennsignals/chime) allows hospitals to enter information about their population and modify assumptions around the spread and behavior of COVID-19. It then runs a standard SIR model to project the number of new hospital admissions each day, along with the daily hospital census. These projections can then be used to create best- and worst-case scenarios to assist with capacity planning. We're announcing today that we're [open-sourcing CHIME](https://github.com/pennsignals/chime) and [making it available](/chime) to the healthcare community.
+[CHIME](https://github.com/CodeForPhilly/chime) allows hospitals to enter information about their population and modify assumptions around the spread and behavior of COVID-19. It then runs a standard SIR model to project the number of new hospital admissions each day, along with the daily hospital census. These projections can then be used to create best- and worst-case scenarios to assist with capacity planning. We're announcing today that we're [open-sourcing CHIME](https://github.com/CodeForPhilly/chime/) and [making it available](/chime) to the healthcare community.
 
-While the default parameters are customized and continually updated to reflect the situation at Penn Medicine, [CHIME](https://github.com/pennsignals/chime) can be adapted for use by any hospital system by modifying parameters to reflect local contexts.
+While the default parameters are customized and continually updated to reflect the situation at Penn Medicine, [CHIME](https://github.com/CodeForPhilly/chime/) can be adapted for use by any hospital system by modifying parameters to reflect local contexts.
 
 The most impactful parameter in a SIR model is the **Doubling Time**. This parameter defines how rapidly a disease spreads. Experiences in other geographical contexts suggest that doubling time may range from 3 to 13 days or more, with notable examples:
 
@@ -33,7 +33,7 @@ We've put effort into determining good estimates for all model parameters and ha
 * **Currently Hospitalized COVID-19 Patients**
 * **Hospital Market Share (%)**
 
-As local spread progresses, revised estimates can be made for some of the values in CHIME. We will try our best to keep things up to date with the latest research, but if you find an issue with any of the values we are using we'd appreciate your [feedback](http://predictivehealthcare.pennmedicine.org/contact/) and [contributions](https://github.com/pennsignals/chime). We also set up a [Slack channel](https://codeforphilly.org/chat?channel=covid19-chime-penn) if you'd like to chat with us.
+As local spread progresses, revised estimates can be made for some of the values in CHIME. We will try our best to keep things up to date with the latest research, but if you find an issue with any of the values we are using we'd appreciate your [feedback](http://predictivehealthcare.pennmedicine.org/contact/) and [contributions](https://github.com/CodeForPhilly/chime/). We also set up a [Slack channel](https://codeforphilly.org/chat?channel=covid19-chime-penn) if you'd like to chat with us.
 
 -- Penn Predictive Healthcare Team
 
