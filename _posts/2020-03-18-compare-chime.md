@@ -9,9 +9,7 @@ tags: [healthcare, data, data science, forecasting, COVID]
 
 A few days ago we launch [CHIME](/2020/03/14/accouncing-chime.html), a tool for COVID-19 hospital capacity planning.Since then, we've been running [CHIME](/chime) on a daily bases to create reports for our  health system leadership. CHIME's simple design and interface enables quick support for tens of scenarios a day for hospital planners.  It also allows transparent and understandable parameters for our partners to assess.
 
-The challenge is that in the absense or uncertainty of information, it's left to the team to make reasonable estimates and bounded scenarios.  But it's tough doing this work in a vacuum without comparisons and feedback!  
-
-The recent paper from [Imperial College COVID-19 Response Team](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf) is giving us a window into another simulation approach, and enables us to compare of our model and assumptions with what other groups are projecting.
+A major challenge we face is that in the absense or uncertainty of information, it is left to the team to make reasonable estimates and bounded scenarios. But it's tough doing this work in a vacuum without having a set of peers against which to compare. The recent paper from [Imperial College COVID-19 Response Team](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf) is giving us a window into another simulation approach, and enables us to compare of our model and assumptions with what other groups are projecting.
 
 In the paper, the authors compared the impacts of various public health measures called non-pharmaceutical interventions (NPIs).  
 ![Interventions"](https://i.ibb.co/5xq4Dy5/imp-table2.png)
