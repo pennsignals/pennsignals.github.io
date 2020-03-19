@@ -129,7 +129,7 @@ We then use the numbers above as inputs into CHIME's social distancing parameter
 |--|--|--|
 | 4% | PC | 15% |
 | 12% | PC + noness_SD | 31%  |
-| 15% | PASD  | 4%  |
+| 15% | PASD  | 42%  |
 | 31% | PC + noness_SD + PASD | 65%  |
 
 *Peak Reduction refers to the % reduction in the number of critical care beds needed at the peak of the Critical Care Capacity Curve.
