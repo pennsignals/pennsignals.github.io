@@ -83,7 +83,7 @@ See our [blog post](http://predictivehealthcare.pennmedicine.org/2020/03/18/comp
 | Currently Known Regional Infections | 33 |
 
 
-In the first run of CHIME, we set the _Doubling Time_ to 6, based on the publications we were using at the time.  As you can see in the CHIME output below, the forecasted hospitalized COVID-19 cases (denoted 'hosp') does not match our observations in the spreadsheet above.  
+In the first run of CHIME, we set the _Doubling Time_ to 6, based on the [publications](https://www.ncbi.nlm.nih.gov/pubmed/32007643) we were using at the time.  As you can see in the CHIME output below, the forecasted hospitalized COVID-19 cases (denoted 'hosp') does not match our observations in the spreadsheet above.  
 
 **CHIME Output, Based on a _Doubling Time_ of 6**
 
