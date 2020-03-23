@@ -2,7 +2,7 @@
 layout: post
 title: CHIME 0.5.0 released with major updates
 author: Michael Becker <michael.becker@pennmedicine.upenn.edu> & Corey Chivers <corey.chivers@pennmedicine.upenn.edu>
-date:   2020-03-23 12:00:00 -0500
+date:   2020-03-23 08:00:00 -0500
 comments: true
 tags: [healthcare, data, data science, forecasting, COVID]
 ---
