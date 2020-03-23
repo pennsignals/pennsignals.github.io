@@ -8,7 +8,7 @@ tags: [healthcare, data, data science, forecasting, COVID]
 ---
 # What was fixed
 
-Unfortunately, the COVID-19 crisis forces us to move quickly to prepare for this crisis and one downside of moving quickly is it's easier to make mistakes. Our latest release of CHIME contains a [major bug](https://github.com/CodeForPhilly/chime/issues/189) fix to the way we were calculating daily admissions and census. In the previous version of CHIME, we were not properly accounting for recovered patients (previously infected) patients in our accounting of newly admitted patients. This was resulting in an **undercount** of admissions by a factor of ~1.4-2.2. Since this error was compounding over time, this impacted the short-term projections (next month) less than the longer-term projections. You can find an example of the impact of this bug below.
+Unfortunately, the COVID-19 crisis forces us to move quickly and one downside of moving quickly is it's easier to make mistakes. Our latest release of CHIME contains a [major bug](https://github.com/CodeForPhilly/chime/issues/189) fix to the way we were calculating daily admissions and census. In the previous version of CHIME, we were not properly accounting for recovered patients (previously infected) patients in our accounting of newly admitted patients. This was resulting in an **undercount** of admissions by a factor of ~1.4-2.2. Since this error was compounding over time, this impacted the short-term projections (next month) less than the longer-term projections. You can find an example of the impact of this bug below.
 
 ## Admissions
 ### Before
