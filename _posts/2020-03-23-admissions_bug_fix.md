@@ -8,7 +8,7 @@ tags: [healthcare, data, data science, forecasting, COVID]
 ---
 # What was fixed
 
-Unfortunately, the COVID-19 crisis forces us to move quickly and one downside of moving quickly is it's easier to make mistakes. Our latest release of CHIME contains a [major bug](https://github.com/CodeForPhilly/chime/issues/189) fix to the way we were calculating daily admissions and census. In the previous version of CHIME, we were not properly accounting for recovered patients (previously infected) patients in our accounting of newly admitted patients. This was resulting in an **undercount** of admissions by a factor of ~1.4-2.2. Since this error was compounding over time, this impacted the short-term projections (next month) less than the longer-term projections. You can find an example of the impact of this bug below.
+Unfortunately, the COVID-19 crisis forces us to move quickly and one downside of moving quickly is it's easier to make mistakes. Our latest release of CHIME contains a [major bug](https://github.com/CodeForPhilly/chime/issues/189) fix to the way we were calculating daily admissions and census. In the previous version of CHIME, we were not properly accounting for recovered (previously infected) patients in our accounting of newly admitted patients. This was resulting in an **undercount** of admissions by a factor of ~1.4-2.2. Since this error was compounded over time, this impacted the short-term projections (next month) less than the longer-term projections. You can find an example of the impact of this bug below.
 
 ## Admissions
 ### Before
@@ -30,7 +30,7 @@ Unfortunately, the COVID-19 crisis forces us to move quickly and one downside of
 You should immediately update your reports and notify your stakeholders of the updated projections. We're sorry that this bug made it into CHIME but we're glad that it was found so quickly. While we'd like to think there are no more errors in CHIME we know that there could be. Please check back here for regular updates to make sure you're always getting the best estimates of your capacity needs.
 
 # Thank you to the community
-The quick identification of this bug helps give us confidence that releasing CHIME as an open-source project was the right choice to make. We'd like to personally thank William Rose, Dave House, and Michael Bromley who each independently identified this bug and reported it to us via our [Slack channel](https://codeforphilly.org/chat/covid19-chime-penn). We'd also like to thank Phil Miller who helped out with verifying our fix was correct. The support of the community is crucial to our response to this crisis and we are eternally grateful for your help!
+The quick identification of this bug helps give us confidence that releasing CHIME as an open-source project was the right choice to make. We'd like to personally thank William Rose, Dave House, Michael Kattan, and Michael Bromley who each independently identified this bug and reported it to us via our [Slack channel](https://codeforphilly.org/chat/chime-analysis). We'd also like to thank Phil Miller who helped out with verifying our fix was correct. The support of the community is crucial to our response to this crisis and we are eternally grateful for your help!
 
 If you believe you have found a bug in CHIME please notify us in #chime-analysis on Slack or [file an issue](https://github.com/CodeForPhilly/chime/issues) in our GitHub repo.
 
