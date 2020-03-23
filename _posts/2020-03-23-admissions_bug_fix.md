@@ -34,5 +34,8 @@ The quick identification of this bug helps give us confidence that releasing CHI
 
 If you believe you have found a bug in CHIME please notify us in #chime-analysis on Slack or [file an issue](https://github.com/CodeForPhilly/chime/issues) in our GitHub repo.
 
+# Other fixes
+This release also contains many more bug fixes and enchancements. Please see our [release notes](https://github.com/CodeForPhilly/chime/releases/tag/v0.5.0) for the full set of changes.
+
 -- Penn Predictive Healthcare Team
 
