@@ -7,42 +7,40 @@ comments: true
 tags: [healthcare, data, data science, forecasting, COVID]
 ---
 
-Last week, we had begun forecasting both admission rates and the number of patients who *would* be hospitalized with COVID-19.  This forecasting coincided (roughly) with the admission of our first COVID-19 patient into the UPENN health system.  Since we didn't yet have many data points for our model, we instead selected parameters from regional reports and various publications.  
-
-Two especially tricky parameters used as inputs by CHIME are the Rate of Detection (which must be calculated on a regional basis, based on local observations) and the Doubling Time (also not static, with a wide range of uncertainty).
+Last week, we began forecasting both admission rates and the number of patients who *would* be hospitalized with COVID-19.  This forecasting coincided (roughly) with the admission of the first COVID-19 patient into the UPENN health system.  Since we didn't yet have many data points for our model, we instead set parameters from regional reports and various publications.  
 
 Now that a week has passed, we can take advantage of better regional data to produce more accurate forecasts from CHIME.
 
-The point of this blog post is to show analysts how to re-calculate the rate of detection and the doubling estimate to get this more accurate prediction.
+The point of this blog post is to show analysts how to re-calculate two especially tricky parameters used as inputs by CHIME: the Rate of Detection and the Doubling Time estimate.  Rate of Detection is not static and must be calculated on a regional basis, based on local observations. Doubling Time is also not static, and has a wide range of uncertainty.
 
-I hope to show that a quick spreadsheet analysis is useful.
+I will describe a quick spreadsheet analysis that is useful for estimating these two parameters.
 
 
-Using a Spreadsheet to Estimate A Rate Of Detection
+Use a Spreadsheet to Estimate A Rate Of Detection
 --------
 Create a spreadsheet with columns like the one below:
 
 ![Spreadsheet estimate Pd5](https://i.ibb.co/c14Htjg/spread-sheet-pd5.png)
 
 
-Populate the spreadsheet with the past week's (or month's or whatever) observations (these are columns B and H above, in green).
+1) Populate the spreadsheet with the past week's (or month's or whatever) observations (these are columns B and H above, in green).
 
-Enter the assumed constants in the blue columns (columns D, E, and G).  While it's likely different regions have different values, the values we're currently using are as follows: 
-* Rate of Detection i.e. _Probability of Detection_ = 5%
+2) Enter the assumed constants in the blue columns (columns D, E, and G).  While it's likely different regions have different values, the values we're currently using are as follows: 
+* Rate of Detection (i.e. _Probability of Detection_) = 5%
 * _Est Market Share_ = 15%
-* _Est % Hospitilized_ = 5%
+* _Est % Hospitalized_ = 5%
 
-Fill in the last remaining columns (C and F, aka the orange ones) with the following equations: 
+3) Fill in the last remaining columns (C and F, aka the orange ones) with the following equations: 
 * Est of Total Infected = _Regional Known Infections_ /_Rate of Detection_
-* Est of Hospitalized = _Total Infected_ * _Est Market Share_ * _Est % Hospitilized_
+* Est of Hospitalized = _Total Infected_ * _Est Market Share_ * _Est % Hospitalized_
 
-Now compare the _Estimated Current Hospitalizations_ with _Observed Current Hospitalizations_.  If these two numbers are different, then your _Rate of Detection_ parameter is incorrect.
+4) Now compare the _Estimated Current Hospitalizations_ with _Observed Current Hospitalizations_.  If these two numbers are not equal, then your _Rate of Detection_ parameter is incorrect.
 
-NOTE:  We're going to assume that the _Assumed Market Share_ and _Assumed % Hospitalizations_ are correct (the latter is based on several publications, and we have a relatively high degree of confidence in that number).
+5) NOTE:  We're going to assume that the _Assumed Market Share_ and _Assumed % Hospitalizations_ are correct (the latter is based on several publications, and we have a relatively high degree of confidence in that number).
 
-To correctly estimate the _Rate of Detection_, change it until the numbers in the current _Estimated Current Hospitalizations_ matches the numbers in _Observed Current Hospitalizations_.
+6) To correctly estimate the _Rate of Detection_, change it until the numbers in the current _Estimated Current Hospitalizations_ matches the numbers in _Observed Current Hospitalizations_.
 
-In our example below, we had to change the _Rate of Detection_ from our initially assumed 5% up to 25%, a more accurate number, based on a week's worth of real-life observations.
+In our example below, we had to raise the _Rate of Detection_ from our initially assumed 5% up to 25%, a more accurate number, based on a week's worth of real-life observations.
 
 
 ![Spreadsheet estimate Pd25](https://i.ibb.co/VwpNhrX/spreadsheet-pd25.png)
@@ -51,13 +49,13 @@ In our example below, we had to change the _Rate of Detection_ from our initiall
 Use CHIME to Estimate a More Accurate Doubling Time Parameter
 -------
 
-We're going to use CHIME's forecasted hospitalizations and compare them to the actual  _Observed Current Hospitilizations_ to get a better estimate of the _Doubling Time_ parameter.
+Now we're going get a better estimate of the Doubling Time parameter by comparing CHIME's forecasted hospitalizations to the actual  _Observed Current Hospitalizations_.
 
-In short, we're going to update the _Doubling Time_ parameter in CHIME and re-run CHIME until it's output match _Observed Current Hospitilizations_.
+In short, we're going to adjust the _Doubling Time_ parameter in CHIME and re-run CHIME until its output matches _Observed Current Hospitalizations_.
 
-**A Note On The Social Distancing Parameter:**
+**A Note On the Social Distancing Parameter:**
 
-Because the _Observed Current Hospitilizations_ are telling us who was infected 5-7 days ago, the _Social Distancing_ parameter may need to be changed accordingly.  The effects that Social Distancing has on the spread of the disease often takes a week (or more) before they are realized.
+Because the _Observed Current Hospitalizations_ are telling us who was infected 5-7 days ago, the _Social Distancing_ parameter may need to be changed accordingly.  The effects that Social Distancing has on the spread of the disease often takes a week (or more) before they are realized.
 
 In our case, since we're looking at  March 14 through March 21, I'm going to set the Social Distancing to zero (Do Nothing).  This is because our distancing policies didn't go into effect until March 16-17.  
 
@@ -68,7 +66,7 @@ See our [blog post](http://predictivehealthcare.pennmedicine.org/2020/03/18/comp
 | Parameter | Value  |
 |--|--|
 | Day 0 | March 14, 2020 |
-| Downtown Current Hospitilizations | 1 (from spreadsheet estimatation) |
+| Downtown Current Hospitalizations | 1 (from spreadsheet estimation) |
 | Doubling Time | **First run 6, eventually we tried 3** |
 | Social distancing | 0% |
 | Market Share | 15% |
@@ -91,7 +89,7 @@ In the first run of CHIME, we set the _Doubling Time_ to 6, based on the [public
 
 **CHIME Output, Based on a _Doubling Time_ of 3**
 
-We then updated _Doubling Time_ to 3 and found that CHIME's forecasts are now much closer to the real-life hospitalizations.  
+We then updated _Doubling Time_ to 3 and found that CHIME's forecasts were now much closer to the real-life hospitalizations.  
 
 Going forward, for this next week, we will assume that a _Doubling Time_ of 3 is more accurate. 
 
