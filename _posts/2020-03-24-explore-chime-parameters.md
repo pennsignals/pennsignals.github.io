@@ -7,7 +7,7 @@ comments: true
 tags: [healthcare, data, data science, forecasting, COVID]
 ---
 
-Last week, we [began forecasting](http://predictivehealthcare.pennmedicine.org/2020/03/14/accouncing-chime.html) the potential levels of demand for hospital resources that could result form the outbreak with COVID-19. The timing of this forecasting effort coincided within two days of the admission of the first COVID-19 patient into the UPENN health system.  Since we didn't yet have many data points for the model, we instead set parameters from regional reports and various publications.
+Last week, we [began forecasting](http://predictivehealthcare.pennmedicine.org/2020/03/14/accouncing-chime.html) the potential levels of demand for hospital resources that could result from the outbreak with COVID-19. The timing of this forecasting effort coincided within two days of the admission of the first COVID-19 patient into the UPENN health system.  Since we didn't yet have many data points for the model, we instead set parameters from regional reports and various publications.
 
 Now that a a little over a week has passed, we can take advantage of better regional data to produce more accurate forecasts from [CHIME](https://penn-chime.phl.io/).
 
@@ -20,7 +20,7 @@ The method we use to calculate both parameters is similar to a manual [least-squ
 
 Let's start with some motivation to explore these parameters:
 * Our current assumption that 5% of all infected patients will be hospitalized comes from the [Verity](https://www.medrxiv.org/content/10.1101/2020.03.09.20033357v1.full.pdf) paper.  However, [more recent studies](https://www.nature.com/articles/d41586-020-00822-x) suggest that it may be important to consider the impacts of the ratio of asymptomatic and symptomatic infected patients.  These studies suggest the % of mild and asymptomatic infected patients could be as high as 50%. This has implications for how we estimate the % of infected patients requiring hospitalization.  To take this into account, we’ll explore updates of our default value  for _Hospitalization %(total infections)_.
-* Our clinical partners, have stated they believe the doubling time is faster then our default of six. In addition there are [publications](https://arxiv.org/pdf/2003.06418.pdf) that cite doubling times between 2 and 4 days early in the spread.
+* Our clinical partners, have stated they believe the doubling time is faster than our default of six. In addition there are [publications](https://arxiv.org/pdf/2003.06418.pdf) that cite doubling times between 2 and 4 days early in the spread.
 
 Using a Spreadsheet to Estimate Hospitalization % of total infections
 --------
@@ -94,7 +94,7 @@ In the first run of CHIME, we set the _Doubling Time_ to 6, based on the [public
 |--|--|
 | ![](https://i.ibb.co/rmxgwqw/doubling6.png) | ![](https://i.ibb.co/BcwKhms/doubling4.png) | 
 
-The doubling time scenario of six has slightly less error then the doubling time of four. For now, we’re opting to run scenarios bounded by a doubling time of four and six.
+The doubling time scenario of six has slightly less error than the doubling time of four. For now, we’re opting to run scenarios bounded by a doubling time of four and six.
 
 While [some sources](https://arxiv.org/pdf/2003.06418.pdf) are citing doubling times between two and four days early in the spread, it is essential to remember that this four-day estimate is the estimated doubling time *before* March 14.  Since then, state and local government officials enacted significant distancing measures (starting on March 15), that will slow the spread and increase the doubling time. Furthermore, doubling time in the simulation is applied to rate of growth of _all_ new infections, not only the number of confirmed cases. As testing effort increases, confirmed cases can grow faster than the actual infections. We remain on the lookout for definitive references that can address the rapid growth of positive cases in the US and Europe while accounting for the bias of missing positive cases.
 
