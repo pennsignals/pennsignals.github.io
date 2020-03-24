@@ -19,8 +19,8 @@ The point of this blog post is to show analysts how to re-calculate two paramete
 The method we use to calculate both parameters is similar to a manual [least-squares](https://en.wikipedia.org/wiki/Least_squares) approach. 
 
 Let's start with some motivation to explore these parameters:
-* Reading the recent [article from Nature](https://www.nature.com/articles/d41586-020-00822-x), we felt it was important to more explicit layer in our assumptions of the ratio of asymptomatic and symptomatic infected patient.  The Nature article suggests that the % of asymptomatic infected patients could be as high as 50%.  Our current assumptions are that the number of asymptomatic patients is very low...so if we recalculate the rate of hospitalization with this new understanding, than our current value, 5%, would be too high when compared to other pupblications. 
-* [publications](https://arxiv.org/pdf/2003.06418.pdf) that cite doubling times between 2 and 4 days early in the spread.  We currently use six as our doubling time.
+* The recent [article from Nature](https://www.nature.com/articles/d41586-020-00822-x), implied that it was important to explicit consider the ratio of asymptomatic and symptomatic infected patient.  The Nature article suggests that the % of asymptomatic infected patients could be as high as 50%.  Our current assumptions are that the number of asymptomatic patients is very low...so if we recalculate the rate of hospitalization with this new understanding, than our current value, 5%, would be too high when compared to other pupblications. 
+* Our clinical partners have stated that they believe the doubling time of is fast then our default of six. In addition there are [publications](https://arxiv.org/pdf/2003.06418.pdf) that cite doubling times between 2 and 4 days early in the spread.
 
 I will describe a quick spreadsheet and CHIME analysis that is useful for estimating these two parameters.
 
