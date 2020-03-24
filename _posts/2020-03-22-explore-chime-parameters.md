@@ -49,7 +49,7 @@ Create a [spreadsheet](https://docs.google.com/spreadsheets/d/1GZpXQbm4gi5YZKI3-
 
     Question: Can you adjust the parameters in blue to reduce the total error in column B?
 
-5) Our Strategy:  Inspired by Nature's paper, we're only going to modify (Col I) Asymptomatic Rate to effect around values of 40%-60%.
+5)  **One could very various parameters to reduce the error; such as Market Share or Assumed Rate of Detection.** Our Strategy:  Inspired by Nature's paper, we're only going to modify (Col I) Asymptomatic Rate to effect around values of 40%-60%, and hold constant _Market Share_ and _Assumed Rate of Detection_.
 
 6) We discovered that _Asymptomatic Rate_ values between 50% and 60%, resulting in _% Hospitilizaed_ between 2.0 and 2.5, reduced the error the most.  We selected **2.5** as our hospitalization rate of infected patients. 
 
