@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How To Update CHIME Input Parameters Based on New COVID-19 Regional Observations
-author: Mike Draugelis <michael.draugelis@pennmedicine.upenn.edu> & Asaf Hanish <asaf.hanish@pennmedicine.upenn.edu>
+author: Mike Draugelis <michael.draugelis@pennmedicine.upenn.edu>
 date:   2020-03-24 12:00:00 -0500
 comments: true
 tags: [healthcare, data, data science, forecasting, COVID]
