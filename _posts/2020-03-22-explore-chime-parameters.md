@@ -96,7 +96,10 @@ In the first run of CHIME, we set the _Doubling Time_ to 6, based on the [public
 |--|--|
 | ![](https://i.ibb.co/rmxgwqw/doubling6.png) | ![](https://i.ibb.co/BcwKhms/doubling4.png) |
 
-The scenario with doubling time of six has slightly less error then the doubling time of four.  However, we opted to create reports using four it's last value on March 23rd is more aligned with our most recent observation and it's a more conservative bound.
+
+The scenario with doubling time of six has slightly less error then the doubling time of four.  For now, we're opting to run scenerios bounded by a doubline time of four and six.
+
+The doubling time is applied to the number of infections, not the number of confirmed cases.  It is believed by some that the discrepancy between those two numbers might account for phenomena were we observed a much higher rate of doubling of confirmed cases (2-4 days at present).  We remain on the lookout for a definitive references that can address the rapid growth of positive cases in the US and Europe while accounting for the bias of missing positive cases.
 
 
 A _Doubling Time_ of 4 in Philadelphia?
