@@ -94,7 +94,8 @@ In the first run of CHIME, we set the _Doubling Time_ to 6, based on the [public
 
 | Doubling Time Six | Doubling Time Four  | 
 |--|--|
-| ![](https://i.ibb.co/rmxgwqw/doubling6.png) | ![](https://i.ibb.co/BcwKhms/doubling4.png) |
+| ![](https://i.ibb.co/rmxgwqw/doubling6.png) | ![](https://i.ibb.co/BcwKhms/doubling4.png) | 
+
 The doubling time scenario of six has slightly less error then the doubling time of four. For now, we’re opting to run scenarios bounded by a doubling time of four and six.
 
 A _Doubling Time_ of 4 in Philadelphia?
