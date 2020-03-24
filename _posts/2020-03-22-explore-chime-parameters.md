@@ -2,7 +2,7 @@
 layout: post
 title: How To Update CHIME Input Parameters Based on New COVID-19 Regional Observations
 author: Mike Draugelis <michael.draugelis@pennmedicine.upenn.edu>
-date:   2020-03-24 12:00:00 -0500
+date:   2020-03-22 12:00:00 -0500
 comments: true
 tags: [healthcare, data, data science, forecasting, COVID]
 ---
@@ -14,12 +14,12 @@ Now that a week has passed, we can take advantage of better regional data to pro
 The point of this blog post is to show analysts how to re-calculate two parameters used as inputs by CHIME: 
 
  -  _Hospitalization %(total infections)_- the total % of COVID-19 patients requiring hospitalization
-  - _Doubling Time_ estimate
+ - _Doubling Time_ estimate
 
 The method we use to calculate both parameters is similar to a manual [least-squares](https://en.wikipedia.org/wiki/Least_squares) approach. 
 
 Let's start with some motivation to explore these parameters:
-* The recent [article from Nature](https://www.nature.com/articles/d41586-020-00822-x), implied that it was important to explicit consider the ratio of asymptomatic and symptomatic infected patient.  The Nature article suggests that the % of asymptomatic infected patients could be as high as 50%.  Our current assumptions are that the number of asymptomatic patients is very low...so if we recalculate the rate of hospitalization with this new understanding, than our current value, 5%, would be too high when compared to other pupblications. 
+* Our current assumptions of 5% of all infected patients will be hospitilized comes from the [Verity](https://www.medrxiv.org/content/10.1101/2020.03.09.20033357v1.full.pdf) paper.  However, reading the recent [article from Nature](https://www.nature.com/articles/d41586-020-00822-x), we felt it was important to more explicit layer in our assumptions of the ratio of asymptomatic and symptomatic infected patient.  The Nature article suggests that the % of asymptomatic infected patients could be as high as 50% which as implication to the ratio of patients that are hospitilalized.  By considering this we can explore  update our default value  for _Hospitalization %(total infections)_.
 * Our clinical partners have stated that they believe the doubling time of is fast then our default of six. In addition there are [publications](https://arxiv.org/pdf/2003.06418.pdf) that cite doubling times between 2 and 4 days early in the spread.
 
 I will describe a quick spreadsheet and CHIME analysis that is useful for estimating these two parameters.
