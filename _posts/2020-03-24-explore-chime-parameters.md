@@ -1,30 +1,28 @@
 ---
 layout: post
-title: How To Update CHIME Input Parameters Based on New COVID-19 Regional Observations
+title: Updating CHIME Input Parameters Based on New COVID-19 Regional Observations
 author: Mike Draugelis <michael.draugelis@pennmedicine.upenn.edu>
-date:   2020-03-21 12:00:00 -0500
+date:   2020-03-24 08:00:00 -0500
 comments: true
 tags: [healthcare, data, data science, forecasting, COVID]
 ---
 
-Last week, we began forecasting both admission rates and the number of patients who *would* be hospitalized with COVID-19.  The timing of this forecasting effort coincided (roughly) with the admission of the first COVID-19 patient into the UPENN health system.  Since we didn't yet have many data points for the model, we instead set parameters from regional reports and various publications.  
+Last week, we [began forecasting](http://predictivehealthcare.pennmedicine.org/2020/03/14/accouncing-chime.html) the potential levels of demand for hospital resources that could result form the outbreak with COVID-19. The timing of this forecasting effort coincided within two days of the admission of the first COVID-19 patient into the UPENN health system.  Since we didn't yet have many data points for the model, we instead set parameters from regional reports and various publications.
 
-Now that a week has passed, we can take advantage of better regional data to produce more accurate forecasts from CHIME.
+Now that a a little over a week has passed, we can take advantage of better regional data to produce more accurate forecasts from [CHIME](https://penn-chime.phl.io/).
 
-The point of this blog post is to demonstrate our thought process, and to show analysts how to recalculate parameters used as inputs by CHIME based on local observations to-date. Specifically, we’ll consider: 
+The aim of this blog post is to demonstrate our thought process, and to show analysts how to recalculate parameters used as inputs by [CHIME](https://penn-chime.phl.io/) based on local observations to-date. Specifically, we’ll consider:
 
  -  _Hospitalization %(total infections)_- the total % of COVID-19 patients requiring hospitalization
  - _Doubling Time_ estimate
 
-The method we use to calculate both parameters is similar to a manual [least-squares](https://en.wikipedia.org/wiki/Least_squares) approach. 
+The method we use to calculate both parameters is similar to a manual [least-squares](https://en.wikipedia.org/wiki/Least_squares) approach.
 
 Let's start with some motivation to explore these parameters:
-* Our current assumption that 5% of all infected patients will be hospitalized comes from the [Verity](https://www.medrxiv.org/content/10.1101/2020.03.09.20033357v1.full.pdf) paper.  However, reading the recent [article from Nature](https://www.nature.com/articles/d41586-020-00822-x), we felt it was important to explore the impacts of the ratio of asymptomatic and symptomatic infected patients.  The Nature article suggests that the % of mild and asymptomatic infected patients could be as high as 50% which has implications on the ratio of patients that are hospitalized.  To take this into account, we’ll explore updates of our default value  for _Hospitalization %(total infections)_.
-* Our clinical partners have stated they believe the doubling time is faster then our default of six. In addition there are [publications](https://arxiv.org/pdf/2003.06418.pdf) that cite doubling times between 2 and 4 days early in the spread.
+* Our current assumption that 5% of all infected patients will be hospitalized comes from the [Verity](https://www.medrxiv.org/content/10.1101/2020.03.09.20033357v1.full.pdf) paper.  However, [more recent studies](https://www.nature.com/articles/d41586-020-00822-x) suggest that it may be important to consider the impacts of the ratio of asymptomatic and symptomatic infected patients.  These studies suggest the % of mild and asymptomatic infected patients could be as high as 50%. This has implications for how we estimate the % of infected patients requiring hospitalization.  To take this into account, we’ll explore updates of our default value  for _Hospitalization %(total infections)_.
+* Our clinical partners, have stated they believe the doubling time is faster then our default of six. In addition there are [publications](https://arxiv.org/pdf/2003.06418.pdf) that cite doubling times between 2 and 4 days early in the spread.
 
-I will describe a quick spreadsheet and CHIME analysis that is useful for estimating these two parameters.
-
-Use a Spreadsheet to Estimate Hospitalization % of total infections
+Using a Spreadsheet to Estimate Hospitalization % of total infections
 --------
 Create a [spreadsheet](https://docs.google.com/spreadsheets/d/1GZpXQbm4gi5YZKI3-p7lvlJ1JcBIwyPPyUm1dJKuIE4/edit?usp=sharing) with columns like the one below:
 
