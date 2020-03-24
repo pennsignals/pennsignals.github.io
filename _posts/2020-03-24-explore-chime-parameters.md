@@ -54,7 +54,7 @@ Create a [spreadsheet](https://docs.google.com/spreadsheets/d/1GZpXQbm4gi5YZKI3-
 ![Spreadsheet estimate Pd25](https://i.ibb.co/VYcDD8f/spreadsheet-hosp2-5.png)
 
 
-Use CHIME to Estimate a More Accurate Doubling Time Parameter
+Using CHIME to Estimate a More Accurate Doubling Time Parameter
 -------
 
 Now we're going to get a better estimate of the Doubling Time parameter by comparing CHIME's forecasted hospitalizations to the actual  _Observed Current Hospitalizations_.
@@ -96,17 +96,11 @@ In the first run of CHIME, we set the _Doubling Time_ to 6, based on the [public
 
 The doubling time scenario of six has slightly less error then the doubling time of four. For now, we’re opting to run scenarios bounded by a doubling time of four and six.
 
-A _Doubling Time_ of 4 in Philadelphia?
---------
-While [some sources](https://arxiv.org/pdf/2003.06418.pdf) cite doubling times between two and four days early in the spread, a four day doubling time is more aggressive than first assumed and deserves some scrutiny. However, it is essential to remember that this four-day estimate is the estimated doubling time *before* March 14.  Since then, state and local government officials enacted significant distancing measures (starting on March 15), that will slow the spread and increase the doubling time.
-The doubling time is applied to the number of infections, not the number of confirmed cases. It is believed by some that the discrepancy between those two numbers might account for phenomena where we observed a much higher rate of doubling of confirmed cases (2-4 days at present). We remain on the lookout for definitive references that can address the rapid growth of positive cases in the US and Europe while accounting for the bias of missing positive cases.
-Due to these social distancing policies, we're currently [estimating](http://predictivehealthcare.pennmedicine.org/2020/03/18/compare-chime.html) a reduction of social contact by 30-40%.  
+While [some sources](https://arxiv.org/pdf/2003.06418.pdf) are citing doubling times between two and four days early in the spread, it is essential to remember that this four-day estimate is the estimated doubling time *before* March 14.  Since then, state and local government officials enacted significant distancing measures (starting on March 15), that will slow the spread and increase the doubling time. Furthermore, doubling time in the simulation is applied to rate of growth of _all_ new infections, not only the number of confirmed cases. As testing effort increases, confirmed cases can grow faster than the actual infections. We remain on the lookout for definitive references that can address the rapid growth of positive cases in the US and Europe while accounting for the bias of missing positive cases.
 
-In the coming week, we expect to begin to see the impact of those social distancing policies.  We will then run another simulation with day zero set to March 22, 2020, and repeat the process described in this blog post.
+Due to these social distancing policies, we're currently [estimating](http://predictivehealthcare.pennmedicine.org/2020/03/18/compare-chime.html) a reduction of social contact by 30-40%.  In the coming week, we expect to begin to see the impact of those social distancing policies.  We will then run another simulation with day zero set to March 22, 2020, and repeat the process described in this blog post. If the these estimated distancing effect holds, the current level of social distancing policies _could_ cut the surge peak by more than 50%.
 
-If the current numbers hold, the current level of social distancing policies _could_ cut the surge peak by 50%.
-
-This next week we'll continue to track the rate of infected and hospitalized to better understand the impact of our policies and to continue to refine our forecasts of potential demand.
+Next week we'll continue to track the rate of infected and hospitalized to better understand the impact of our policies and to continue to refine our forecasts of potential demand.
 
 -- Penn Predictive Healthcare Team
 
