@@ -1,25 +1,28 @@
 ---
 layout: post
-title: Explore COVID-19 characteristics based on regional observations
-author: Mike Draugelis <michael.draugelis@pennmedicine.upenn.edu>
+title: How To Update CHIME Input Parameters Based on New COVID-19 Regional Observations
+author: Mike Draugelis <michael.draugelis@pennmedicine.upenn.edu> & Asaf Hanish <asaf.hanish@pennmedicine.upenn.edu>
 date:   2020-03-24 12:00:00 -0500
-comments: true 
+comments: true
 tags: [healthcare, data, data science, forecasting, COVID]
 ---
 
-Last week, we began forecasting both admission rates, and the number of patients who *would* be hospitalized with COVID-19.  This forecasting coincided (roughly) with the admission of the first COVID-19 patient into the UPENN health system.  Since we didn't yet have many data points for our model, we instead set parameters from regional reports and various publications.  
+Last week, we began forecasting both admission rates and the number of patients who *would* be hospitalized with COVID-19.  This forecasting coincided (roughly) with the admission of the first COVID-19 patient into the UPENN health system.  Since we didn't yet have many data points for the model, we instead set parameters from regional reports and various publications.  
 
 Now that a week has passed, we can take advantage of better regional data to produce more accurate forecasts from CHIME.
 
-The point of this blog post is to show analysts how to re-calculate two parameters used as inputs by CHIME: the _Hospitalization %(total infections)_  and the _Doubling Time_ estimate.  (A manual [least-squares](https://en.wikipedia.org/wiki/Least_squares) approach)
+The point of this blog post is to show analysts how to re-calculate two parameters used as inputs by CHIME: 
 
-Let's with some motivation to explore the parameters
-* After reading a recent [nature article](https://www.nature.com/articles/d41586-020-00822-x), we suspected that our % hospitalization number of 5% was too high.  The nature article suggests that the % of asymptomatic infected patients could be 50%.  If this is the case, then our 5% hospitalization rate is too high.
+ -  _Hospitalization %(total infections)_- the total % of COVID-19 patients requiring hospitalization
+  - _Doubling Time_ estimate
+
+The method we use to calculate both parameters is similar to a manual [least-squares](https://en.wikipedia.org/wiki/Least_squares) approach. 
+
+Let's start with some motivation to explore these parameters:
+* Reading a the recent [article from Nature](https://www.nature.com/articles/d41586-020-00822-x), we felt it was important to more explicit layer in our assumptions of the ratio of asymptomatic and symptomatic infected patient.  The Nature article suggests that the % of asymptomatic infected patients could be as high as 50%.  Our current assumptions are that the number of asymptomatic patients is very low...so if we recalculate the rate of hospitalization with this new understanding, than our current value, 5%, would be too high when compared to other pupblications. 
 * [publications](https://arxiv.org/pdf/2003.06418.pdf) that cite doubling times between 2 and 4 days early in the spread.  We currently use six as our doubling time.
 
-
 I will describe a quick spreadsheet and CHIME analysis that is useful for estimating these two parameters.
-
 
 Use a Spreadsheet to Estimate Hospitalization % of total infections
 --------
