@@ -43,7 +43,7 @@ Create a [spreadsheet](https://docs.google.com/spreadsheets/d/1GZpXQbm4gi5YZKI3-
 * (Col J) Estimate of Total Infected = _Regional Known Infections_/_Rate of Detection_ (Col K/Col L)
 * (Col D) Estimated Current Hospitalizations = _Estimate of Total Infected_ * _Estimated Market Share_ * _Estimated % Hospitalized_ (Col J * Col E * Col F)
 
-4) Now compare the error between the _Estimated Current Hospitalizations_ (Col C) and the _Observed Current Hospitalizations_ (Col D). 
+4) Now compare the error between the _Estimated Current Hospitalizations_ (Col D) and the _Observed Current Hospitalizations_ (Col C). 
 
 Goal: Can you adjust the parameters in blue to reduce the Estimated Error in column B? One could use various parameters--such as Market Share or Assumed Rate of Detection--to reduce the error.
 
