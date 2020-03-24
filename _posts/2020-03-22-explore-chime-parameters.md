@@ -2,48 +2,55 @@
 layout: post
 title: Explore COVID-19 characteristics based on regional observations
 author: Mike Draugelis <michael.draugelis@pennmedicine.upenn.edu>
-date:   2020-03-22 12:00:00 -0500
+date:   2020-03-24 12:00:00 -0500
 comments: true 
 tags: [healthcare, data, data science, forecasting, COVID]
 ---
 
-Last week, we began forecasting both admission rates and the number of patients who *would* be hospitalized with COVID-19.  This forecasting coincided (roughly) with the admission of the first COVID-19 patient into the UPENN health system.  Since we didn't yet have many data points for our model, we instead set parameters from regional reports and various publications.  
+Last week, we began forecasting both admission rates, and the number of patients who *would* be hospitalized with COVID-19.  This forecasting coincided (roughly) with the admission of the first COVID-19 patient into the UPENN health system.  Since we didn't yet have many data points for our model, we instead set parameters from regional reports and various publications.  
 
 Now that a week has passed, we can take advantage of better regional data to produce more accurate forecasts from CHIME.
 
-The point of this blog post is to show analysts how to re-calculate two especially tricky parameters used as inputs by CHIME: the Rate of Detection and the Doubling Time estimate.  Rate of Detection is not static and must be calculated on a regional basis, based on local observations. Doubling Time is also not static, and has a wide range of uncertainty.
+The point of this blog post is to show analysts how to re-calculate two parameters used as inputs by CHIME: the _Hospitalization %(total infections)_  and the _Doubling Time_ estimate.  (A manual [least-squares](https://en.wikipedia.org/wiki/Least_squares) approach)
 
-I will describe a quick spreadsheet analysis that is useful for estimating these two parameters.
+Let's with some motivation to explore the parameters
+* After reading a recent [nature article](https://www.nature.com/articles/d41586-020-00822-x), we suspected that our % hospitalization number of 5% was too high.  The nature article suggests that the % of asymptomatic infected patients could be 50%.  If this is the case, then our 5% hospitalization rate is too high.
+* [publications](https://arxiv.org/pdf/2003.06418.pdf) that cite doubling times between 2 and 4 days early in the spread.  We currently use six as our doubling time.
 
 
-Use a Spreadsheet to Estimate A Rate Of Detection
+I will describe a quick spreadsheet and CHIME analysis that is useful for estimating these two parameters.
+
+
+Use a Spreadsheet to Estimate Hospitalization % of total infections
 --------
-Create a spreadsheet with columns like the one below:
+Create a [spreadsheet](https://docs.google.com/spreadsheets/d/1GZpXQbm4gi5YZKI3-p7lvlJ1JcBIwyPPyUm1dJKuIE4/edit?usp=sharing) with columns like the one below:
 
-![Spreadsheet estimate Pd5](https://i.ibb.co/c14Htjg/spread-sheet-pd5.png)
-
-
-1) Populate the spreadsheet with the past week's (or month's or whatever) observations (these are columns B and H above, in green).
-
-2) Enter the assumed constants in the blue columns (columns D, E, and G).  While it's likely different regions have different values, the values we're currently using are as follows: 
-* Rate of Detection (i.e. _Probability of Detection_) = 5%
-* _Est Market Share_ = 15%
-* _Est % Hospitalized_ = 5%
-
-3) Fill in the last remaining columns (C and F, aka the orange ones) with the following equations: 
-* Est of Total Infected = _Regional Known Infections_ /_Rate of Detection_
-* Est of Hospitalized = _Total Infected_ * _Est Market Share_ * _Est % Hospitalized_
-
-4) Now compare the _Estimated Current Hospitalizations_ with _Observed Current Hospitalizations_.  If these two numbers are not equal, then your _Rate of Detection_ parameter is incorrect.
-
-5) NOTE:  We're going to assume that the _Assumed Market Share_ and _Assumed % Hospitalizations_ are correct (the latter is based on several publications, and we have a relatively high degree of confidence in that number).
-
-6) To correctly estimate the _Rate of Detection_, change it until the numbers in the current _Estimated Current Hospitalizations_ matches the numbers in _Observed Current Hospitalizations_.
-
-In our example below, we had to raise the _Rate of Detection_ from our initially assumed 5% up to 25%, a more accurate number, based on a week's worth of real-life observations.
+![Spreadsheet estimate Pd5](https://i.ibb.co/RvLxgd4/spreadsheet-hop5.png)
 
 
-![Spreadsheet estimate Pd25](https://i.ibb.co/VwpNhrX/spreadsheet-pd25.png)
+1) Populate the spreadsheet with the past week's (or month's or whatever) observations (these are columns C and L above, in green).
+
+2) Enter the assumed constants in the blue columns.  While it's likely different regions have different values, the values we're currently using are as follows: 
+* (Col K) Rate of Detection = 10%
+* (Col I) % Asymptomatic = 0
+* (Col H) % Symptomatic = 100
+* (Col G) % of Symptomatic that are Hospitialzed = 5
+* (Col F) Est Market Share = 15%
+
+3) Fill in the last remaining columns (orange ones) with the following equations: 
+* (Col J) Est of Total Infected = _Regional Known Infections_ /_Rate of Detection_
+* (Col F) Estimated % Hospitalizations of Total Infected = _% of Symptomatic that are Hospitialzed_ * _% Symptomatic_
+* (Col D) Est of Hospitalized = _Total Infected_ * _Est Market Share_ * _Est % Hospitalized_
+
+4) Now compare the error between the _Estimated Current Hospitalizations_ (Col C) and the _Observed Current Hospitalizations_ (Col D). 
+
+    Question: Can you adjust the parameters in blue to reduce the total error in column B?
+
+5) Our Strategy:  Inspired by Nature's paper, we're only going to modify (Col I) Asymptomatic Rate to effect around values of 40%-60%.
+
+6) We discovered that _Asymptomatic Rate_ values between 50% and 60%, resulting in _% Hospitilizaed_ between 2.0 and 2.5, reduced the error the most.  We selected **2.5** as our hospitalization rate of infected patients. 
+
+![Spreadsheet estimate Pd25](https://i.ibb.co/VYcDD8f/spreadsheet-hosp2-5.png)
 
 
 Use CHIME to Estimate a More Accurate Doubling Time Parameter
@@ -57,7 +64,7 @@ In short, we're going to adjust the _Doubling Time_ parameter in CHIME and re-ru
 
 Because the _Observed Current Hospitalizations_ are telling us who was infected 5-7 days ago, the _Social Distancing_ parameter may need to be changed accordingly.  The effects that Social Distancing has on the spread of the disease often takes a week (or more) before they are realized.
 
-In our case, since we're looking at  March 14 through March 21, I'm going to set the Social Distancing to zero (Do Nothing).  This is because our distancing policies didn't go into effect until March 16-17.  
+In our case, since we're looking at March 14 through March 21, I'm going to set the Social Distancing to zero (Do Nothing).  
 
 See our [blog post](http://predictivehealthcare.pennmedicine.org/2020/03/18/compare-chime.html) for a detailed exploration of social distancing.
 
@@ -66,40 +73,36 @@ See our [blog post](http://predictivehealthcare.pennmedicine.org/2020/03/18/comp
 | Parameter | Value  |
 |--|--|
 | Day 0 | March 14, 2020 |
-| Downtown Current Hospitalizations | 1 (from spreadsheet estimation) |
-| Doubling Time | **First run 6, eventually we tried 3** |
+| Downtown Current Hospitalizations | 2 |
+| Doubling Time | **First run 6, eventually we tried 4** |
 | Social distancing | 0% |
-| Market Share | 15% |
-| Hospitalization %(total infections) | 5 |
-| ICU %(total infections) | 1.5 |
+| Hospitalization %(total infections) | 2.5 |
+| ICU %(total infections) | 0.75 (30% of Hospitilized patients) |
 | Ventilated %(total infections) | 0 (Only considering ICU)|
 | Hospital Length of Stay | 8 |
-| ICU Length of Stay| 18 |
+| ICU Length of Stay| 16 |
 | Vent Length of Stay | N/A |
 | Hospital Market Share (%)| 15 |
 | Regional Population | 3,600,000 |
 | Currently Known Regional Infections | 33 |
 
 
-In the first run of CHIME, we set the _Doubling Time_ to 6, based on the [publications](https://www.ncbi.nlm.nih.gov/pubmed/32007643) we were using at the time.  As you can see in the CHIME output below, the forecasted hospitalized COVID-19 cases (denoted 'hosp') does not match our observations in the spreadsheet above.  
+In the first run of CHIME, we set the _Doubling Time_ to 6, based on the [publications](https://www.ncbi.nlm.nih.gov/pubmed/32007643) we were using at the time.  
 
-**CHIME Output, Based on a _Doubling Time_ of 6**
+| Doubling Time Six | Doubling Time Four  | 
+|--|--|
+| ![](https://i.ibb.co/rmxgwqw/doubling6.png) | ![](https://i.ibb.co/BcwKhms/doubling4.png) |
 
-![CHIME Ro 6: COVID Hospital Census](https://i.ibb.co/hMpyNPZ/chime-314-Ro6-census.png)
+The scenario with doubling time of six has slightly less error then the doubling time of four.  However, we opted to create reports using four it's last value on March 23rd is more aligned with our most recent observation and it's a more conservative bound.
 
-**CHIME Output, Based on a _Doubling Time_ of 3**
 
-We then updated _Doubling Time_ to 3 and found that CHIME's forecasts were now much closer to the real-life hospitalizations.  
-
-Going forward, for this next week, we will assume that a _Doubling Time_ of 3 is more accurate. 
-
-A _Doubling Time_ of 3 in Philadelphia?
+A _Doubling Time_ of 4 in Philadelphia?
 --------
-While there are [publications](https://arxiv.org/pdf/2003.06418.pdf) that cite doubling times between 2 and 4 days early in the spread...3 days is much more aggressive than first assumed and therefore deserves some scrutiny.
+While there are [publications](https://arxiv.org/pdf/2003.06418.pdf) that cite doubling times between two and four days early in the spread...four days is more aggressive than first assumed and deserves some scrutiny.
 
-However, it is essential to remember that this three-day estimate is the estimated doubling time *before* March 14th.  Since then, state and local government officials put significant distancing measures in place (starting on March 15), that will slow the spread and increase the doubling time.
+However, it is essential to remember that this four-day estimate is the estimated doubling time *before* March 14.  Since then, state and local government officials put significant distancing measures in place (starting on March 15), that will slow the spread and increase the doubling time.
 
-Due to these social distancing policies, we're currently [estimating](http://predictivehealthcare.pennmedicine.org/2020/03/18/compare-chime.html) a reduction of social contact by 23-30%.  
+Due to these social distancing policies, we're currently [estimating](http://predictivehealthcare.pennmedicine.org/2020/03/18/compare-chime.html) a reduction of social contact by 30-40%.  
 
 In the coming week, we'll begin to see the impact of those social distancing policies.  We will then run another simulation with day zero set to March 22, 2020, and repeat the process described in this blog post.
 
