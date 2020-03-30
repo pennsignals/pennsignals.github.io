@@ -35,7 +35,7 @@ In addition to the model changes, we've also updated the order of the parameters
 We've added download links below each chart to download the raw data. This should help you with any analyses you need to do outside of CHIME.
 
 # Thanks to all our contributors
-We'd like to once again thank all of our [contributors](https://github.com/CodeForPhilly/chime/graphs/contributors) and everyone who has given us feedback about the app. We couldn't do it without you!
+We'd like to once again thank all of our [contributors](https://github.com/CodeForPhilly/chime/graphs/contributors) and everyone who has given us feedback about the app. We'd also like to call out [Phil Miller](https://github.com/PhilMiller) who provided a ton of extra support while we were trying to get this released. 
 
 -- Penn Predictive Healthcare Team
 
