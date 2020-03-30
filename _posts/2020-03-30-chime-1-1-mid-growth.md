@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CHIME 1.1.0 released, mid-growth stage updates
-author: Michael Becker <michael.becker@pennmedicine.upenn.edu>
+author: Michael Becker <michael.becker@pennmedicine.upenn.edu> & Corey Chivers <corey.chivers@pennmedicine.upenn.edu>
 date:   2020-03-30 12:00:00 -0500
 comments: true
 tags: [healthcare, data, data science, forecasting, COVID]
