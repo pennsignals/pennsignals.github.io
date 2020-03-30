@@ -27,11 +27,11 @@ Since we are still early in the epidemic these changes should not have a huge im
 # Additional changes
 You can see a full list of all the changes that went into the latest release on [GitHub](https://github.com/CodeForPhilly/chime/releases/tag/v1.1.0).
 
-## Sidebar cleanup
+#### Sidebar cleanup
 In addition to the model changes, we've also updated the order of the parameters in the sidebar to make things a little more organized.
 
 
-## CSV Downloads
+#### CSV Downloads
 We've added download links below each chart to download the raw data. This should help you with any analyses you need to do outside of CHIME.
 
 # Thanks to all our contributors
