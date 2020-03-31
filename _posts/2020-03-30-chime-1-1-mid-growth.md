@@ -7,7 +7,7 @@ comments: true
 tags: [healthcare, data, data science, forecasting, COVID]
 ---
 # What has changed?
-The original version of the CHIME model was built in the context of the first few days of a local outbreak. It was not well equipped to handle projections when there is a non-small number of current infections. Release [1.1.0](https://github.com/CodeForPhilly/chime/releases/tag/v1.1.0) addresses this by allowing the user to specify not only how many cases are currently hospitalized, but also, optionally, how long it has been since the first case was hospitalized. 
+The original version of the [CHIME](https://penn-chime.phl.io/) model was built in the context of the first few days of a local outbreak. It was not well equipped to handle projections when there is a non-small number of current infections. Release [1.1.0](https://github.com/CodeForPhilly/chime/releases/tag/v1.1.0) addresses this by allowing the user to specify not only how many cases are currently hospitalized, but also, optionally, how long it has been since the first case was hospitalized. 
 
 ## Projecting the beginning of the outbreak
 
