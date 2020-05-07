@@ -31,15 +31,15 @@ The calculator is implemented as an Excel file, and takes in as input the daily 
 Although the PPE Calculator was designed with CHIME in mind, its inputs can be from any model that provides daily projections of the four listed categories of patients.
 In the CHIME tool, after setting the parameters in the sidebar to generate your facility’s projections, the csv file download will match the input required for integration into the PPE calculator. 
 
-Additional tutorials and details about the tool are available in the [CHIME user documentation](http://predictivehealthcare.pennmedicine.org/chime/ppe-calculator)
+Additional tutorials and details about the tool are available in the [CHIME user documentation](http://predictivehealthcare.pennmedicine.org/chime/ppe-calculator).
 
 ## Collaborators
 
 The team primarily responsible for creating the PPE calculator comprises experts across a wide variety disciplines at the 
 University of Pennsylvania (Department of Computer and Information Science, Wharton School, Perelman School of Medicine, 
 Center for Health Incentives and Behavioral Economics) and Penn Medicine (Hospital of the University of Pennsylvania). 
-Contributors include: Kristian Lum, James Johndrow, April Cardone, Barry Fuchs, Cody E. Cotner, Olivia Jew, Ravi B. Parikh, 
-Gary E. Weissman, Christian Terwiesch, Kevin G. Volpp
+Contributors include: Kristian Lum, James Johndrow, April Cardone, Barry Fuchs, Cody E. Cotner, Olivia Jew, Richard Eden, Ravi B. Parikh, 
+Gary E. Weissman, Christian Terwiesch, and Kevin G. Volpp
 
 ## Additional changes
 You can see all the changes incorporated in the latest releases ([1.1.4](https://github.com/CodeForPhilly/chime/releases/tag/v1.1.4), [1.1.5]) on GitHub.
