@@ -25,7 +25,7 @@ The underlying assumptions for these scenarios are based on quantitative data co
 
 The overall architecture of the calculator is summarized in the figure below:
 
-![image](https://user-images.githubusercontent.com/1069047/77951748-89294480-7298-11ea-8da7-6b796dd56e6d.png)
+![PPE_figure](/assets/images/blog/PPE_figure.png)
 
 The calculator is implemented as an Excel file, and takes in as input the daily hospitalizations, ICU patients, ventilated patients, and admitted patients.
 Although the PPE Calculator was designed with CHIME in mind, its inputs can be from any model that provides daily projections of the four listed categories of patients.
