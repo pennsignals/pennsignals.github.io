@@ -8,7 +8,7 @@ tags: [healthcare, data, data science, forecasting, COVID, PPE]
 ---
 [CHIME](https://penn-chime.phl.io) was built to assist hospital systems project the resources that would be required due to the COVID-19 pandemic, primarily focusing on bed and ventilator demand. 
 A natural extension is to use the projected hospital censuses to evaluate the amount of personal protective equipment (PPE) needed. 
-In our latest release, we include a PPE calculator--accessible on the CHIME website--that works in conjunction with your CHIME-generated projections.
+In our latest release, we include a PPE calculator, accessible at the [CHIME website](https://penn-chime.phl.io), that works in conjunction with your CHIME-generated projections.
 
 ### PPE forecasting
 
