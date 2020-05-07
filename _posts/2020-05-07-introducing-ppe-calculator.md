@@ -2,7 +2,7 @@
 layout: post
 title: Introducing a PPE Calculator for use with CHIME
 author: ThaiBinh Luong <thaibinh.luong@pennmedicine.upenn.edu>
-date:   2020-05-08 12:00:00 -0500
+date:   2020-05-07 12:00:00 -0500
 comments: true
 tags: [healthcare, data, data science, forecasting, COVID, PPE]
 ---
@@ -10,14 +10,14 @@ tags: [healthcare, data, data science, forecasting, COVID, PPE]
 A natural extension is to use the projected hospital censuses to evaluate the amount of personal protective equipment (PPE) needed. 
 In our latest release, we include a PPE calculator--accessible on the CHIME website--that works in conjunction with your CHIME-generated projections.
 
-## PPE forecasting
+### PPE forecasting
 
 Personal protective equipment (PPE) such as N95 respirators, gloves, and isolation gowns are essential for the safety of both health care workers and their patients. 
 Under normal circumstances, hospital administrators regularly place orders based on their “burn rate” with the assumption of reliable availability; the need for PPE forecasting is minimal.
 However, when PPE supplies are stressed locally and worldwide, hospital systems are forced to adjust their usage strategies.
 PPE forecasting becomes critical in determining how long a facility’s existing inventory will last and how many additional supplies will need to be procured to accommodate usage in the near future.
 
-## An overview of the PPE Calculator
+### An overview of the PPE Calculator
 
 Together with the team listed below, we present a calculator that uses forecasted patient censuses to output daily and cumulative projections for each type of PPE. 
 To account for increasingly strict usage policies, you can choose from a range of scenarios that subsequently adjust the amount of PPE consumed.
@@ -33,7 +33,7 @@ In the CHIME tool, after setting the parameters in the sidebar to generate your 
 
 Additional tutorials and details about the tool are available in the [CHIME user documentation](http://predictivehealthcare.pennmedicine.org/chime/ppe-calculator).
 
-## Collaborators
+### Collaborators
 
 The team primarily responsible for creating the PPE calculator comprises experts across a wide variety disciplines at the 
 University of Pennsylvania (Department of Computer and Information Science, Wharton School, Perelman School of Medicine, 
@@ -41,10 +41,12 @@ Center for Health Incentives and Behavioral Economics) and Penn Medicine (Hospit
 Contributors include: Kristian Lum, James Johndrow, April Cardone, Barry Fuchs, Cody E. Cotner, Olivia Jew, Richard Eden, Ravi B. Parikh, 
 Gary E. Weissman, Christian Terwiesch, and Kevin G. Volpp
 
-## Additional changes
-You can see all the changes incorporated in the latest releases ([1.1.4](https://github.com/CodeForPhilly/chime/releases/tag/v1.1.4), [1.1.5]) on GitHub.
+### Additional changes
 
-## Thanks to all our contributors
+You can see all the changes incorporated in the latest major release [on GitHub](https://github.com/CodeForPhilly/chime/releases/tag/v1.1.4). 
+
+### Thanks to all our contributors
+
 We would like to thank all of our [contributors](https://github.com/CodeForPhilly/chime/graphs/contributors) for their continued support. As always, we welcome feedback. 
 
 --Penn Predictive Healthcare Team
