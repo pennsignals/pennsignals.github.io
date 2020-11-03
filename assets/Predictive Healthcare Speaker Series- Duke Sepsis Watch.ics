@@ -1,0 +1,85 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Microsoft Corporation//Outlook for Mac MIMEDIR//EN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Eastern Time (US & Canada)
+X-ENTOURAGE-CFTIMEZONE:US/Eastern
+X-ENTOURAGE-TZID:4
+BEGIN:STANDARD
+RRULE:FREQ=YEARLY;INTERVAL=1;BYSECOND=0;BYMINUTE=0;BYHOUR=2;BYDAY=1SU;BYMO
+ NTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+DTSTART:20071104T020000
+END:STANDARD
+BEGIN:DAYLIGHT
+RRULE:FREQ=YEARLY;INTERVAL=1;BYSECOND=0;BYMINUTE=0;BYHOUR=2;BYDAY=2SU;BYMO
+ NTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+DTSTART:20070311T020000
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:040000008200E00074C5B7101A82E00800000000C65573D30BB2D60100000000000000
+ 00100000001068532AB5DAF74196AFAE489CAF8C1A
+X-ENTOURAGE_UUID:5174406C-3207-441E-8837-32329A5B33C8
+X-MICROSOFT-EXCHANGE-ID:AAMkAGVhODQxZTYzLWE1MDgtNGRlZC1iNTI0LWU2Y2ZlMWJhNj
+ NkNgBGAAAAAAB0VC2Vw3otTY-fbVcKzAMCBwAoxXyAQIDkT56D1eoRRgZ-AAAAgbGuAAAgriCQ
+ Q6CcQqfyw6yVA_1oAAImPzVQAAA=
+X-MICROSOFT-EXCHANGE-CHANGEKEY:IK4gkEOgnEKn8sOslQPtaAACJXG1cA==
+DTSTAMP:20201103T184836Z
+DTSTART;TZID="Eastern Time (US & Canada)":20201112T120000
+DTEND;TZID="Eastern Time (US & Canada)":20201112T130000
+LAST-MODIFIED:20201103T184836Z
+SUMMARY:Predictive Healthcare Speaker Series: Duke Sepsis Watch
+DESCRIPTION:Join us on November 12\, 2020 12:00pm EST for the Penn
+  Medicine Predictive Healthcare Speaker Series. This month\, we have a
+  very exciting panel of speakers from Duke Health who will be sharing
+  with us their experiences of successfully integrating AI into clinical
+  practice to improve sepsis care. This team and their work represent a
+  great example of how predictive healthcare is a team sport\, requiring
+  thoughtful engagement at many levels of organization to achieve real\,
+  measurable success. \n\nSuccessful integration of deep learning into
+  clinical care at Duke to improve sepsis care: an interdisciplinary
+  discussion\nSpeakers\n\nDr. Cara O’Brien: Associate Vice Chair for
+  Inpatient Medicine for the Department of Internal Medicine\; Hospitalist
+  leader who has led the sepsis implementation and sepsis QI work for many
+  years\n\nDustin Tart: Nurse lead of the patient response program\; rapid
+  response team nurse who manages the team that uses Sepsis
+  Watch\n\nMichael Gao: Senior data scientist at Duke Institute for Health
+  Innovation (DIHI) DIHI who built and implemented the model\n\nMarshall
+  Nichols: Senior data engineer at DIHI who built and manages the
+  infrastructure upon which the model runs\nModerators:\n\nSuresh Balu:
+  Associate Dean for Innovation and Partnership for the School of Medicine
+  and as Program Director for DIHI\n\nMark Sendak MD\, MPP: Population
+  Health & Data Science Lead at DIHI\nLocation:\n\n\nTime: Nov 12\, 2020
+  12:00 PM Eastern Time (US and Canada)\n\nJoin Zoom
+  Meeting\nhttps://zoom.us/j/6314027291\n\nMeeting ID: 631 402 7291\nOne
+  tap mobile\n+13126266799\,\,6314027291# US
+  (Chicago)\n+16465588656\,\,6314027291# US (New York)\n\nDial by your
+  location\n        +1 312 626 6799 US (Chicago)\n        +1 646 558 8656
+  US (New York)\n        +1 301 715 8592 US (Germantown)\n        +1 346
+  248 7799 US (Houston)\n        +1 669 900 9128 US (San Jose)\n        +1
+  253 215 8782 US (Tacoma)\nMeeting ID: 631 402 7291\nFind your local
+  number: https://zoom.us/u/acMUavBXS0\n
+LOCATION:https://zoom.us/j/6314027291
+ORGANIZER:MAILTO:Corey.Chivers@pennmedicine.upenn.edu
+SEQUENCE:0
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Draugelis, Michael
+  E";PARTSTAT=NEEDS-ACTION:MAILTO:Michael.Draugelis@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Hanish,
+  Asaf";PARTSTAT=ACCEPTED:MAILTO:Asaf.Hanish@pennmedicine.upenn.edu
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-INSTTYPE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT00H10M00S
+END:VALARM
+END:VEVENT
+END:VCALENDAR

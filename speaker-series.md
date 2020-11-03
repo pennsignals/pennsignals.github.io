@@ -33,25 +33,25 @@ Speaker/Topic Suggestions? <i class="fa fa-envelope"></i><a href="mailto:pennsig
 
 
 ####  Successful integration of deep learning into clinical care at Duke to improve sepsis care: an interdisciplinary discussion
+**November 12th, 2020, 12:00-1:00pm** <a href="/assets/Predictive Healthcare Speaker Series- Duke Sepsis Watch.ics">Add to Calendar</a>
 
 <img src="https://user-images.githubusercontent.com/1396669/97864711-0d342680-1cd7-11eb-9db8-740667e902ec.png" ALIGN="left" HSPACE="30" VSPACE="10">
 
 ##### Speakers
-- Dr. Cara O’Brien: Associate Vice Chair for Inpatient Medicine for the Department of Internal Medicine; Hospitalist leader who has lead the sepsis implementation and sepsis QI work for many years
-- Dustin Tart: Nurse lead of the patient response program; rapid response team nurse who manages the team that uses Sepsis Watch
-- Michael Gao: Senior data scientist at DIHI who built and implemented the model
-- Marshall Nichols: Senior data engineer at DIHI who built and manages the infrastructure upon which the model runs
+- **Dr. Cara O’Brien:** Associate Vice Chair for Inpatient Medicine for the Department of Internal Medicine; Hospitalist leader who has led the sepsis implementation and sepsis QI work for many years
+- **Dustin Tart:** Nurse lead of the patient response program; rapid response team nurse who manages the team that uses Sepsis Watch
+- **Michael Gao:** Senior data scientist at the Duke Institute for Health Innovation (DIHI) who built and implemented the model
+- **Marshall Nichols:** Senior data engineer at DIHI who built and manages the infrastructure upon which the model runs
 
 ##### Moderators:
-- Suresh Balu: Associate Dean for Innovation and Partnership for the School of Medicine and as Program Director, for the Duke Institute for Health Innovation (DIHI)
-- Mark Sendak MD, MPP:  Population Health & Data Science Lead at DIHI
+- **Suresh Balu:** Associate Dean for Innovation and Partnership for the School of Medicine and as Program Director for DIHI
+- **Mark Sendak MD, MPP:**  Population Health & Data Science Lead at DIHI
 
 ##### Location
-Microsoft Teams (Check back here for meeting link)
 
-**November 12th, 2020, 12:00-1:00pm**
+<a href="/assets/Predictive Healthcare Speaker Series- Duke Sepsis Watch.ics">Virtual</a>
 
-
+    
 ####  Predictive Healthcare Speaker Series - Jon Pomeroy
 
 <img src="https://user-images.githubusercontent.com/1396669/73671369-d0200280-4678-11ea-8177-5fa66764efb1.png" ALIGN="left" HSPACE="30" VSPACE="10">
