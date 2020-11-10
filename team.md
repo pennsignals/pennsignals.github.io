@@ -16,7 +16,7 @@ slug: team
   <div class="member col s12 m4 l2">
     <img src="/assets/images/profile/coreyc.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
     <div class="name strong">Corey Chivers, PhD </div>
-    <div class="title">Sr. Data Scientist</div>
+    <div class="title">Lead Data Scientist</div>
   </div>
 
   <div class="member col s12 m4 l2">
@@ -39,6 +39,12 @@ slug: team
   </div>
 
   <div class="member col s12 m4 l2">
+    <img src="/assets/images/profile/darryl_bw.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+    <div class="name strong">Darryl Mendillo</div>
+    <div class="title">Data Science Software Engineer</div>
+  </div>
+
+  <div class="member col s12 m4 l2">
     <img src="/assets/images/profile/thaibinh.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
     <div class="name strong">ThaiBinh Luong, PhD</div>
     <div class="title">Data Scientist</div>
@@ -48,12 +54,6 @@ slug: team
     <img src="/assets/images/profile/andrewcd.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
     <div class="name strong">Andrew Crane-Droesch, PhD</div>
     <div class="title">Data Scientist</div>
-  </div>
-
-  <div class="member col s12 m4 l2">
-    <img src="/assets/images/profile/hessams.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
-    <div class="name strong">Hessam Shahriari</div>
-    <div class="title">Data Science Software Engineer</div>
   </div>
 
   <div class="member col s12 m4 l2">
