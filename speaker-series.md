@@ -51,6 +51,7 @@ Speaker/Topic Suggestions? <i class="fa fa-envelope"></i><a href="mailto:pennsig
 
 <a href="/assets/Predictive Healthcare Speaker Series- Duke Sepsis Watch.ics">Virtual</a>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4IXU3gimYyk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
 ####  Predictive Healthcare Speaker Series - Jon Pomeroy
 
