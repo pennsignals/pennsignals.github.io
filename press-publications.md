@@ -84,8 +84,8 @@ slug: press-publications
 	<li>2020 - Disease modelers are wary of reopening the country. Here’s how they arrive at their verdict. https://www.washingtonpost.com/graphics/2020/health/disease-modeling-coronavirus-cases-reopening/ </li>
 
 	<li>2020 - How many people in Pa. will be infected with the coronavirus? Scientific modeling is trying to find the answer. https://www.inquirer.com/health/coronavirus/spl/pennsylvania-coronavirus-modeling-projections-hospitals-estimates-20200327.html</li>
-	
 </ul>
+
 <h4>Awards and Grants</h4>
 <ul>
 	<li>2016 - Penn Research Team Receives $5 Million Grant to Use Big Data to Improve Health, <a href="https://www.pennmedicine.org/news/news-releases/2016/february/penn-research-team-receives-5" target="_blank">https://www.pennmedicine.org/news/news-releases/2016/february/penn-research-team-receives-5</a></li>
@@ -93,8 +93,4 @@ slug: press-publications
 	<li>2016 - Penn Medicine Information Services Ranks Fourth in InformationWeek's Elite 100, <a href="https://www.pennmedicine.org/news/news-releases/2016/may/penn-medicine-information-serv" target="_blank">https://www.pennmedicine.org/news/news-releases/2016/may/penn-medicine-information-serv</a></li>
 
 	<li>2018 - Penn Medicine shortens ICU stays with real-time data, Digital Edge 50, <a href="https://www.cio.com/article/3336486/penn-medicine-shortens-icu-stays-with-real-time-data.html" target="_blank">https://www.cio.com/article/3336486/penn-medicine-shortens-icu-stays-with-real-time-data.html</a></li>
-</ul>
-<h4>Talks</h4>
-<ul>
-	<li>2015 - Penn Medicine’s Michael Draugelis and Intel’s Ron Kasabian delivering the keynote address, “Improving Medical Decision Making with Predictive Analytics on Big Data,” at the 2015 Strata + Hadoop World data conference in New York City. (Video copyright: O’Reilly Media.) <a href="https://www.youtube.com/watch?v=PpSXcnJwt04" target="_blank">https://www.youtube.com/watch?v=PpSXcnJwt04</li>
 </ul>
