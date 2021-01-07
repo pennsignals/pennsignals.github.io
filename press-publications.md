@@ -37,6 +37,18 @@ slug: press-publications
 	<li>2019 - Beaulieu-Jones B, Finlayson SG, Chivers C, et al. Trends and Focus of Machine Learning Applications for Health Research. JAMA Netw Open. Published online October 25, 20192(10):e1914051. doi:10.1001/jamanetworkopen.2019.14051</li>
 
 	<li>2019 - Parikh RB, Teeple S, Navathe AS. Addressing Bias in Artificial Intelligence in Health Care. JAMA. Published online November 22, 2019. doi: <a href="https://doi.org/10.1001/jama.2019.18058" target="_blank">https://doi.org/10.1001/jama.2019.18058</a> | <a href="https://jamanetwork.com/journals/jama/fullarticle/2756196" target="_blank">https://jamanetwork.com/journals/jama/fullarticle/2756196</a></li>
+	
+	<li>2020 - Derivation and implementation of a machine learning approach to prompt serious illness conversations among outpatients with cancer.  RB Parikh, C Manz, C Chivers, SB Regli, J Braun, JA Jones, R Mamtani, ... Journal of Clinical Oncology 37 (31_suppl), 131-131</li>
+
+	<li>2020 - Integrating machine-generated mortality estimates and behavioral nudges to promote serious illness conversations for cancer patients: Design and methods for a stepped-wedge … CR Manz, RB Parikh, CN Evans, C Chivers, SH Regli, JE Bekelman, ..., Contemporary Clinical Trials 90, 105951</li>
+
+	<li>2020 - Locally informed simulation to predict hospital capacity needs during the COVID-19 pandemic, GE Weissman, A Crane-Droesch, C Chivers, TB Luong, A Hanish, M. Becker Annals of internal medicine </li>
+
+	<li>2020 - Modeling Epidemics With Compartmental Models., Tolles J, Luong T.,  _JAMA._  Published online May 27, 2020. doi:10.1001/jama.2020.8420 </li>
+
+	<li>2020 - Manz CR, Chen J, Liu M, et al. Validation of a Machine Learning Algorithm to Predict 180-Day Mortality for Outpatients With Cancer.  _JAMA Oncol._  Published online September 24, 2020. doi:10.1001/jamaoncol.2020.4331</li>
+
+	<li>2020 - Manz CR, Parikh RB, Small DS, et al. Effect of Integrating Machine Learning Mortality Estimates With Behavioral Nudges to Clinicians on Serious Illness Conversations Among Patients With Cancer: A Stepped-Wedge Cluster Randomized Clinical Trial.  _JAMA Oncol._  Published online October 15, 2020. doi:10.1001/jamaoncol.2020.4759</li>
 </ul>
 
 <h4>Press</h4>
@@ -64,6 +76,15 @@ slug: press-publications
 	<li>2019 - Vent Program <a target="_blank" href="https://www.modernhealthcare.com/operations/penn-medicine-reduces-icu-stays-clinical-alert-app-built-house?itx%5bidio%5d=6241141&ito=792&itq=0a965593-d31e-4a6c-8955-87da7cceeb9f">https://www.modernhealthcare.com/operations/penn-medicine-reduces-icu-stays-clinical-alert-app-built-house?itx%5bidio%5d=6241141&ito=792&itq=0a965593-d31e-4a6c-8955-87da7cceeb9f</a></li>
 
 	<li>2019 - Palliative Connect <a target="_blank" href="https://healthitanalytics.com/news/predictive-analytics-tool-increases-palliative-care-consultations">https://healthitanalytics.com/news/predictive-analytics-tool-increases-palliative-care-consultations</a></li>
+	
+	<li>2020 - Penn Medicine released a digital tool to help hospitals with COVID-19 capacity planning,  https://technical.ly/philly/2020/03/17/penn-medicine-chime-digital-tool-hospitals-covid19-coronavirus-capacity-planning/</li>
+
+	<li>2020 - Pandemic Surge Models in the Time of Severe Acute Respiratory Syndrome Coronavirus-2: Wrong or Useful? https://www.acpjournals.org/doi/10.7326/M20-1956</li>
+
+	<li>2020 - Disease modelers are wary of reopening the country. Here’s how they arrive at their verdict. https://www.washingtonpost.com/graphics/2020/health/disease-modeling-coronavirus-cases-reopening/ </li>
+
+	<li>2020 - How many people in Pa. will be infected with the coronavirus? Scientific modeling is trying to find the answer. https://www.inquirer.com/health/coronavirus/spl/pennsylvania-coronavirus-modeling-projections-hospitals-estimates-20200327.html</li>
+	
 </ul>
 <h4>Awards and Grants</h4>
 <ul>
