@@ -32,20 +32,20 @@ slug: speaker-series
 Speaker/Topic Suggestions? <i class="fa fa-envelope"></i><a href="mailto:pennsignals@uphs.upenn.edu"> Email Us</a>
 
 
-####  ED Operations Management: Melding Digital and Live Experimentation to Optimize Staffing Alignment
+#### Melding Digital Twin and Live Experimentation to Optimize ED Staffing Alignment
 **March 26th, 2021, 12:00-1:00pm** <a href="/assets/ED-Digital-Twin.ics">Add to Calendar</a>
 
-<img src="https://user-images.githubusercontent.com/" ALIGN="left" HSPACE="30" VSPACE="10">
+<img src="/assets/images/ed_sims_graphic.png" ALIGN="left" HSPACE="30" VSPACE="10">
 
- Dynamically optimized staffing is crucial to an efficient Emergency Department; the COVID19 pandemic has highlighted the need for agile responses to rapidly changing circumstances.   A digital simulation enables ED Operations Leadership to model multiple variables and predict changes to key ED metrics tracking productivity and throughput. 
+The ability to dynamically optimize staffing is crucial to an efficient Emergency Department; the COVID19 pandemic has highlighted even more clearly the need for agile responses to rapidly changing circumstances.   We will present a digital simulation that enables ED Operations Leadership to model multiple variables rapidly and predict changes to key ED metrics based on variations in productivity and throughput. 
 
-##### Speakers
+##### Speakers/Discussion
 - **Keith C. Hemmert, MD** Medical Director, Department of Emergency Medicine
-- **Ben Sun, 
-
+- **Ben Sun, MD, MPP** Chair, Department of Emergency Medicine
+- **Asaf Hanish, MPH** Senior Data Scientist, Predictive Healthcare
 - **Vincent Collins** Data Analyst, Patient Care & Clinical Productivity, Department of Emergency Medicine
-- **Asaf Hanish** Data Scientist, Predictive Healthcare
-- **Susan Harkness Regli** Human Factors Scientist
+- **Susan Harkness Regli, PhD** Human Factors Scientist
+- **Hisham Valiuddin, DO** Emergency Medicine NPR Medical Providers  
 
 
 ##### Location
