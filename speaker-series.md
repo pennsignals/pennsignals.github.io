@@ -50,7 +50,7 @@ The ability to dynamically optimize staffing is crucial to an efficient Emergenc
 
 ##### Location
 
-<a href="/assets/Melding Digital Twin and Live Experimentation to Optimize ED Staffing Alignment.ics">Virtual</a>
+<a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWQ4NzEwMjEtNzgyMi00YmViLWE3NjktN2Q2N2UwMTZmMGZj%40thread.v2/0?context=%7b%22Tid%22%3a%2258e32bb7-141e-4bae-af01-f29f2a6613c2%22%2c%22Oid%22%3a%22fe777dbb-4bfd-4275-b5d8-4a1a72b04027%22%2c%22IsBroadcastMeeting%22%3atrue%7d">Virtual</a>
 
 
 
