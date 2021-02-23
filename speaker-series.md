@@ -32,6 +32,28 @@ slug: speaker-series
 Speaker/Topic Suggestions? <i class="fa fa-envelope"></i><a href="mailto:pennsignals@uphs.upenn.edu"> Email Us</a>
 
 
+#### Melding Digital Twin and Live Experimentation to Optimize ED Staffing Alignment
+**March 26th, 2021, 12:00-1:00pm** <a href="/assets/Melding Digital Twin and Live Experimentation to Optimize ED Staffing Alignment.ics">Add to Calendar</a>
+
+<img src="/assets/images/ed_sims_graphic.png" ALIGN="left" HSPACE="30" VSPACE="10">
+
+The ability to dynamically optimize staffing is crucial to an efficient Emergency Department; the COVID19 pandemic has highlighted even more clearly the need for agile responses to rapidly changing circumstances.   We will present a digital simulation that enables ED Operations Leadership to model multiple variables rapidly and predict changes to key ED metrics based on variations in productivity and throughput. 
+
+##### Speakers/Discussion
+- **Keith C. Hemmert, MD** Medical Director, Department of Emergency Medicine
+- **Asaf Hanish, MPH** Senior Data Scientist, Predictive Healthcare
+- **Vincent Collins** Data Analyst, Patient Care & Clinical Productivity, Department of Emergency Medicine
+- **Susan Harkness Regli, PhD** Human Factors Scientist
+- **Hisham Valiuddin, DO** Emergency Medicine NPR Medical Providers
+- **Ben Sun, MD, MPP** Chair, Department of Emergency Medicine
+
+
+##### Location
+
+<a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWQ4NzEwMjEtNzgyMi00YmViLWE3NjktN2Q2N2UwMTZmMGZj%40thread.v2/0?context=%7b%22Tid%22%3a%2258e32bb7-141e-4bae-af01-f29f2a6613c2%22%2c%22Oid%22%3a%22fe777dbb-4bfd-4275-b5d8-4a1a72b04027%22%2c%22IsBroadcastMeeting%22%3atrue%7d">Virtual</a>
+
+
+
 ####  Successful integration of deep learning into clinical care at Duke to improve sepsis care: an interdisciplinary discussion
 **November 12th, 2020, 12:00-1:00pm** <a href="/assets/Predictive Healthcare Speaker Series- Duke Sepsis Watch.ics">Add to Calendar</a>
 
