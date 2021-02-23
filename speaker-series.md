@@ -33,7 +33,7 @@ Speaker/Topic Suggestions? <i class="fa fa-envelope"></i><a href="mailto:pennsig
 
 
 #### Melding Digital Twin and Live Experimentation to Optimize ED Staffing Alignment
-**March 26th, 2021, 12:00-1:00pm** <a href="/assets/ED-Digital-Twin.ics">Add to Calendar</a>
+**March 26th, 2021, 12:00-1:00pm** <a href="/assets/Melding Digital Twin and Live Experimentation to Optimize ED Staffing Alignment.ics">Add to Calendar</a>
 
 <img src="/assets/images/ed_sims_graphic.png" ALIGN="left" HSPACE="30" VSPACE="10">
 
@@ -41,16 +41,16 @@ The ability to dynamically optimize staffing is crucial to an efficient Emergenc
 
 ##### Speakers/Discussion
 - **Keith C. Hemmert, MD** Medical Director, Department of Emergency Medicine
-- **Ben Sun, MD, MPP** Chair, Department of Emergency Medicine
 - **Asaf Hanish, MPH** Senior Data Scientist, Predictive Healthcare
 - **Vincent Collins** Data Analyst, Patient Care & Clinical Productivity, Department of Emergency Medicine
 - **Susan Harkness Regli, PhD** Human Factors Scientist
-- **Hisham Valiuddin, DO** Emergency Medicine NPR Medical Providers  
+- **Hisham Valiuddin, DO** Emergency Medicine NPR Medical Providers
+- **Ben Sun, MD, MPP** Chair, Department of Emergency Medicine
 
 
 ##### Location
 
-<a href="/assets/ED-Digital-Twin.ics">Virtual</a>
+<a href="/assets/Melding Digital Twin and Live Experimentation to Optimize ED Staffing Alignment.ics">Virtual</a>
 
 
 

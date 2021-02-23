@@ -1,0 +1,73 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Microsoft Corporation//Outlook for Mac MIMEDIR//EN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Eastern Time (US & Canada)
+X-ENTOURAGE-CFTIMEZONE:US/Eastern
+X-ENTOURAGE-TZID:4
+BEGIN:STANDARD
+RRULE:FREQ=YEARLY;INTERVAL=1;BYSECOND=0;BYMINUTE=0;BYHOUR=2;BYDAY=1SU;BYMO
+ NTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+DTSTART:20071104T020000
+END:STANDARD
+BEGIN:DAYLIGHT
+RRULE:FREQ=YEARLY;INTERVAL=1;BYSECOND=0;BYMINUTE=0;BYHOUR=2;BYDAY=2SU;BYMO
+ NTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+DTSTART:20070311T020000
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:040000008200E00074C5B7101A82E008000000000BF610B4F609D70100000000000000
+ 0010000000DE1971BA44990D478588A3D45231D2FF
+X-ENTOURAGE_UUID:DB60CAC7-3BA5-4564-B176-C869084672D4
+X-MICROSOFT-EXCHANGE-ID:AAMkAGVhODQxZTYzLWE1MDgtNGRlZC1iNTI0LWU2Y2ZlMWJhNj
+ NkNgBGAAAAAAB0VC2Vw3otTY-fbVcKzAMCBwAoxXyAQIDkT56D1eoRRgZ-AAAAgbGuAAAgriCQ
+ Q6CcQqfyw6yVA_1oAAJwSoftAAA=
+X-MICROSOFT-EXCHANGE-CHANGEKEY:IK4gkEOgnEKn8sOslQPtaAACb1kwIA==
+DTSTAMP:20210223T152003Z
+DTSTART;TZID="Eastern Time (US & Canada)":20210326T120000
+DTEND;TZID="Eastern Time (US & Canada)":20210326T130000
+LAST-MODIFIED:20210223T152003Z
+SUMMARY:Melding Digital Twin and Live Experimentation to Optimize ED
+  Staffing Alignment 
+DESCRIPTION:The ability to dynamically optimize staffing is crucial to an
+  efficient Emergency Department\; the COVID19 pandemic has highlighted
+  even more clearly the need for agile responses to rapidly changing
+  circumstances. We will present a digital simulation that enables ED
+  Operations Leadership to model multiple variables rapidly and predict
+  changes to key ED metrics based on variations in productivity and
+  throughput.\nSpeakers/Discussion\nKeith C. Hemmert\, MD Medical
+  Director\, Department of Emergency Medicine\n\nAsaf Hanish\, MPH Senior
+  Data Scientist\, Predictive Healthcare\n\nVincent Collins Data Analyst\,
+  Patient Care & Clinical Productivity\, Department of Emergency
+  Medicine\n\nSusan Harkness Regli\, PhD Human Factors Scientist\n\nHisham
+  Valiuddin\, DO Emergency Medicine NPR Medical Providers\n\nClick here to
+  join live
+  event:\n\nhttps://teams.microsoft.com/l/meetup-join/19%3ameeting_YWQ4NzEw
+ MjEtNzgyMi00YmViLWE3NjktN2Q2N2UwMTZmMGZj%40thread.v2/0?context=%7b%22Tid%2
+ 2%3a%2258e32bb7-141e-4bae-af01-f29f2a6613c2%22%2c%22Oid%22%3a%22fe777dbb-4
+ bfd-4275-b5d8-4a1a72b04027%22%2c%22IsBroadcastMeeting%22%3atrue%7d\n\nMarc
+ h 26th\, 2021\, 12:00-1:00pm\n\nMore information about the Predictive
+  Healthcare Speaker
+  Series\n\nhttp://predictivehealthcare.pennmedicine.org/speaker-series/\n\
+ n\n\n\n\n
+LOCATION:Teams Live Event 
+ORGANIZER:MAILTO:Corey.Chivers@pennmedicine.upenn.edu
+SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-INSTTYPE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT00H05M00S
+END:VALARM
+END:VEVENT
+END:VCALENDAR
