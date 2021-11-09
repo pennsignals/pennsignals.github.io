@@ -31,6 +31,19 @@ slug: speaker-series
 
 Speaker/Topic Suggestions? <i class="fa fa-envelope"></i><a href="mailto:pennsignals@uphs.upenn.edu"> Email Us</a>
 
+#### Leveraging Electronic Health Records to Improve Disease Diagnosis: Study Design and Analysis Considerations
+**Dec 17th, 2021, 11:00-12:00pm** <!-- <a href=".ics">Add to Calendar</a> -->
+<img src="https://user-images.githubusercontent.com/1396669/140951857-61030399-c4ea-44a0-97b8-729d32d4f991.png" ALIGN="left" HSPACE="30" VSPACE="10">
+
+##### Speaker
+**Jinbo Chen, Ph.D.**, Professor of Biostatistics; Director, Statistical Center for Translational Research in Medicine; Department of Biostatistics, Epidemiology & Informatics, University of Pennsylvania Perelman School of Medicine
+
+
+##### Location
+
+<a href=".ics">Virtual</a>
+<p><br></p>
+
 
 #### Melding Digital Twin and Live Experimentation to Optimize ED Staffing Alignment
 **March 26th, 2021, 12:00-1:00pm** <a href="/assets/Melding Digital Twin and Live Experimentation to Optimize ED Staffing Alignment.ics">Add to Calendar</a>
