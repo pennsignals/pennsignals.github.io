@@ -32,7 +32,7 @@ slug: speaker-series
 Speaker/Topic Suggestions? <i class="fa fa-envelope"></i><a href="mailto:pennsignals@uphs.upenn.edu"> Email Us</a>
 
 #### Leveraging Electronic Health Records to Improve Disease Diagnosis: Study Design and Analysis Considerations
-**Dec 17th, 2021, 11:00-12:00pm** <!-- <a href=".ics">Add to Calendar</a> -->
+**Dec 17th, 2021, 11:00-12:00pm** <a href="/assets/Predictive Healthcare Speaker Series- Jinbo Chen, PhD.ics">Add to Calendar</a>
 <img src="https://user-images.githubusercontent.com/1396669/140951857-61030399-c4ea-44a0-97b8-729d32d4f991.png" ALIGN="left" HSPACE="30" VSPACE="10">
 
 ##### Speaker
@@ -41,7 +41,7 @@ Speaker/Topic Suggestions? <i class="fa fa-envelope"></i><a href="mailto:pennsig
 
 ##### Location
 
-<a href=".ics">Virtual</a>
+<a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTUwZjAxOWQtOTZhMi00ZTVhLThmZWQtYjJlN2Y4MjUxM2Rj%40thread.v2/0?context=%7b%22Tid%22%3a%2258e32bb7-141e-4bae-af01-f29f2a6613c2%22%2c%22Oid%22%3a%22fe777dbb-4bfd-4275-b5d8-4a1a72b04027%22%2c%22IsBroadcastMeeting%22%3atrue%7d&btype=a&role=a">Virtual</a>
 <p><br></p>
 
 
