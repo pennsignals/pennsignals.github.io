@@ -31,6 +31,22 @@ slug: speaker-series
 
 Speaker/Topic Suggestions? <i class="fa fa-envelope"></i><a href="mailto:pennsignals@uphs.upenn.edu"> Email Us</a>
 
+___
+
+#### Leveraging Electronic Health Records to Improve Disease Diagnosis: Study Design and Analysis Considerations
+**Dec 17th, 2021, 11:00-12:00pm** <a href="/assets/Predictive Healthcare Speaker Series- Jinbo Chen, PhD.ics">Add to Calendar</a>
+<img src="https://user-images.githubusercontent.com/1396669/140951857-61030399-c4ea-44a0-97b8-729d32d4f991.png" ALIGN="left" HSPACE="30" VSPACE="10">
+
+##### Speaker
+**Jinbo Chen, Ph.D.**, Professor of Biostatistics; Director, Statistical Center for Translational Research in Medicine; Department of Biostatistics, Epidemiology & Informatics, University of Pennsylvania Perelman School of Medicine
+
+
+##### Location
+
+<a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTUwZjAxOWQtOTZhMi00ZTVhLThmZWQtYjJlN2Y4MjUxM2Rj%40thread.v2/0?context=%7b%22Tid%22%3a%2258e32bb7-141e-4bae-af01-f29f2a6613c2%22%2c%22Oid%22%3a%22fe777dbb-4bfd-4275-b5d8-4a1a72b04027%22%2c%22IsBroadcastMeeting%22%3atrue%7d&btype=a&role=a">Virtual</a>
+<p><br></p>
+
+___
 
 #### Melding Digital Twin and Live Experimentation to Optimize ED Staffing Alignment
 **March 26th, 2021, 12:00-1:00pm** <a href="/assets/Melding Digital Twin and Live Experimentation to Optimize ED Staffing Alignment.ics">Add to Calendar</a>
@@ -54,6 +70,7 @@ The ability to dynamically optimize staffing is crucial to an efficient Emergenc
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QA1l1HtL5Vs?start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
 
+___
 
 ####  Successful integration of deep learning into clinical care at Duke to improve sepsis care: an interdisciplinary discussion
 **November 12th, 2020, 12:00-1:00pm** <a href="/assets/Predictive Healthcare Speaker Series- Duke Sepsis Watch.ics">Add to Calendar</a>
@@ -75,6 +92,8 @@ The ability to dynamically optimize staffing is crucial to an efficient Emergenc
 <a href="/assets/Predictive Healthcare Speaker Series- Duke Sepsis Watch.ics">Virtual</a>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4IXU3gimYyk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+___
     
 ####  Predictive Healthcare Speaker Series - Jon Pomeroy
 
@@ -93,6 +112,8 @@ Flyers/76ers Surgery Theatre
 **February 28th, 2020, 11:00-12:00pm**
 
 <a href="/assets/Predictive Healthcare Speaker Series - Jon Pomeroy.ics">Add to Calendar</a>
+
+___
 
 ####  Inaugural Predictive Healthcare Speaker Series Talk
 
