@@ -43,7 +43,7 @@ ___
 
 ##### Location
 
-<a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTUwZjAxOWQtOTZhMi00ZTVhLThmZWQtYjJlN2Y4MjUxM2Rj%40thread.v2/0?context=%7b%22Tid%22%3a%2258e32bb7-141e-4bae-af01-f29f2a6613c2%22%2c%22Oid%22%3a%22fe777dbb-4bfd-4275-b5d8-4a1a72b04027%22%2c%22IsBroadcastMeeting%22%3atrue%7d&btype=a&role=a">Virtual</a>
+<a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_YzVhNTBiOTItMzYzMy00MzUyLWIwZDUtNjVmMGViNTA0YTNi%40thread.v2/0?context=%7b%22Tid%22%3a%2258e32bb7-141e-4bae-af01-f29f2a6613c2%22%2c%22Oid%22%3a%22fe777dbb-4bfd-4275-b5d8-4a1a72b04027%22%7d">Virtual</a>
 <p><br></p>
 
 ___
