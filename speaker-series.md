@@ -40,6 +40,8 @@ ___
 ##### Speaker
 **Jinbo Chen, Ph.D.**, Professor of Biostatistics; Director, Statistical Center for Translational Research in Medicine; Department of Biostatistics, Epidemiology & Informatics, University of Pennsylvania Perelman School of Medicine
 
+##### Abstract
+In the context of several predictive healthcare projects based on Penn medicine EHR, Dr. Chen will highlight challenges in using EHR data for research towards improved disease diagnosis and clinical decision making, including EHR phenotyping, data under-reporting, data incompleteness, and data drifting. Dr. Chen will discuss study designs and statistical methods that they have developed to address these challenges.
 
 ##### Location
 
