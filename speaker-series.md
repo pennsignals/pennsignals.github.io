@@ -33,6 +33,26 @@ Speaker/Topic Suggestions? <i class="fa fa-envelope"></i><a href="mailto:pennsig
 
 ___
 
+#### System Pulse: Enabling a Learning Health System in the Heart and Vascular Service Line
+**Jan 28th, 2022, 11:00-12:00pm** <a href="/assets/Predictive Healthcare Speaker Series- HVSL.ics">Add to Calendar</a>
+<img src="https://user-images.githubusercontent.com/1396669/150809505-3c5e6c4b-7b6f-43a1-9438-5fd7a8cc6965.png" ALIGN="left" HSPACE="30" VSPACE="10">
+
+##### Speakers
+- **Nimesh Desai, MD, PhD** Director, Thoracic Aortic Surgery Research Program, Associate Professor of Surgery at the Hospital of the University of Pennsylvania
+- **Stephanie Ottemiller MSN RN CSSGB** Associate Director of Clinical Outcomes at Penn Medicine
+- **Thaibinh Luong, PhD** Senior Data Scientist, Predictive Healthcare, Penn Medicine
+
+##### Abstract
+The Heart and Vascular Service Line (HVSL) is moving towards managing quality of care with a Learning Health System (LHS) framework. Currently, the HVSL obtains quality metrics that are more than six months old and are not specific to Penn Medicine care. The lack of access to this information in a timely manner limits the impact of quality improvement, research, innovation, and publishing, affecting care for patients and HVSL program evaluations.
+
+A key piece of the Learning Health System framework is a process and tool to identify unexpected patient outcomes based on patient characteristics and clinical care. With the pilot project in Cardiac Surgery, dubbed System Pulse, risk-adjusted patient outcomes are visualized to identify statistically significant trends, and quality metrics are derived 6-to-12-months sooner than report releases. Dr. Nimesh Desai will detail the design and methods that were used to develop System Pulse.
+
+##### Location
+
+<a href="https://teams.com">Virtual</a>
+<p><br></p>
+___
+
 #### Leveraging Electronic Health Records to Improve Disease Diagnosis: Study Design and Analysis Considerations
 **Dec 17th, 2021, 11:00-12:00pm** <a href="/assets/Predictive Healthcare Speaker Series- Jinbo Chen, PhD.ics">Add to Calendar</a>
 <img src="https://user-images.githubusercontent.com/1396669/140951857-61030399-c4ea-44a0-97b8-729d32d4f991.png" ALIGN="left" HSPACE="30" VSPACE="10">
