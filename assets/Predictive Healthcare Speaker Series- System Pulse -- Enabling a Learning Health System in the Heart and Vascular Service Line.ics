@@ -28,20 +28,21 @@ X-ENTOURAGE_UUID:029B9786-CF20-4733-BA21-8FD6A55B6A67
 X-MICROSOFT-EXCHANGE-ID:AAMkAGVhODQxZTYzLWE1MDgtNGRlZC1iNTI0LWU2Y2ZlMWJhNj
  NkNgBGAAAAAAB0VC2Vw3otTY-fbVcKzAMCBwAoxXyAQIDkT56D1eoRRgZ-AAAAgbGuAAAgriCQ
  Q6CcQqfyw6yVA_1oAANNg_5mAAA=
-X-MICROSOFT-EXCHANGE-CHANGEKEY:IK4gkEOgnEKn8sOslQPtaAADS/FH3g==
-DTSTAMP:20220124T160342Z
-DTSTART;TZID="Eastern Time (US & Canada)":20220128T110000
-DTEND;TZID="Eastern Time (US & Canada)":20220128T120000
-LAST-MODIFIED:20220124T160342Z
+X-MICROSOFT-EXCHANGE-CHANGEKEY:IK4gkEOgnEKn8sOslQPtaAADTTRCBA==
+DTSTAMP:20220124T234816Z
+DTSTART;TZID="Eastern Time (US & Canada)":20220128T120000
+DTEND;TZID="Eastern Time (US & Canada)":20220128T130000
+LAST-MODIFIED:20220124T234816Z
 SUMMARY:Predictive Healthcare Speaker Series: System Pulse -- Enabling a
   Learning Health System in the Heart and Vascular Service Line
-DESCRIPTION:System Pulse: Enabling a Learning Health System in the Heart
-  and Vascular Service Line\nJan 28th\, 2022\, 11:00-12:00pm\nSpeakers\n·
-         Nimesh Desai\, MD\, PhD Director\, Thoracic Aortic Surgery
-  Research Program\, Associate Professor of Surgery at the Hospital of the
-  University of Pennsylvania\n\n·        Stephanie Ottemiller MSN RN
-  CSSGB Associate Director of Clinical Outcomes at Penn Medicine\n\n·
-         Thaibinh Luong\, PhD Senior Data Scientist\, Predictive
+DESCRIPTION:Moved back 1 hour due to last minute schedule change.
+  Hopefully folks can still make it!\nSystem Pulse: Enabling a Learning
+  Health System in the Heart and Vascular Service Line\nJan 28th\, 2022\,
+  12:00-1:00pm\nSpeakers\nNimesh Desai\, MD\, PhD Director\, Thoracic
+  Aortic Surgery Research Program\, Associate Professor of Surgery at the
+  Hospital of the University of Pennsylvania\n\nStephanie Ottemiller MSN
+  RN CSSGB Associate Director of Clinical Outcomes at Penn
+  Medicine\n\nThaibinh Luong\, PhD Senior Data Scientist\, Predictive
   Healthcare\, Penn Medicine\n\nThe Heart and Vascular Service Line (HVSL)
   is moving towards managing quality of care with a Learning Health System
   (LHS) framework. Currently\, the HVSL obtains quality metrics that are
@@ -57,19 +58,19 @@ DESCRIPTION:System Pulse: Enabling a Learning Health System in the Heart
   6-to-12-months sooner than report releases. The project team will detail
   the design and methods that were used to develop System
   Pulse.\n\nhttp://predictivehealthcare.pennmedicine.org/speaker-series/\n\
- n \n\nPlease forward to your interested colleagues!\n\n
+ n \n\nPlease forward to your interested colleagues!\n\n \n\n
   \n\n_____________________________________________________________________
- ___________ \nMicrosoft Teams meeting \nJoin on your computer or mobile
-  app \nClick here to join the meeting \nLearn More | Help | Meeting
-  options | Legal
-  \n_______________________________________________________________________
- _________ \n
+ ___________ \n\nMicrosoft Teams meeting \n\nJoin on your computer or
+  mobile app \n\nClick here to join the meeting \n\nLearn More | Help |
+  Meeting options | Legal
+  \n\n_____________________________________________________________________
+ ___________ \n
 LOCATION:Microsoft Teams Meeting
 ORGANIZER:MAILTO:Corey.Chivers@pennmedicine.upenn.edu
 SEQUENCE:0
 ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Adusumalli,
-  Srinath";PARTSTAT=ACCEPTED:MAILTO:Srinath.Adusumalli@pennmedicine.upenn.e
- du
+  Srinath";PARTSTAT=NEEDS-ACTION:MAILTO:Srinath.Adusumalli@pennmedicine.upe
+ nn.edu
 ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Amato,
   Frank";PARTSTAT=NEEDS-ACTION:MAILTO:Frank.Amato@pennmedicine.upenn.edu
 ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Amer,
@@ -139,7 +140,7 @@ ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Bellamy,
 ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Bennett,
   Kyle";PARTSTAT=NEEDS-ACTION:MAILTO:Kyle.Bennett@pennmedicine.upenn.edu
 ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Berger,
-  Rachel";PARTSTAT=NEEDS-ACTION:MAILTO:Rachel.Berger@pennmedicine.upenn.edu
+  Rachel";PARTSTAT=DECLINED:MAILTO:Rachel.Berger@pennmedicine.upenn.edu
 ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Berkow,
   Don";PARTSTAT=NEEDS-ACTION:MAILTO:Don.Berkow@pennmedicine.upenn.edu
 ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Bermudez,
@@ -455,7 +456,7 @@ ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Grant,
   Brandon";PARTSTAT=NEEDS-ACTION:MAILTO:Brandon.Grant@pennmedicine.upenn.ed
  u
 ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Greenwood,
-  John";PARTSTAT=NEEDS-ACTION:MAILTO:John.Greenwood@pennmedicine.upenn.edu
+  John";PARTSTAT=DECLINED:MAILTO:John.Greenwood@pennmedicine.upenn.edu
 ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Groeneveld,
   Peter";PARTSTAT=NEEDS-ACTION:MAILTO:petergro@pennmedicine.upenn.edu
 ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Gruntkowski, Grace
@@ -496,7 +497,7 @@ ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Herman,
   Daniel";PARTSTAT=NEEDS-ACTION:MAILTO:Daniel.Herman2@pennmedicine.upenn.ed
  u
 ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Hess, Andrew
-  J";PARTSTAT=ACCEPTED:MAILTO:Andrew.Hess@pennmedicine.upenn.edu
+  J";PARTSTAT=NEEDS-ACTION:MAILTO:Andrew.Hess@pennmedicine.upenn.edu
 ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Hetu, Maureen
   M";PARTSTAT=NEEDS-ACTION:MAILTO:Maureen.Hetu@Pennmedicine.upenn.edu
 ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Hickson,
@@ -618,7 +619,7 @@ ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Kruse,
   Victoria";PARTSTAT=NEEDS-ACTION:MAILTO:Victoria.Kruse@Pennmedicine.upenn.
  edu
 ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Kwong,
-  Pui";PARTSTAT=ACCEPTED:MAILTO:luikwong@pennmedicine.upenn.edu
+  Pui";PARTSTAT=NEEDS-ACTION:MAILTO:luikwong@pennmedicine.upenn.edu
 ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Lamore, Raymond
   F";PARTSTAT=NEEDS-ACTION:MAILTO:Raymond.Lamore@pennmedicine.upenn.edu
 ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Landgraf,
@@ -646,7 +647,7 @@ ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Lenhard,
 ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Leri,
   Damien";PARTSTAT=NEEDS-ACTION:MAILTO:Damien.Leri@pennmedicine.upenn.edu
 ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Lerman,
-  Caryn";PARTSTAT=NEEDS-ACTION:MAILTO:Caryn.Lerman@med.usc.edu
+  Caryn";PARTSTAT=DECLINED:MAILTO:Caryn.Lerman@med.usc.edu
 ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Li,
   Dexin";PARTSTAT=NEEDS-ACTION:MAILTO:Dexin.Li@pennmedicine.upenn.edu
 ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Lieberman,
@@ -812,7 +813,7 @@ ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Mueller Gildea,
   Melissa";PARTSTAT=NEEDS-ACTION:MAILTO:Melissa.MuellerGildea@pennmedicine.
  upenn.edu
 ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Mull,
-  Nikhil";PARTSTAT=TENTATIVE:MAILTO:Nikhil.Mull@pennmedicine.upenn.edu
+  Nikhil";PARTSTAT=NEEDS-ACTION:MAILTO:Nikhil.Mull@pennmedicine.upenn.edu
 ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Murphy, Alice
   M";PARTSTAT=NEEDS-ACTION:MAILTO:Alice.Murphy@pennmedicine.upenn.edu
 ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Murphy,
@@ -923,7 +924,7 @@ ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Piton,
 ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Pollock,
   Kevin";PARTSTAT=NEEDS-ACTION:MAILTO:Kevin.Pollock@pennmedicine.upenn.edu
 ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Pomeroy, Jon
-  K";PARTSTAT=NEEDS-ACTION:MAILTO:Jon.Pomeroy@pennmedicine.upenn.edu
+  K";PARTSTAT=TENTATIVE:MAILTO:Jon.Pomeroy@pennmedicine.upenn.edu
 ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Prelic,
   Ana";PARTSTAT=NEEDS-ACTION:MAILTO:Ana.Prelic@Pennmedicine.upenn.edu
 ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Puchon,
@@ -1097,8 +1098,7 @@ ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Soegiyono,
   Lydia";PARTSTAT=NEEDS-ACTION:MAILTO:Lydia.Soegiyono@pennmedicine.upenn.ed
  u
 ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Spahr,
-  Melissa";PARTSTAT=NEEDS-ACTION:MAILTO:Melissa.Spahr@pennmedicine.upenn.ed
- u
+  Melissa";PARTSTAT=ACCEPTED:MAILTO:Melissa.Spahr@pennmedicine.upenn.edu
 ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Stabile,
   David";PARTSTAT=NEEDS-ACTION:MAILTO:David.Stabile@pennmedicine.upenn.edu
 ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Staehle,
@@ -1298,6 +1298,21 @@ ATTENDEE;ROLE=OPT-PARTICIPANT;RSVP=FALSE;CN=Phishing;PARTSTAT=NEEDS-ACTION
  :MAILTO:phishing@lghealth.org
 ATTENDEE;ROLE=OPT-PARTICIPANT;RSVP=FALSE;CN=pennmedicine@phish.air.agari.c
  om;PARTSTAT=NEEDS-ACTION:MAILTO:pennmedicine@phish.air.agari.com
+ATTENDEE;ROLE=OPT-PARTICIPANT;RSVP=FALSE;CN="Meyer,
+  Nuala";PARTSTAT=NEEDS-ACTION:MAILTO:Nuala.Meyer@pennmedicine.upenn.edu
+ATTENDEE;ROLE=OPT-PARTICIPANT;RSVP=FALSE;CN="Carannante, Anthony
+  G";PARTSTAT=NEEDS-ACTION:MAILTO:Anthony.Carannante@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=OPT-PARTICIPANT;RSVP=FALSE;CN="Dearing, Christopher
+  W";PARTSTAT=NEEDS-ACTION:MAILTO:Christopher.Dearing@Pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=OPT-PARTICIPANT;RSVP=FALSE;CN="Mountain, Rebecca
+  C";PARTSTAT=NEEDS-ACTION:MAILTO:Rebecca.Mountain@pennmedicine.upenn.edu
+ATTENDEE;ROLE=OPT-PARTICIPANT;RSVP=FALSE;CN="Martin, Timothy
+  R";PARTSTAT=NEEDS-ACTION:MAILTO:Timothy.Martin@pennmedicine.upenn.edu
+ATTENDEE;ROLE=OPT-PARTICIPANT;RSVP=FALSE;CN="Scott,
+  Sharon";PARTSTAT=NEEDS-ACTION:MAILTO:Sharon.Scott1@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=OPT-PARTICIPANT;RSVP=FALSE;CN="Mcbeth, Rafe
+  A";PARTSTAT=NEEDS-ACTION:MAILTO:Rafe.Mcbeth@Pennmedicine.upenn.edu
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
