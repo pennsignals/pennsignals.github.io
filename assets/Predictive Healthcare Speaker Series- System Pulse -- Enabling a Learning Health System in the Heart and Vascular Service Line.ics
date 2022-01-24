@@ -1,0 +1,1312 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Microsoft Corporation//Outlook for Mac MIMEDIR//EN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Eastern Time (US & Canada)
+X-ENTOURAGE-CFTIMEZONE:US/Eastern
+X-ENTOURAGE-TZID:4
+BEGIN:STANDARD
+RRULE:FREQ=YEARLY;INTERVAL=1;BYSECOND=0;BYMINUTE=0;BYHOUR=2;BYDAY=1SU;BYMO
+ NTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+DTSTART:20071104T020000
+END:STANDARD
+BEGIN:DAYLIGHT
+RRULE:FREQ=YEARLY;INTERVAL=1;BYSECOND=0;BYMINUTE=0;BYHOUR=2;BYDAY=2SU;BYMO
+ NTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+DTSTART:20070311T020000
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:040000008200E00074C5B7101A82E00800000000079A9EAF3B11D80100000000000000
+ 001000000058A46C88D2B99F4A878BD08FAD98C000
+X-ENTOURAGE_UUID:029B9786-CF20-4733-BA21-8FD6A55B6A67
+X-MICROSOFT-EXCHANGE-ID:AAMkAGVhODQxZTYzLWE1MDgtNGRlZC1iNTI0LWU2Y2ZlMWJhNj
+ NkNgBGAAAAAAB0VC2Vw3otTY-fbVcKzAMCBwAoxXyAQIDkT56D1eoRRgZ-AAAAgbGuAAAgriCQ
+ Q6CcQqfyw6yVA_1oAANNg_5mAAA=
+X-MICROSOFT-EXCHANGE-CHANGEKEY:IK4gkEOgnEKn8sOslQPtaAADS/FH3g==
+DTSTAMP:20220124T160342Z
+DTSTART;TZID="Eastern Time (US & Canada)":20220128T110000
+DTEND;TZID="Eastern Time (US & Canada)":20220128T120000
+LAST-MODIFIED:20220124T160342Z
+SUMMARY:Predictive Healthcare Speaker Series: System Pulse -- Enabling a
+  Learning Health System in the Heart and Vascular Service Line
+DESCRIPTION:System Pulse: Enabling a Learning Health System in the Heart
+  and Vascular Service Line\nJan 28th\, 2022\, 11:00-12:00pm\nSpeakers\n·
+         Nimesh Desai\, MD\, PhD Director\, Thoracic Aortic Surgery
+  Research Program\, Associate Professor of Surgery at the Hospital of the
+  University of Pennsylvania\n\n·        Stephanie Ottemiller MSN RN
+  CSSGB Associate Director of Clinical Outcomes at Penn Medicine\n\n·
+         Thaibinh Luong\, PhD Senior Data Scientist\, Predictive
+  Healthcare\, Penn Medicine\n\nThe Heart and Vascular Service Line (HVSL)
+  is moving towards managing quality of care with a Learning Health System
+  (LHS) framework. Currently\, the HVSL obtains quality metrics that are
+  more than six months old and are not specific to Penn Medicine care. The
+  lack of access to this information in a timely manner limits the impact
+  of quality improvement\, research\, innovation\, and publishing\,
+  affecting care for patients and HVSL program evaluations.\n\nA key piece
+  of the Learning Health System framework is a process and tool to
+  identify unexpected patient outcomes based on patient characteristics
+  and clinical care. With the pilot project in Cardiac Surgery\, dubbed
+  System Pulse\, risk-adjusted patient outcomes are visualized to identify
+  statistically significant trends\, and quality metrics are derived
+  6-to-12-months sooner than report releases. The project team will detail
+  the design and methods that were used to develop System
+  Pulse.\n\nhttp://predictivehealthcare.pennmedicine.org/speaker-series/\n\
+ n \n\nPlease forward to your interested colleagues!\n\n
+  \n\n_____________________________________________________________________
+ ___________ \nMicrosoft Teams meeting \nJoin on your computer or mobile
+  app \nClick here to join the meeting \nLearn More | Help | Meeting
+  options | Legal
+  \n_______________________________________________________________________
+ _________ \n
+LOCATION:Microsoft Teams Meeting
+ORGANIZER:MAILTO:Corey.Chivers@pennmedicine.upenn.edu
+SEQUENCE:0
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Adusumalli,
+  Srinath";PARTSTAT=ACCEPTED:MAILTO:Srinath.Adusumalli@pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Amato,
+  Frank";PARTSTAT=NEEDS-ACTION:MAILTO:Frank.Amato@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Amer,
+  Deborah";PARTSTAT=NEEDS-ACTION:MAILTO:Deborah.Amer@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Anderson,
+  Amy";PARTSTAT=NEEDS-ACTION:MAILTO:Amy.Anderson1@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Anderson, Brian
+  J";PARTSTAT=NEEDS-ACTION:MAILTO:Brian.Anderson@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Anderson,
+  Nate";PARTSTAT=NEEDS-ACTION:MAILTO:Nate.Anderson@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Andy, Anietie
+  U";PARTSTAT=NEEDS-ACTION:MAILTO:Anietie.Andy@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Arnold,
+  Anne";PARTSTAT=NEEDS-ACTION:MAILTO:Anne.Arnold@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Artwell,
+  Debra";PARTSTAT=NEEDS-ACTION:MAILTO:Debra.Artwell@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Asch,
+  David";PARTSTAT=NEEDS-ACTION:MAILTO:asch@wharton.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Asport,
+  Nelson";PARTSTAT=NEEDS-ACTION:MAILTO:Nelson.Asport@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Aysola,
+  Jaya";PARTSTAT=NEEDS-ACTION:MAILTO:jaysola@upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Baig,
+  Emad";PARTSTAT=NEEDS-ACTION:MAILTO:Emad.Baig@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Bailey,
+  Jasmine";PARTSTAT=NEEDS-ACTION:MAILTO:Jasmine.Bailey@Pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Balasubramanian,
+  Senthil";PARTSTAT=NEEDS-ACTION:MAILTO:Senthil.Balasubramanian@pennmedicin
+ e.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="x-Bandali,
+  Aiman";PARTSTAT=NEEDS-ACTION:MAILTO:Aiman.Bandali@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Barbeau,
+  James";PARTSTAT=NEEDS-ACTION:MAILTO:James.Barbeau@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Barger,
+  Jennifer";PARTSTAT=NEEDS-ACTION:MAILTO:Jennifer.Barger@pennmedicine.upenn
+ .edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Bartley,
+  Mike";PARTSTAT=NEEDS-ACTION:MAILTO:Michael.Bartley@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Baumlin,
+  Kevin";PARTSTAT=NEEDS-ACTION:MAILTO:Kevin.Baumlin@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Bautista,
+  Ceasar";PARTSTAT=NEEDS-ACTION:MAILTO:Ceasar.Bautista@pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Beadle,
+  Michael";PARTSTAT=NEEDS-ACTION:MAILTO:Michael.Beadle@pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Becher, Lauren
+  K";PARTSTAT=NEEDS-ACTION:MAILTO:Lauren.Becher@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Becker,
+  Michael";PARTSTAT=NEEDS-ACTION:MAILTO:Michael.Becker@pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Becker,
+  Wade";PARTSTAT=NEEDS-ACTION:MAILTO:Wade.Becker@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Behta,
+  Maryam";PARTSTAT=NEEDS-ACTION:MAILTO:Maryam.Behta@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Beidas,
+  Rinad";PARTSTAT=NEEDS-ACTION:MAILTO:Rinad.Beidas@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Beinlich,
+  Jim";PARTSTAT=NEEDS-ACTION:MAILTO:James.Beinlich@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Bekelman,
+  Justin";PARTSTAT=NEEDS-ACTION:MAILTO:Justin.Bekelman@pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Bellamy,
+  Cassandra";PARTSTAT=NEEDS-ACTION:MAILTO:Cassandra.Bellamy@pennmedicine.up
+ enn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Bennett,
+  Kyle";PARTSTAT=NEEDS-ACTION:MAILTO:Kyle.Bennett@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Berger,
+  Rachel";PARTSTAT=NEEDS-ACTION:MAILTO:Rachel.Berger@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Berkow,
+  Don";PARTSTAT=NEEDS-ACTION:MAILTO:Don.Berkow@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Bermudez,
+  Ivette";PARTSTAT=NEEDS-ACTION:MAILTO:ivette.bermudez@pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Bernick,
+  Sara";PARTSTAT=NEEDS-ACTION:MAILTO:Sara.Bernick@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Berthold,
+  Lawrence";PARTSTAT=NEEDS-ACTION:MAILTO:Lawrence.Berthold@pennmedicine.upe
+ nn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Biggs,
+  Lanette";PARTSTAT=NEEDS-ACTION:MAILTO:Lanette.Biggs@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Billoni MD, Philip
+  J";PARTSTAT=NEEDS-ACTION:MAILTO:Philip.Billoni@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Bleacher, Troy
+  E";PARTSTAT=NEEDS-ACTION:MAILTO:Troy.Bleacher@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Bleznuck, Joseph
+  (UPHS)";PARTSTAT=NEEDS-ACTION:MAILTO:Joseph.Bleznuck@pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Blumenthal,
+  Daniel";PARTSTAT=NEEDS-ACTION:MAILTO:Daniel.Blumenthal@Pennmedicine.upenn
+ .edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Bob,
+  Anca";PARTSTAT=ACCEPTED:MAILTO:Anca.Bob@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Boedec,
+  Chris";PARTSTAT=NEEDS-ACTION:MAILTO:Christian.Boedec@pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Boensch,
+  Ryan";PARTSTAT=NEEDS-ACTION:MAILTO:Ryan.Boensch@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Borovskiy,
+  Yuliya";PARTSTAT=NEEDS-ACTION:MAILTO:Yuliya.Borovskiy@pennmedicine.upenn.
+ edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Boucher,
+  Russ";PARTSTAT=NEEDS-ACTION:MAILTO:Russell.Boucher@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Boyes,
+  Nicholas";PARTSTAT=NEEDS-ACTION:MAILTO:Nicholas.Boyes@pennmedicine.upenn.
+ edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Boyko,
+  Halyna";PARTSTAT=NEEDS-ACTION:MAILTO:Halyna.Boyko@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Bradley,
+  James";PARTSTAT=NEEDS-ACTION:MAILTO:James.Bradley@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Brazina,
+  Amy";PARTSTAT=NEEDS-ACTION:MAILTO:Amy.Brazina@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Brennan MD,
+  P.J.";PARTSTAT=NEEDS-ACTION:MAILTO:PJ.Brennan@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Brinker,
+  Baird";PARTSTAT=NEEDS-ACTION:MAILTO:Baird.Brinker@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Briones, Santana
+  M";PARTSTAT=NEEDS-ACTION:MAILTO:Santana.Briones@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Brosey, Lisa
+  A";PARTSTAT=NEEDS-ACTION:MAILTO:Lisa.Brosey@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Brown, Melissa
+  (IS)";PARTSTAT=NEEDS-ACTION:MAILTO:Melissa.Brown@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Brown,
+  Rita";PARTSTAT=NEEDS-ACTION:MAILTO:Rita.Brown@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Brown-McGlotten,
+  Dawn";PARTSTAT=NEEDS-ACTION:MAILTO:Dawn.BrownMcGlotten@pennmedicine.upenn
+ .edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Bryant, Jacqueline
+  K";PARTSTAT=NEEDS-ACTION:MAILTO:Jacqueline.Bryant@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Bryson,
+  Rick";PARTSTAT=NEEDS-ACTION:MAILTO:Richard.Bryson@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Burgess,
+  Tanya";PARTSTAT=NEEDS-ACTION:MAILTO:Tanya.Burgess@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Burmylo,
+  Alec";PARTSTAT=NEEDS-ACTION:MAILTO:Alec.Burmylo@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Buzzard,
+  Matthew";PARTSTAT=NEEDS-ACTION:MAILTO:Matthew.Buzzard@pennmedicine.upenn.
+ edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Byfield,
+  Raymond";PARTSTAT=NEEDS-ACTION:MAILTO:Raymond.Byfield@pennmedicine.upenn.
+ edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Mcshane,
+  Caitlyn";PARTSTAT=NEEDS-ACTION:MAILTO:Caitlyn.Mcshane@Pennmedicine.upenn.
+ edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Callan,
+  Patricia";PARTSTAT=NEEDS-ACTION:MAILTO:Patricia.Callan@pennmedicine.upenn
+ .edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Campbell Jr, Raymond
+  E";PARTSTAT=NEEDS-ACTION:MAILTO:Raymond.CampbellJr@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Cao,
+  Yaqi";PARTSTAT=NEEDS-ACTION:MAILTO:Yaqi.Cao@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Capecci,
+  Allison";PARTSTAT=NEEDS-ACTION:MAILTO:Allison.Capecci@Pennmedicine.upenn.
+ edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Carley,
+  Kareema";PARTSTAT=NEEDS-ACTION:MAILTO:Kareema.Carley@Pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Hentz,
+  Kayla";PARTSTAT=NEEDS-ACTION:MAILTO:Kayla.Hentz@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Catallo,
+  Marion";PARTSTAT=NEEDS-ACTION:MAILTO:Marion.Catallo@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Cavella,
+  Ann";PARTSTAT=NEEDS-ACTION:MAILTO:Ann.Cavella@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Chaiyachati,
+  Krisda";PARTSTAT=NEEDS-ACTION:MAILTO:Krisda.Chaiyachati@pennmedicine.upen
+ n.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Challuri,
+  Sainath";PARTSTAT=NEEDS-ACTION:MAILTO:Sainath.Challuri@pennmedicine.upenn
+ .edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Chan,
+  Patrice";PARTSTAT=NEEDS-ACTION:MAILTO:Patrice.Chan@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Chandler,
+  Dwight";PARTSTAT=NEEDS-ACTION:MAILTO:Dwight.Chandler@Pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN=ChavezLu;PARTSTAT=NEEDS-ACTION
+ :MAILTO:Luis.Chavez@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Chen, Jennifer
+  T";PARTSTAT=NEEDS-ACTION:MAILTO:Jennifer.Chen@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Chen,
+  Jinbo";PARTSTAT=NEEDS-ACTION:MAILTO:jinboche@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Chen,
+  Maylin";PARTSTAT=NEEDS-ACTION:MAILTO:Maylin.Chen@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Cherry,
+  Venus";PARTSTAT=NEEDS-ACTION:MAILTO:Venus.Cherry@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Chiang,
+  Thomas";PARTSTAT=NEEDS-ACTION:MAILTO:Thomas.Chiang@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Childress, Nina
+  E";PARTSTAT=NEEDS-ACTION:MAILTO:Nina.Childress@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Chirackel,
+  Allen";PARTSTAT=NEEDS-ACTION:MAILTO:Allen.Chirackel@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Chiu,
+  Sam";PARTSTAT=NEEDS-ACTION:MAILTO:Ting-Shan.Chiu@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Choi,
+  Katherine";PARTSTAT=NEEDS-ACTION:MAILTO:Katherine.Choi@pennmedicine.upenn
+ .edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Cipolloni,
+  James";PARTSTAT=NEEDS-ACTION:MAILTO:James.Cipolloni@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Clark,
+  Sarah";PARTSTAT=NEEDS-ACTION:MAILTO:Sarah.Clark@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Colavita,
+  Maria";PARTSTAT=NEEDS-ACTION:MAILTO:ColavitM@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Cole, Christopher
+  L";PARTSTAT=NEEDS-ACTION:MAILTO:Christopher.Cole@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Collins,
+  Katie";PARTSTAT=NEEDS-ACTION:MAILTO:Katie.Collins@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Collins, Vincent
+  M";PARTSTAT=NEEDS-ACTION:MAILTO:Vincent.Collins@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Cook,
+  Tessa";PARTSTAT=NEEDS-ACTION:MAILTO:Tessa.Cook@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Cooke,
+  Kelly";PARTSTAT=NEEDS-ACTION:MAILTO:MaryKelly.Cooke@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Cooper,
+  Monica";PARTSTAT=NEEDS-ACTION:MAILTO:Monica.Cooper@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Cortes, Ginger
+  A";PARTSTAT=NEEDS-ACTION:MAILTO:Ginger.Cortes@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Costello, Amanda
+  B";PARTSTAT=NEEDS-ACTION:MAILTO:Amanda.Costello@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN=Courtney.jeune@pennmedicine.up
+ enn.edu;PARTSTAT=NEEDS-ACTION:MAILTO:Courtney.jeune@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Courtright,
+  Katherine";PARTSTAT=NEEDS-ACTION:MAILTO:Katherine.Courtright@pennmedicine
+ .upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Crane, Marc
+  A";PARTSTAT=NEEDS-ACTION:MAILTO:Marc.Crane@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Cranston, Teresa
+  A";PARTSTAT=NEEDS-ACTION:MAILTO:Teresa.Cranston@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Crespy, Scott
+  D";PARTSTAT=NEEDS-ACTION:MAILTO:Scott.Crespy@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Crimins,
+  Neil";PARTSTAT=ACCEPTED:MAILTO:Neil.Crimins@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Cruz, William
+  E.(IS)";PARTSTAT=NEEDS-ACTION:MAILTO:William.Cruz@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Cugini,
+  Victoria";PARTSTAT=NEEDS-ACTION:MAILTO:Victoria.Cugini@pennmedicine.upenn
+ .edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Daniels,
+  Tiffany";PARTSTAT=NEEDS-ACTION:MAILTO:Tiffany.Daniels@pennmedicine.upenn.
+ edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="DeLecce,
+  Danielle";PARTSTAT=NEEDS-ACTION:MAILTO:Danielle.Delecce@pennmedicine.upen
+ n.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="DeVeau,
+  Michelle";PARTSTAT=NEEDS-ACTION:MAILTO:Michelle.Deveau@pennmedicine.upenn
+ .edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Desai,
+  Nimesh";PARTSTAT=NEEDS-ACTION:MAILTO:Nimesh.Desai@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Desantis, Elaina
+  M";PARTSTAT=NEEDS-ACTION:MAILTO:Elaina.Desantis@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Diem,
+  Stephanie";PARTSTAT=NEEDS-ACTION:MAILTO:Stephanie.Diem@pennmedicine.upenn
+ .edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Diu,
+  Kady";PARTSTAT=NEEDS-ACTION:MAILTO:Kady.Diu@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Dixon,
+  Erik";PARTSTAT=NEEDS-ACTION:MAILTO:Erik.Dixon@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Do,
+  David";PARTSTAT=NEEDS-ACTION:MAILTO:David.Do@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Docimo,
+  Marissa";PARTSTAT=NEEDS-ACTION:MAILTO:Marissa.Docimo@pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Domenico, Christopher
+  M";PARTSTAT=NEEDS-ACTION:MAILTO:Christopher.Domenico@pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Donati,
+  Michele";PARTSTAT=NEEDS-ACTION:MAILTO:Michele.Donati@pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Donlon,
+  Ashley";PARTSTAT=NEEDS-ACTION:MAILTO:Ashley.Donlon@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Donnelly,
+  Patrick";PARTSTAT=NEEDS-ACTION:MAILTO:Patrick.Donnelly@pennmedicine.upenn
+ .edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Doucette,
+  Abigail";PARTSTAT=NEEDS-ACTION:MAILTO:Abigail.Doucette@pennmedicine.upenn
+ .edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Dougherty, Andrew
+  L";PARTSTAT=NEEDS-ACTION:MAILTO:Andrew.Dougherty@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Downs, Brieana
+  A";PARTSTAT=NEEDS-ACTION:MAILTO:Brieana.Downs@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Draugelis, Michael
+  E";PARTSTAT=NEEDS-ACTION:MAILTO:Michael.Draugelis@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Eckenhoff,
+  Roderic";PARTSTAT=NEEDS-ACTION:MAILTO:Roderic.Eckenhoff@pennmedicine.upen
+ n.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Eisenstein, Jesse
+  A";PARTSTAT=NEEDS-ACTION:MAILTO:Jesse.Eisenstein@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Elahi,
+  Ameena";PARTSTAT=NEEDS-ACTION:MAILTO:Ameena.Elahi@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Ellison, Tasha
+  R";PARTSTAT=NEEDS-ACTION:MAILTO:Tasha.Ellison@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Epps,
+  Mika";PARTSTAT=NEEDS-ACTION:MAILTO:Mika.Epps@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Espiritu, Ronald
+  A";PARTSTAT=NEEDS-ACTION:MAILTO:Ronald.Espiritu@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Fala,
+  Glenn";PARTSTAT=NEEDS-ACTION:MAILTO:Glenn.Fala@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Falcon,
+  Brian";PARTSTAT=NEEDS-ACTION:MAILTO:Brian.Falcon@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="__Farrell,
+  Patrick";PARTSTAT=NEEDS-ACTION:MAILTO:Patrick.Farrell@PennMedicine.upenn.
+ edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Ferrell,
+  Will";PARTSTAT=NEEDS-ACTION:MAILTO:Will.Ferrell@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Files, Tracy
+  S";PARTSTAT=NEEDS-ACTION:MAILTO:Tracy.Files@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Fischer,
+  Phil";PARTSTAT=NEEDS-ACTION:MAILTO:Phil.Fischer@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Fischman, Alexander
+  S";PARTSTAT=NEEDS-ACTION:MAILTO:Alexander.Fischman@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Fishman,
+  Neil";PARTSTAT=NEEDS-ACTION:MAILTO:Neil.Fishman@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Fitts, Wendy
+  S";PARTSTAT=NEEDS-ACTION:MAILTO:Wendy.Fitts@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Fitzgerald, Lauren
+  E";PARTSTAT=NEEDS-ACTION:MAILTO:Lauren.Fitzgerald@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Foerst,
+  Paris";PARTSTAT=NEEDS-ACTION:MAILTO:Paris-Anne.Foerst@pennmedicine.upenn.
+ edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Fontanez,
+  Marguerite";PARTSTAT=NEEDS-ACTION:MAILTO:Marguerite.Fontanez@pennmedicine
+ .upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Foster,
+  Sean";PARTSTAT=NEEDS-ACTION:MAILTO:Sean.Foster@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Franklyn,
+  Xavier";PARTSTAT=NEEDS-ACTION:MAILTO:Xavier.Franklyn@pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Frazier, Howard
+  C";PARTSTAT=NEEDS-ACTION:MAILTO:Howard.Frazier@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Fuchs,
+  Barry";PARTSTAT=NEEDS-ACTION:MAILTO:Barry.Fuchs@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Fullmer,
+  Allyson";PARTSTAT=NEEDS-ACTION:MAILTO:Allyson.Fullmer@pennmedicine.upenn.
+ edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Gabrielli,
+  Andrea";PARTSTAT=NEEDS-ACTION:MAILTO:Andrea.Gabrielli@pennmedicine.upenn.
+ edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Gabriel,
+  Peter";PARTSTAT=NEEDS-ACTION:MAILTO:Peter.Gabriel@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Gagan, Rory
+  E";PARTSTAT=NEEDS-ACTION:MAILTO:Rory.Gagan@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Gambler, Angela
+  S";PARTSTAT=NEEDS-ACTION:MAILTO:Angela.Gambler@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Gange,
+  Erin";PARTSTAT=NEEDS-ACTION:MAILTO:Erin.Gange@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Garachh, Veraaj
+  V";PARTSTAT=NEEDS-ACTION:MAILTO:Veraaj.Garachh@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Gardner, Daniel (Penn
+  Chart)";PARTSTAT=NEEDS-ACTION:MAILTO:Daniel.Gardner3@pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Gartner,
+  Carly";PARTSTAT=NEEDS-ACTION:MAILTO:Carly.Gartner@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="George, Lisa
+  J";PARTSTAT=NEEDS-ACTION:MAILTO:Lisa.George1@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Giannini, Heather
+  M";PARTSTAT=NEEDS-ACTION:MAILTO:Heather.Giannini@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Gibson,
+  Laura";PARTSTAT=NEEDS-ACTION:MAILTO:gibla@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Gibson, Lauren B
+  (EPIC)";PARTSTAT=NEEDS-ACTION:MAILTO:Lauren.Gibson2@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Ginestra, Jennifer
+  C";PARTSTAT=NEEDS-ACTION:MAILTO:Jennifer.Ginestra@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Gionta,
+  Tracy";PARTSTAT=NEEDS-ACTION:MAILTO:Tracy.Gionta@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Gitelman,
+  Yevgeniy";PARTSTAT=NEEDS-ACTION:MAILTO:Yevgeniy.Gitelman@pennmedicine.upe
+ nn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Glick,
+  Jonathan";PARTSTAT=NEEDS-ACTION:MAILTO:Jonathan.Glick@pennmedicine.upenn.
+ edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Good,
+  Michael";PARTSTAT=NEEDS-ACTION:MAILTO:Michael.Good1@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="x-Grabel,
+  Christopher";PARTSTAT=NEEDS-ACTION:MAILTO:Christopher.Grabel@pennmedicine
+ .upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Grant,
+  Brandon";PARTSTAT=NEEDS-ACTION:MAILTO:Brandon.Grant@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Greenwood,
+  John";PARTSTAT=NEEDS-ACTION:MAILTO:John.Greenwood@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Groeneveld,
+  Peter";PARTSTAT=NEEDS-ACTION:MAILTO:petergro@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Gruntkowski, Grace
+  M";PARTSTAT=NEEDS-ACTION:MAILTO:Grace.Gruntkowski@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Gudowski, Steven
+  W";PARTSTAT=NEEDS-ACTION:MAILTO:Steven.Gudowski@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Guerra,
+  Carmen";PARTSTAT=NEEDS-ACTION:MAILTO:CGuerra@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Hagerty,
+  Kimberly";PARTSTAT=NEEDS-ACTION:MAILTO:Kimberly.Hagerty@pennmedicine.upen
+ n.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Hahn,
+  Joseph";PARTSTAT=NEEDS-ACTION:MAILTO:Joseph.Hahn@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Haines,
+  Marc";PARTSTAT=NEEDS-ACTION:MAILTO:Marc.Haines@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Hamilton, Carolyn
+  (Pathology)";PARTSTAT=NEEDS-ACTION:MAILTO:Carolyn.Hamilton@pennmedicine.u
+ penn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Hanish,
+  Asaf";PARTSTAT=NEEDS-ACTION:MAILTO:Asaf.Hanish@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Hanson,
+  Bill";PARTSTAT=NEEDS-ACTION:MAILTO:William.Hanson@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Harhay,
+  Michael";PARTSTAT=NEEDS-ACTION:MAILTO:mharhay@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Harris, Lisa
+  (EPIC)";PARTSTAT=NEEDS-ACTION:MAILTO:Lisa.Harris@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Heald, Dorie
+  I";PARTSTAT=NEEDS-ACTION:MAILTO:Dorie.Heald@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Heavener, Ryan
+  M";PARTSTAT=NEEDS-ACTION:MAILTO:Ryan.Heavener@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Helme,
+  Suzy";PARTSTAT=NEEDS-ACTION:MAILTO:Suzy.Helme@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Hemmert,
+  Keith";PARTSTAT=NEEDS-ACTION:MAILTO:Keith.Hemmert@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Hepler,
+  Anna";PARTSTAT=NEEDS-ACTION:MAILTO:Anna.Hepler@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Herman,
+  Daniel";PARTSTAT=NEEDS-ACTION:MAILTO:Daniel.Herman2@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Hess, Andrew
+  J";PARTSTAT=ACCEPTED:MAILTO:Andrew.Hess@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Hetu, Maureen
+  M";PARTSTAT=NEEDS-ACTION:MAILTO:Maureen.Hetu@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Hickson,
+  Daryl";PARTSTAT=NEEDS-ACTION:MAILTO:Daryl.Hickson@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Hiltunen,
+  Theresa";PARTSTAT=NEEDS-ACTION:MAILTO:Theresa.Hiltunen@pennmedicine.upenn
+ .edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Hinton,
+  Bernard";PARTSTAT=NEEDS-ACTION:MAILTO:Bernard.Hinton@pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Hoang,
+  Pauline";PARTSTAT=NEEDS-ACTION:MAILTO:Pauline.Hoang@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Holland,
+  Sara";PARTSTAT=NEEDS-ACTION:MAILTO:Sara.Holland@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Holmes, Alexandra (Admin Asst
+  Hosp
+  Dir)";PARTSTAT=NEEDS-ACTION:MAILTO:Alexandra.Holmes2@pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Hong,
+  Michelle";PARTSTAT=NEEDS-ACTION:MAILTO:Michelle.Hong@pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Hossain,
+  Erik";PARTSTAT=NEEDS-ACTION:MAILTO:Erik.Hossain@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Hossain, Robert
+  R";PARTSTAT=NEEDS-ACTION:MAILTO:Robert.Hossain@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Huffenberger,
+  Ann";PARTSTAT=NEEDS-ACTION:MAILTO:Ann.Huffenberger@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Huot,
+  Christopher";PARTSTAT=NEEDS-ACTION:MAILTO:Christopher.Huot@pennmedicine.u
+ penn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Hwang,
+  Sy";PARTSTAT=NEEDS-ACTION:MAILTO:Sy.Hwang@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Hyland,
+  Steven";PARTSTAT=NEEDS-ACTION:MAILTO:Steve.Hyland@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Iocca,
+  Joy";PARTSTAT=NEEDS-ACTION:MAILTO:Joy.Iocca@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Jablonski,
+  Juliane";PARTSTAT=NEEDS-ACTION:MAILTO:Juliane.Jablonski@pennmedicine.upen
+ n.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="James,
+  Maureen";PARTSTAT=NEEDS-ACTION:MAILTO:Maureen.James@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Jankaitis,
+  Al";PARTSTAT=NEEDS-ACTION:MAILTO:Alan.Jankaitis@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="__Jenkins,
+  Andre";PARTSTAT=NEEDS-ACTION:MAILTO:Andre.Jenkins@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Johnson,
+  Allen";PARTSTAT=NEEDS-ACTION:MAILTO:Allen.Johnson@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Johnson,
+  Christina";PARTSTAT=NEEDS-ACTION:MAILTO:Christina.Johnson@Pennmedicine.up
+ enn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Johnston,
+  Chad";PARTSTAT=NEEDS-ACTION:MAILTO:Chad.Johnston@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Jones,
+  Christopher";PARTSTAT=NEEDS-ACTION:MAILTO:Christopher.Jones2@pennmedicine
+ .upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Jove,
+  Alberto";PARTSTAT=NEEDS-ACTION:MAILTO:Alberto.Jove@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Junker,
+  Paul";PARTSTAT=NEEDS-ACTION:MAILTO:Paul.Junker@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Kane,
+  Dianna";PARTSTAT=NEEDS-ACTION:MAILTO:Dianna.Kane@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Kane, Dr.
+  Diana";PARTSTAT=NEEDS-ACTION:MAILTO:Dr.Diana.Kane@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Kean,
+  Craig";PARTSTAT=NEEDS-ACTION:MAILTO:Craig.Kean@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Keefer, Sarah
+  E";PARTSTAT=NEEDS-ACTION:MAILTO:Sarah.Keefer@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Kelly,
+  Kevin";PARTSTAT=NEEDS-ACTION:MAILTO:Kevin.Kelly@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Kelly,
+  Shane";PARTSTAT=NEEDS-ACTION:MAILTO:Shane.Kelly@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Kennel, James
+  A";PARTSTAT=NEEDS-ACTION:MAILTO:James.Kennel@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Kerber, Juanita
+  J.";PARTSTAT=NEEDS-ACTION:MAILTO:Juanita.Kerber@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Kern, Michael
+  A.";PARTSTAT=NEEDS-ACTION:MAILTO:Michael.Kern@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Kim, Natalie (EPIC -
+  EMR)";PARTSTAT=NEEDS-ACTION:MAILTO:Natalie.Kim@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Kim, Richard
+  W";PARTSTAT=NEEDS-ACTION:MAILTO:Richard.Kim@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Kinniry,
+  Paul";PARTSTAT=NEEDS-ACTION:MAILTO:Paul.Kinniry@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Kinsman, Joseph
+  D";PARTSTAT=NEEDS-ACTION:MAILTO:Joseph.Kinsman@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Kirk, Andrew
+  B";PARTSTAT=NEEDS-ACTION:MAILTO:Andrew.Kirk@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Kirkes,
+  Todd";PARTSTAT=NEEDS-ACTION:MAILTO:Todd.Kirkes@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Klass,
+  Bart";PARTSTAT=NEEDS-ACTION:MAILTO:Bart.Klass@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Klemp,
+  Scott";PARTSTAT=NEEDS-ACTION:MAILTO:Scott.Klemp@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Knapper,
+  Michele";PARTSTAT=NEEDS-ACTION:MAILTO:Michele.Knapper@Pennmedicine.upenn.
+ edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Knee,
+  Jared";PARTSTAT=NEEDS-ACTION:MAILTO:Jared.Knee@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Kolodinsky,
+  Diane";PARTSTAT=NEEDS-ACTION:MAILTO:Diane.Kolodinsky@pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Kong-Auwaerter,
+  Pauline";PARTSTAT=NEEDS-ACTION:MAILTO:Pauline.Kong-Auwaerter@pennmedicine
+ .upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Kontra MD, Joseph
+  M";PARTSTAT=NEEDS-ACTION:MAILTO:Joseph.Kontra@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Kosenski,
+  Michael";PARTSTAT=NEEDS-ACTION:MAILTO:Michael.Kosenski@pennmedicine.upenn
+ .edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Kotler, Drew
+  L";PARTSTAT=NEEDS-ACTION:MAILTO:Drew.Kotler@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Kovachev,
+  Kamen";PARTSTAT=NEEDS-ACTION:MAILTO:Kamen.Kovachev@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Krauss,
+  Steve";PARTSTAT=NEEDS-ACTION:MAILTO:Steve.Krauss@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Kruse,
+  Victoria";PARTSTAT=NEEDS-ACTION:MAILTO:Victoria.Kruse@Pennmedicine.upenn.
+ edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Kwong,
+  Pui";PARTSTAT=ACCEPTED:MAILTO:luikwong@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Lamore, Raymond
+  F";PARTSTAT=NEEDS-ACTION:MAILTO:Raymond.Lamore@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Landgraf,
+  Jeffrey";PARTSTAT=NEEDS-ACTION:MAILTO:Jeffrey.Landgraf@pennmedicine.upenn
+ .edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Laramee, Joel
+  G";PARTSTAT=NEEDS-ACTION:MAILTO:Joel.Laramee@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Lawler, Meredith
+  M";PARTSTAT=NEEDS-ACTION:MAILTO:Meredith.Lawler@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Leabhart, Max
+  T";PARTSTAT=NEEDS-ACTION:MAILTO:max.leabhart@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Lee,
+  Natalie";PARTSTAT=NEEDS-ACTION:MAILTO:Natalie.Lee@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Lee,
+  Quinetta";PARTSTAT=NEEDS-ACTION:MAILTO:Quinetta.Lee@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Lee,
+  Rusheev";PARTSTAT=NEEDS-ACTION:MAILTO:Rusheev.Lee@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Leffler,
+  Lisa";PARTSTAT=NEEDS-ACTION:MAILTO:Lisa.Leffler@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Leibowitz, Lee
+  R";PARTSTAT=NEEDS-ACTION:MAILTO:Lee.Leibowitz@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Lenhard,
+  Sarah";PARTSTAT=NEEDS-ACTION:MAILTO:Sarah.Lenhard@uphs.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Leri,
+  Damien";PARTSTAT=NEEDS-ACTION:MAILTO:Damien.Leri@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Lerman,
+  Caryn";PARTSTAT=NEEDS-ACTION:MAILTO:Caryn.Lerman@med.usc.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Li,
+  Dexin";PARTSTAT=NEEDS-ACTION:MAILTO:Dexin.Li@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Lieberman,
+  Adina";PARTSTAT=NEEDS-ACTION:MAILTO:Adina.Lieberman@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Lightheart,
+  Erin";PARTSTAT=NEEDS-ACTION:MAILTO:Erin.Lightheart@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Liu,
+  Manqing";PARTSTAT=NEEDS-ACTION:MAILTO:manqingl@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Logiudice, Mary
+  E";PARTSTAT=NEEDS-ACTION:MAILTO:Mary.Logiudice@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Lok,
+  Sam";PARTSTAT=NEEDS-ACTION:MAILTO:Sam.Lok@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Long,
+  Kevin";PARTSTAT=NEEDS-ACTION:MAILTO:Kevin.Long@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Looby, Sean
+  T";PARTSTAT=NEEDS-ACTION:MAILTO:Sean.Looby@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Lopez,
+  Sandra";PARTSTAT=NEEDS-ACTION:MAILTO:Sandra.Lopez@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Lor,
+  Amanda";PARTSTAT=NEEDS-ACTION:MAILTO:Amanda.Lor@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Lubken,
+  Jason";PARTSTAT=NEEDS-ACTION:MAILTO:Jason.Lubken@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Luong,
+  Thaibinh";PARTSTAT=NEEDS-ACTION:MAILTO:Thaibinh.Luong@pennmedicine.upenn.
+ edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Lurie, Andrea
+  J";PARTSTAT=NEEDS-ACTION:MAILTO:Andrea.Lurie@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Lutgen, Rachael
+  M";PARTSTAT=NEEDS-ACTION:MAILTO:Rachael.Lutgen@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Ly, James
+  L";PARTSTAT=NEEDS-ACTION:MAILTO:James.Ly@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Lynch,
+  Selah";PARTSTAT=NEEDS-ACTION:MAILTO:selah@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Lyons,
+  Kaitlyn";PARTSTAT=NEEDS-ACTION:MAILTO:Kaitlyn.Lyons@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Mackay,
+  Emily";PARTSTAT=NEEDS-ACTION:MAILTO:Emily.Mackay@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Macnamara,
+  Mary-Beth";PARTSTAT=NEEDS-ACTION:MAILTO:Mary.Macnamara@pennmedicine.upenn
+ .edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Madonna, Katherine
+  T";PARTSTAT=NEEDS-ACTION:MAILTO:Katherine.Madonna@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Mahmoodi, Taranae
+  A";PARTSTAT=NEEDS-ACTION:MAILTO:Taranae.Mahmoodi@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Maini,
+  Meghan";PARTSTAT=NEEDS-ACTION:MAILTO:Meghan.Maini@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Maiorana,
+  Leo";PARTSTAT=NEEDS-ACTION:MAILTO:Leo.Maiorana@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Mallozzi,
+  Colleen";PARTSTAT=NEEDS-ACTION:MAILTO:Colleen.Mallozzi@pennmedicine.upenn
+ .edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Manatharayil, Neethu
+  E";PARTSTAT=NEEDS-ACTION:MAILTO:Neethu.Manatharayil@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Maneri,
+  Anthony";PARTSTAT=NEEDS-ACTION:MAILTO:Anthony.Maneri@pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Mangiola,
+  Edward";PARTSTAT=NEEDS-ACTION:MAILTO:Edward.Mangiola@Pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Manz,
+  Christopher";PARTSTAT=NEEDS-ACTION:MAILTO:Christopher.Manz@pennmedicine.u
+ penn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Mao,
+  Boran";PARTSTAT=NEEDS-ACTION:MAILTO:Boran.Mao@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Marchionni,
+  Vincent";PARTSTAT=NEEDS-ACTION:MAILTO:Vincent.Marchionni@pennmedicine.upe
+ nn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Martin,
+  Penny";PARTSTAT=NEEDS-ACTION:MAILTO:Penny.Martin@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="__Martinson,
+  Peter";PARTSTAT=NEEDS-ACTION:MAILTO:Peter.Martinson@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Masi,
+  David";PARTSTAT=NEEDS-ACTION:MAILTO:David.Masi@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Mathew,
+  Aby";PARTSTAT=NEEDS-ACTION:MAILTO:Aby.Mathew@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Mathew,
+  Subin";PARTSTAT=NEEDS-ACTION:MAILTO:Subin.Mathew@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Maurer, Paul
+  S";PARTSTAT=NEEDS-ACTION:MAILTO:Paul.Maurer@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="McAleer,
+  Tom";PARTSTAT=NEEDS-ACTION:MAILTO:Thomas.McAleer@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="McGarvey,
+  Susan";PARTSTAT=NEEDS-ACTION:MAILTO:Susan.Mcgarvey@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="McKernan,
+  Patti";PARTSTAT=NEEDS-ACTION:MAILTO:Patti.McKernan@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Mcclellan, Alexander
+  M";PARTSTAT=NEEDS-ACTION:MAILTO:Alexander.Mcclellan@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Mccurdy, Steven
+  J";PARTSTAT=NEEDS-ACTION:MAILTO:Steven.Mccurdy@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Mcgarry, Erin
+  M";PARTSTAT=NEEDS-ACTION:MAILTO:Erin.Mcgarry@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Mckeon, James
+  J";PARTSTAT=NEEDS-ACTION:MAILTO:James.Mckeon@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Medeiros,
+  Stacey";PARTSTAT=NEEDS-ACTION:MAILTO:Stacey.Medeiros@Pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Medina,
+  Sarah";PARTSTAT=NEEDS-ACTION:MAILTO:Sarah.Medina@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Megonegal,
+  Michael";PARTSTAT=NEEDS-ACTION:MAILTO:Michael.Megonegal@pennmedicine.upen
+ n.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Mehta,
+  Shivan";PARTSTAT=NEEDS-ACTION:MAILTO:Shivan.Mehta@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Mehta,
+  Trupti";PARTSTAT=NEEDS-ACTION:MAILTO:Trupti.Mehta@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Melendro,
+  Santiago";PARTSTAT=NEEDS-ACTION:MAILTO:Santiago.Melendro@pennmedicine.upe
+ nn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Mendillo, Darryl
+  J";PARTSTAT=NEEDS-ACTION:MAILTO:Darryl.Mendillo@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Mercer,
+  Eric";PARTSTAT=NEEDS-ACTION:MAILTO:Eric.Mercer@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Mesure, Stephen
+  A";PARTSTAT=NEEDS-ACTION:MAILTO:Stephen.Mesure@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Metzler, Caitlin
+  M";PARTSTAT=NEEDS-ACTION:MAILTO:Caitlin.Metzler@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Mihai,
+  Julian";PARTSTAT=NEEDS-ACTION:MAILTO:Julian.Mihai@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Mike
+  Stubna";PARTSTAT=NEEDS-ACTION:MAILTO:mike@stubna.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Mikkelsen,
+  Mark";PARTSTAT=NEEDS-ACTION:MAILTO:Mark.Mikkelsen@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Millar,
+  Julianne";PARTSTAT=NEEDS-ACTION:MAILTO:Julianne.Millar@Pennmedicine.upenn
+ .edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Miller, Brad
+  A";PARTSTAT=NEEDS-ACTION:MAILTO:Brad.Miller@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Miller, Nathan
+  A";PARTSTAT=NEEDS-ACTION:MAILTO:Nathan.Miller@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Miller, Shannon
+  L";PARTSTAT=NEEDS-ACTION:MAILTO:Shannon.Miller3@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Miranda, Paul
+  A.";PARTSTAT=NEEDS-ACTION:MAILTO:Paul.Miranda@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Mishkin,
+  Bill";PARTSTAT=NEEDS-ACTION:MAILTO:Bill.Mishkin@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Miszczanczuk,
+  Michael";PARTSTAT=NEEDS-ACTION:MAILTO:Michael.Miszczanczuk@pennmedicine.u
+ penn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Mladenetz, Timothy
+  R";PARTSTAT=NEEDS-ACTION:MAILTO:Timothy.Mladenetz@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Moffitt, Margaret
+  R";PARTSTAT=NEEDS-ACTION:MAILTO:Margaret.Moffitt@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Mordecai,
+  Richard";PARTSTAT=NEEDS-ACTION:MAILTO:Richard.Mordecai@Pennmedicine.upenn
+ .edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Morgan,
+  Sarah";PARTSTAT=NEEDS-ACTION:MAILTO:Sarah.Morgan@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Moritz,
+  Brad";PARTSTAT=NEEDS-ACTION:MAILTO:Brad.Moritz@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="__Mouwakeh,
+  Sam";PARTSTAT=NEEDS-ACTION:MAILTO:Sam.Mouwakeh@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Mowery, Danielle
+  Lee";PARTSTAT=NEEDS-ACTION:MAILTO:dlmowery@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Muchmore,
+  Shirley";PARTSTAT=NEEDS-ACTION:MAILTO:shirley.muchmore@PennMedicine.Upenn
+ .edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Mueller Gildea,
+  Melissa";PARTSTAT=NEEDS-ACTION:MAILTO:Melissa.MuellerGildea@pennmedicine.
+ upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Mull,
+  Nikhil";PARTSTAT=TENTATIVE:MAILTO:Nikhil.Mull@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Murphy, Alice
+  M";PARTSTAT=NEEDS-ACTION:MAILTO:Alice.Murphy@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Murphy,
+  Laura";PARTSTAT=NEEDS-ACTION:MAILTO:Laura.Murphy@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Nair,
+  Umesh";PARTSTAT=NEEDS-ACTION:MAILTO:Umesh.Nair@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Nation,
+  Doreen";PARTSTAT=NEEDS-ACTION:MAILTO:Doreen.Nation@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Navathe,
+  Amol";PARTSTAT=NEEDS-ACTION:MAILTO:amol@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Negro,
+  Natalie";PARTSTAT=NEEDS-ACTION:MAILTO:Natalie.Negro@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Nietupski, Robert
+  M";PARTSTAT=NEEDS-ACTION:MAILTO:Robert.Nietupski@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Nunez,
+  Karina";PARTSTAT=NEEDS-ACTION:MAILTO:Karina.Nunez@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="O'Keefe,
+  Daniela";PARTSTAT=NEEDS-ACTION:MAILTO:Daniela.Okeefe@pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="O'connor,
+  Nina";PARTSTAT=NEEDS-ACTION:MAILTO:Nina.OConnor@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Oaster,
+  Joseph";PARTSTAT=NEEDS-ACTION:MAILTO:Joseph.Oaster@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Oh,
+  Jim";PARTSTAT=NEEDS-ACTION:MAILTO:Jim.Oh@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="__Osborn,
+  Vincent";PARTSTAT=NEEDS-ACTION:MAILTO:Vincent.Osborn@pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Ottemiller,
+  Stephanie";PARTSTAT=NEEDS-ACTION:MAILTO:Stephanie.Ottemiller@pennmedicine
+ .upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Pagoada,
+  Eric";PARTSTAT=NEEDS-ACTION:MAILTO:Eric.Pagoada@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Palmore,
+  Jackie";PARTSTAT=NEEDS-ACTION:MAILTO:Jackie.Palmore@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Panaccio,
+  Heather";PARTSTAT=NEEDS-ACTION:MAILTO:Heather.Panaccio@pennmedicine.upenn
+ .edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Panchanadam,
+  Venkat";PARTSTAT=NEEDS-ACTION:MAILTO:Venkat.Panchanadam@pennmedicine.upen
+ n.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Pandian, Ravi
+  S";PARTSTAT=NEEDS-ACTION:MAILTO:Ravi.Pandian@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Panichelli Jr., Richard
+  J";PARTSTAT=NEEDS-ACTION:MAILTO:Richard.PanichelliJr@pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Papadoplos, Mary
+  E";PARTSTAT=NEEDS-ACTION:MAILTO:Mary.Papadoplos@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Parikh, Ravi
+  B";PARTSTAT=NEEDS-ACTION:MAILTO:Ravi.Parikh@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Passarella,
+  Michael";PARTSTAT=NEEDS-ACTION:MAILTO:Michael.Passarella@Pennmedicine.upe
+ nn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Patel, Bhumi
+  (Pharmacy)";PARTSTAT=NEEDS-ACTION:MAILTO:Bhumi.Patel@pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Patel, Kashyap
+  (Radonc)";PARTSTAT=NEEDS-ACTION:MAILTO:Kashyap.Patel@pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Patel, Krupa (Epic
+  Team)";PARTSTAT=NEEDS-ACTION:MAILTO:Krupa.Patel@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Patel,
+  Rutvij";PARTSTAT=NEEDS-ACTION:MAILTO:Rutvij.Patel@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Patton,
+  Kelly";PARTSTAT=NEEDS-ACTION:MAILTO:Kelly.Patton@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Peifer,
+  Maryanne";PARTSTAT=NEEDS-ACTION:MAILTO:Maryanne.Peifer@pennmedicine.upenn
+ .edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Peiffer, James
+  F";PARTSTAT=NEEDS-ACTION:MAILTO:James.Peiffer@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Pelullo,
+  Arthur";PARTSTAT=NEEDS-ACTION:MAILTO:Arthur.Pelullo@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="PennChart Clinical
+  Team";PARTSTAT=NEEDS-ACTION:MAILTO:PennChartClinicalTeam@uphs.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="PennChart ED
+  Team";PARTSTAT=NEEDS-ACTION:MAILTO:PennChartEDTeam@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="PennChart OpTime
+  Team";PARTSTAT=NEEDS-ACTION:MAILTO:PennChartOpTimeTeam@uphs.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="PennChart Patient Access
+  Team";PARTSTAT=NEEDS-ACTION:MAILTO:PennChartAccessTeam@uphs.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="PennChart Pharmacy
+  Team";PARTSTAT=NEEDS-ACTION:MAILTO:PennChartPharmacyTeam@uphs.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="PennChart Radiant
+  Team";PARTSTAT=NEEDS-ACTION:MAILTO:PennChartRadiantTeam@uphs.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="PennChart Rev Cycle
+  Team";PARTSTAT=NEEDS-ACTION:MAILTO:PennChartRevCycleTeam@uphs.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Pennchart
+  Cupid";PARTSTAT=NEEDS-ACTION:MAILTO:PennchartCupid@uphs.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Pennington, John
+  W";PARTSTAT=NEEDS-ACTION:MAILTO:John.Pennington@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Perna,
+  RoseAnne";PARTSTAT=NEEDS-ACTION:MAILTO:RoseAnne.Perna@pennmedicine.upenn.
+ edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Pierce, Margarete
+  (Resp.)";PARTSTAT=NEEDS-ACTION:MAILTO:Margarete.Pierce@pennmedicine.upenn
+ .edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Pierce, Tracy
+  A";PARTSTAT=NEEDS-ACTION:MAILTO:Tracy.Pierce@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Pinder,
+  Colleen";PARTSTAT=NEEDS-ACTION:MAILTO:Colleen.Pinder@pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Piton,
+  Mariana";PARTSTAT=NEEDS-ACTION:MAILTO:Mariana.Piton@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Pollock,
+  Kevin";PARTSTAT=NEEDS-ACTION:MAILTO:Kevin.Pollock@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Pomeroy, Jon
+  K";PARTSTAT=NEEDS-ACTION:MAILTO:Jon.Pomeroy@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Prelic,
+  Ana";PARTSTAT=NEEDS-ACTION:MAILTO:Ana.Prelic@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Puchon,
+  Michael";PARTSTAT=NEEDS-ACTION:MAILTO:Michael.Puchon@pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Pugh, Grace
+  A";PARTSTAT=NEEDS-ACTION:MAILTO:Grace.Pugh@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Quinlan,
+  Bryan";PARTSTAT=NEEDS-ACTION:MAILTO:Bryan.Quinlan@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Quinones,
+  Danny";PARTSTAT=NEEDS-ACTION:MAILTO:Danny.Quinones@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Rangavajhala,
+  Kapil";PARTSTAT=NEEDS-ACTION:MAILTO:Kapil.Rangavajhala@pennmedicine.upenn
+ .edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Rao,
+  Arun";PARTSTAT=NEEDS-ACTION:MAILTO:Arun.Rao@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Raschella, Mary
+  Kay";PARTSTAT=NEEDS-ACTION:MAILTO:MaryKay.Raschella@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Raucheisen,
+  Amber";PARTSTAT=NEEDS-ACTION:MAILTO:Amber.Raucheisen1@pennmedicine.upenn.
+ edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Reardon,
+  Thomas";PARTSTAT=NEEDS-ACTION:MAILTO:Thomas.Reardon@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Redfern,
+  Gina";PARTSTAT=NEEDS-ACTION:MAILTO:Gina.Redfern@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Reed,
+  William";PARTSTAT=NEEDS-ACTION:MAILTO:William.Reed@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Regan,
+  John";PARTSTAT=NEEDS-ACTION:MAILTO:jregan@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Regli, Susan
+  H";PARTSTAT=NEEDS-ACTION:MAILTO:Susan.Regli@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Reid,
+  Donovan";PARTSTAT=NEEDS-ACTION:MAILTO:Donovan.Reid@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Remeis,
+  Patricia";PARTSTAT=NEEDS-ACTION:MAILTO:Patricia.Remeis@pennmedicine.upenn
+ .edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Remely,
+  David";PARTSTAT=NEEDS-ACTION:MAILTO:David.Remely@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Resnic, Joanne
+  M";PARTSTAT=NEEDS-ACTION:MAILTO:Joanne.Resnic@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Restuccia,
+  Michael";PARTSTAT=NEEDS-ACTION:MAILTO:Michael.Restuccia@pennmedicine.upen
+ n.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Reynolds,
+  Anana";PARTSTAT=NEEDS-ACTION:MAILTO:AReynolds@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Reza,
+  Nosheen";PARTSTAT=NEEDS-ACTION:MAILTO:Nosheen.Reza@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="McLean,
+  Rhondalyn";PARTSTAT=NEEDS-ACTION:MAILTO:Rhondalyn.McLean@pennmedicine.upe
+ nn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Richardson,
+  Eric";PARTSTAT=NEEDS-ACTION:MAILTO:Eric.Richardson@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Rider, Rachael
+  L";PARTSTAT=NEEDS-ACTION:MAILTO:Rachael.Rider@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Robinson,
+  Kathryn";PARTSTAT=NEEDS-ACTION:MAILTO:Kathryn.Robinson@Pennmedicine.upenn
+ .edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Rockett, George
+  D";PARTSTAT=NEEDS-ACTION:MAILTO:George.Rockett@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Rohn,
+  Killian";PARTSTAT=NEEDS-ACTION:MAILTO:Killian.Rohn@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Rohrbach,
+  Jeff";PARTSTAT=NEEDS-ACTION:MAILTO:jeff.rohrbach@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Rosin, Roy
+  M";PARTSTAT=NEEDS-ACTION:MAILTO:Roy.Rosin@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Rota,
+  Jade";PARTSTAT=NEEDS-ACTION:MAILTO:Jade.Rota@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Roth,
+  Catherine";PARTSTAT=NEEDS-ACTION:MAILTO:Catherine.Roth@pennmedicine.upenn
+ .edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Roy,
+  Rubina";PARTSTAT=NEEDS-ACTION:MAILTO:Rubina.Roy@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Sali,
+  Merita";PARTSTAT=NEEDS-ACTION:MAILTO:Merita.Sali@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Salmon,
+  John";PARTSTAT=NEEDS-ACTION:MAILTO:John.Salmon@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Salunke,
+  Mrugank";PARTSTAT=NEEDS-ACTION:MAILTO:Mrugank.Salunke@pennmedicine.upenn.
+ edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Samuel, Joshua
+  M";PARTSTAT=NEEDS-ACTION:MAILTO:Joshua.Samuel@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Sanders,
+  Naima";PARTSTAT=NEEDS-ACTION:MAILTO:Naima.Sanders@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Tran,
+  Sandy";PARTSTAT=NEEDS-ACTION:MAILTO:Sandy.Tran@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Santos,
+  Rudolf";PARTSTAT=NEEDS-ACTION:MAILTO:Rudolf.Santos@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Sareyed-Dim,
+  Silvia";PARTSTAT=NEEDS-ACTION:MAILTO:Silvia.Sareyed-Dim@pennmedicine.upen
+ n.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Scheuermann,
+  Ryan";PARTSTAT=NEEDS-ACTION:MAILTO:Ryan.Scheuermann@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Schnall,
+  Jill";PARTSTAT=NEEDS-ACTION:MAILTO:jschnall@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Schneider,
+  Kim";PARTSTAT=NEEDS-ACTION:MAILTO:Kim.Schneider@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Schoenbaum, Anna
+  E";PARTSTAT=NEEDS-ACTION:MAILTO:Anna.Schoenbaum@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Schriver, Emily
+  R";PARTSTAT=NEEDS-ACTION:MAILTO:Emily.Schriver@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Schultz,
+  Guy";PARTSTAT=NEEDS-ACTION:MAILTO:Guy.Schultz@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Schwartz,
+  Amy";PARTSTAT=NEEDS-ACTION:MAILTO:Amy.Schwartz@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Schweickert,
+  William";PARTSTAT=NEEDS-ACTION:MAILTO:William.Schweickert@pennmedicine.up
+ enn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Scopelliti,
+  Joseph";PARTSTAT=NEEDS-ACTION:MAILTO:Joseph.Scopelliti@Pennmedicine.upenn
+ .edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="__Scott, Callie
+  A";PARTSTAT=NEEDS-ACTION:MAILTO:Callie.Scott@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Scott,
+  Tyzhay";PARTSTAT=NEEDS-ACTION:MAILTO:Tyzhay.Scott@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Sears,
+  Matthew";PARTSTAT=NEEDS-ACTION:MAILTO:Matthew.Sears@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Seddon, Daniel
+  J";PARTSTAT=NEEDS-ACTION:MAILTO:Daniel.Seddon@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Segal, Christie
+  M";PARTSTAT=NEEDS-ACTION:MAILTO:Christie.Segal@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Seigerman,
+  Matthew";PARTSTAT=NEEDS-ACTION:MAILTO:Matthew.Seigerman@pennmedicine.upen
+ n.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Selormey,
+  Senam";PARTSTAT=NEEDS-ACTION:MAILTO:Senam.Selormey@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Severe,
+  Betsaleel";PARTSTAT=NEEDS-ACTION:MAILTO:Betsaleel.Severe@Pennmedicine.upe
+ nn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="__Shah,
+  Pushti";PARTSTAT=NEEDS-ACTION:MAILTO:Pushti.Shah@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Shah,
+  Vijay";PARTSTAT=NEEDS-ACTION:MAILTO:Vijay.Shah@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Shaposky,
+  John";PARTSTAT=NEEDS-ACTION:MAILTO:John.Shaposky@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Sharper,
+  Capri";PARTSTAT=NEEDS-ACTION:MAILTO:Capri.Sharper@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Sheerin,
+  John";PARTSTAT=NEEDS-ACTION:MAILTO:John.Sheerin@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Shewell, Alexandria
+  M";PARTSTAT=NEEDS-ACTION:MAILTO:Alexandria.Shewell@uphs.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Shimoni,
+  Liat";PARTSTAT=NEEDS-ACTION:MAILTO:Liat.Shimoni@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Silvestro,
+  Steven";PARTSTAT=NEEDS-ACTION:MAILTO:Steven.Silvestro@pennmedicine.upenn.
+ edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Sim,
+  Esther";PARTSTAT=NEEDS-ACTION:MAILTO:Esther.Sim@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Simmons,
+  Shaquanna";PARTSTAT=NEEDS-ACTION:MAILTO:Shaquanna.Simmons@pennmedicine.up
+ enn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Simon,
+  Siju";PARTSTAT=NEEDS-ACTION:MAILTO:Siju.Simon@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Skoranski, Allen
+  K";PARTSTAT=NEEDS-ACTION:MAILTO:Allen.Skoranski@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Smith,
+  David";PARTSTAT=NEEDS-ACTION:MAILTO:David.Smith4@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Smith,
+  Dawn";PARTSTAT=NEEDS-ACTION:MAILTO:Dawn.Smith2@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Smith, Douglas
+  J";PARTSTAT=NEEDS-ACTION:MAILTO:Douglas.Smith6@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Snider,
+  Christopher";PARTSTAT=NEEDS-ACTION:MAILTO:Christopher.Snider@pennmedicine
+ .upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Snyder,
+  Kerri";PARTSTAT=NEEDS-ACTION:MAILTO:Kerri.Snyder@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Soegiyono,
+  Lydia";PARTSTAT=NEEDS-ACTION:MAILTO:Lydia.Soegiyono@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Spahr,
+  Melissa";PARTSTAT=NEEDS-ACTION:MAILTO:Melissa.Spahr@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Stabile,
+  David";PARTSTAT=NEEDS-ACTION:MAILTO:David.Stabile@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Staehle,
+  Paul";PARTSTAT=NEEDS-ACTION:MAILTO:Paul.staehle@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Stetson,
+  Robert";PARTSTAT=NEEDS-ACTION:MAILTO:Robert.Stetson@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Su,
+  Tu";PARTSTAT=NEEDS-ACTION:MAILTO:Tu.Su@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Sullivan,
+  Pat";PARTSTAT=NEEDS-ACTION:MAILTO:Patricia.Sullivan@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="__Sullivan,
+  Patrick";PARTSTAT=NEEDS-ACTION:MAILTO:Patrick.Sullivan@pennmedicine.upenn
+ .edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Symons,
+  Michelle";PARTSTAT=NEEDS-ACTION:MAILTO:Michelle.Symons@pennmedicine.upenn
+ .edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Tabakin, Erica
+  R";PARTSTAT=NEEDS-ACTION:MAILTO:Erica.Tabakin@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Tait,
+  Gordon";PARTSTAT=NEEDS-ACTION:MAILTO:Gordon.Tait@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Taraskus,
+  Michael";PARTSTAT=NEEDS-ACTION:MAILTO:Michael.Taraskus@pennmedicine.upenn
+ .edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Teeple,
+  Stephanie";PARTSTAT=NEEDS-ACTION:MAILTO:Stephanie.Teeple@pennmedicine.upe
+ nn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Terry,
+  Annette";PARTSTAT=NEEDS-ACTION:MAILTO:Annette.Terry@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Thomas,
+  Christopher";PARTSTAT=NEEDS-ACTION:MAILTO:Christopher.Thomas@pennmedicine
+ .upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Thomas,
+  Sunil";PARTSTAT=NEEDS-ACTION:MAILTO:Sunil.Thomas@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Thomasson, Arwin
+  M";PARTSTAT=NEEDS-ACTION:MAILTO:Arwin.Thomasson@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Thompson,
+  Avery";PARTSTAT=NEEDS-ACTION:MAILTO:Avery.Thompson@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Thornton,
+  Judith";PARTSTAT=NEEDS-ACTION:MAILTO:Judith.Thornton@pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Tischler,
+  Lauren";PARTSTAT=NEEDS-ACTION:MAILTO:Lauren.Tischler@pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Todman,
+  Mac";PARTSTAT=NEEDS-ACTION:MAILTO:Mac.Todman@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Urbani,
+  Richard";PARTSTAT=NEEDS-ACTION:MAILTO:Richard.Urbani@pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Vanzandbergen,
+  Christine";PARTSTAT=NEEDS-ACTION:MAILTO:Christine.Vanzandbergen@pennmedic
+ ine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Vernier, Denise
+  M";PARTSTAT=NEEDS-ACTION:MAILTO:Denise.Vernier@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Vogel, Christopher
+  J";PARTSTAT=NEEDS-ACTION:MAILTO:Christopher.Vogel@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Wang,
+  Erkuan";PARTSTAT=NEEDS-ACTION:MAILTO:erkuan@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Ward,
+  Robin";PARTSTAT=NEEDS-ACTION:MAILTO:Robin.Ward@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Warriner, John
+  H";PARTSTAT=NEEDS-ACTION:MAILTO:John.Warriner@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Wasserman, Morgan
+  L";PARTSTAT=NEEDS-ACTION:MAILTO:Morgan.Wasserman@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Waters,
+  David";PARTSTAT=NEEDS-ACTION:MAILTO:David.Waters@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Waters, Nickolas
+  T";PARTSTAT=NEEDS-ACTION:MAILTO:Nickolas.Waters@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Watson,
+  Gregory";PARTSTAT=NEEDS-ACTION:MAILTO:Gregory.Watson@pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Webb,
+  Eric";PARTSTAT=NEEDS-ACTION:MAILTO:Eric.Webb@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Weber, Daniel M (EPIC -
+  EMR)";PARTSTAT=NEEDS-ACTION:MAILTO:Daniel.Weber1@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Weinberg,
+  Michael";PARTSTAT=NEEDS-ACTION:MAILTO:Michael.Weinberg@pennmedicine.upenn
+ .edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Weiss, Benjamin
+  H";PARTSTAT=NEEDS-ACTION:MAILTO:Benjamin.Weiss@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Weissman,
+  Gary";PARTSTAT=NEEDS-ACTION:MAILTO:Gary.Weissman@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Welsh,
+  Deborah";PARTSTAT=NEEDS-ACTION:MAILTO:Deborah.Welsh@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="West,
+  Evie";PARTSTAT=NEEDS-ACTION:MAILTO:Evie.West@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Whitehead,
+  Gideon";PARTSTAT=NEEDS-ACTION:MAILTO:Gideon.Whitehead@pennmedicine.upenn.
+ edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Whitest,
+  Helena";PARTSTAT=NEEDS-ACTION:MAILTO:Helena.Whitest@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Williams, Paul
+  J";PARTSTAT=NEEDS-ACTION:MAILTO:Paul.Williams@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Winawer-Wetzel,
+  Sarah";PARTSTAT=NEEDS-ACTION:MAILTO:Sarah.Winawer-Wetzel@pennmedicine.upe
+ nn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Wollack,
+  Colin";PARTSTAT=NEEDS-ACTION:MAILTO:Colin.Wollack@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Wong,
+  Fernando";PARTSTAT=NEEDS-ACTION:MAILTO:Fernando.Wong@Pennmedicine.upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Wright, Curtis
+  D";PARTSTAT=NEEDS-ACTION:MAILTO:Curtis.Wright@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Yan,
+  Jiali";PARTSTAT=NEEDS-ACTION:MAILTO:jialiyan@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Yob, Stephen
+  J";PARTSTAT=NEEDS-ACTION:MAILTO:Stephen.Yob@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Yoo, Eunice
+  D";PARTSTAT=NEEDS-ACTION:MAILTO:Eunice.Yoo@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Young,
+  Sabrina";PARTSTAT=NEEDS-ACTION:MAILTO:Sabrina.Young@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Zhang,
+  Lingjiao";PARTSTAT=NEEDS-ACTION:MAILTO:lingjiao@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Zhang,
+  Yi";PARTSTAT=NEEDS-ACTION:MAILTO:Yi.Zhang@Pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Zhu,
+  Jingsan";PARTSTAT=NEEDS-ACTION:MAILTO:jingsan@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Zlatsin, Yevgeny
+  (Jesse)";PARTSTAT=NEEDS-ACTION:MAILTO:Jesse.Zlatsin@pennmedicine.upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN=aat9013@nyp.org;PARTSTAT=NEEDS
+ -ACTION:MAILTO:aat9013@nyp.org
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN=amandyam@princeton.edu;PARTSTA
+ T=NEEDS-ACTION:MAILTO:amandyam@princeton.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Trenton,
+  Amy";PARTSTAT=NEEDS-ACTION:MAILTO:Amy.Trenton@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="bajaj,
+  jasmeet";PARTSTAT=NEEDS-ACTION:MAILTO:jasmeet.bajaj@PennMedicine.Upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN=bee@cs.princeton.edu;PARTSTAT=
+ NEEDS-ACTION:MAILTO:bee@cs.princeton.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="bloemer,
+  tina";PARTSTAT=NEEDS-ACTION:MAILTO:tina.bloemer@PennMedicine.Upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="civitello,
+  thomas";PARTSTAT=NEEDS-ACTION:MAILTO:thomas.civitello@pennmedicine.upenn.
+ edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="coco,
+  philip";PARTSTAT=NEEDS-ACTION:MAILTO:philip.coco@PennMedicine.Upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN=dalelee@princeton.edu;PARTSTAT
+ =NEEDS-ACTION:MAILTO:dalelee@princeton.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN=edale@princeton.edu;PARTSTAT=N
+ EEDS-ACTION:MAILTO:edale@princeton.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN=fzhao265@gmail.com;PARTSTAT=NE
+ EDS-ACTION:MAILTO:fzhao265@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="gronczewski,
+  craig";PARTSTAT=NEEDS-ACTION:MAILTO:craig.gronczewski2@PennMedicine.Upenn
+ .edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="grotz,
+  paul";PARTSTAT=NEEDS-ACTION:MAILTO:paul.grotz@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="herndon,
+  coleen";PARTSTAT=NEEDS-ACTION:MAILTO:coleen.herndon@PennMedicine.Upenn.ed
+ u
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN=jhmoore@upenn.edu;PARTSTAT=NEE
+ DS-ACTION:MAILTO:jhmoore@upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="Mozes,
+  Julie";PARTSTAT=NEEDS-ACTION:MAILTO:Julie.Mozes@pennmedicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN=julie.mozes@pennmedicine.uphs.
+ edu;PARTSTAT=NEEDS-ACTION:MAILTO:julie.mozes@pennmedicine.uphs.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="kavouras,
+  jacqueline";PARTSTAT=NEEDS-ACTION:MAILTO:Jacqueline.Kavouras@PennMedicine
+ .Upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="khare,
+  milind";PARTSTAT=NEEDS-ACTION:MAILTO:milind.khare@PennMedicine.Upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN=lacava@upenn.edu;PARTSTAT=NEED
+ S-ACTION:MAILTO:lacava@upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN=liutony@seas.upenn.edu;PARTSTA
+ T=NEEDS-ACTION:MAILTO:liutony@seas.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="martin,
+  kristen";PARTSTAT=NEEDS-ACTION:MAILTO:kristen.martin@PennMedicine.Upenn.e
+ du
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="mehrabyan,
+  nune";PARTSTAT=NEEDS-ACTION:MAILTO:nune.mehrabyan@PennMedicine.Upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN=michael.wenger@pennmedicine.up
+ hs.edu;PARTSTAT=NEEDS-ACTION:MAILTO:michael.wenger@pennmedicine.uphs.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN=neil.crimins@uph.upenn.edu;PAR
+ TSTAT=NEEDS-ACTION:MAILTO:neil.crimins@uph.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN=redferng@verizon.net;PARTSTAT=
+ NEEDS-ACTION:MAILTO:redferng@verizon.net
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN=shalpern@upenn.edu;PARTSTAT=NE
+ EDS-ACTION:MAILTO:shalpern@upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN=sri@pennmendicine.upenn.edu;PA
+ RTSTAT=NEEDS-ACTION:MAILTO:sri@pennmendicine.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN=ungar@cis.upenn.edu;PARTSTAT=N
+ EEDS-ACTION:MAILTO:ungar@cis.upenn.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="x-Biggs,
+  Lanette";PARTSTAT=NEEDS-ACTION:MAILTO:d-lb170@lancastergeneral.org
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN="x-Vernalli, Margaret
+  M";PARTSTAT=NEEDS-ACTION:MAILTO:Margaret.Vernalli@pennmedicine.upenn.edu
+ATTENDEE;ROLE=OPT-PARTICIPANT;RSVP=FALSE;CN=Phishing;PARTSTAT=NEEDS-ACTION
+ :MAILTO:phishing@pennmedicine.upenn.edu
+ATTENDEE;ROLE=OPT-PARTICIPANT;RSVP=FALSE;CN=Phishing;PARTSTAT=NEEDS-ACTION
+ :MAILTO:phishing@lghealth.org
+ATTENDEE;ROLE=OPT-PARTICIPANT;RSVP=FALSE;CN=pennmedicine@phish.air.agari.c
+ om;PARTSTAT=NEEDS-ACTION:MAILTO:pennmedicine@phish.air.agari.com
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-INSTTYPE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT00H05M00S
+END:VALARM
+END:VEVENT
+END:VCALENDAR

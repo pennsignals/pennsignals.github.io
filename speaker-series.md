@@ -34,7 +34,7 @@ Speaker/Topic Suggestions? <i class="fa fa-envelope"></i><a href="mailto:pennsig
 ___
 
 #### System Pulse: Enabling a Learning Health System in the Heart and Vascular Service Line
-**Jan 28th, 2022, 11:00-12:00pm** <a href="/assets/Predictive Healthcare Speaker Series- HVSL.ics">Add to Calendar</a>
+**Jan 28th, 2022, 11:00-12:00pm** <a href="/assets/Predictive Healthcare Speaker Series- System Pulse -- Enabling a Learning Health System in the Heart and Vascular Service Line.ics">Add to Calendar</a>
 <img src="https://user-images.githubusercontent.com/1396669/150809505-3c5e6c4b-7b6f-43a1-9438-5fd7a8cc6965.png" ALIGN="left" HSPACE="30" VSPACE="10">
 
 ##### Speakers
@@ -49,7 +49,7 @@ A key piece of the Learning Health System framework is a process and tool to ide
 
 ##### Location
 
-<a href="https://teams.com">Virtual</a>
+<a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_OWY3NDY4N2QtYjMyNS00MGQ3LWIwMTYtMTc1NjM4MTZiMGJi%40thread.v2/0?context=%7b%22Tid%22%3a%2258e32bb7-141e-4bae-af01-f29f2a6613c2%22%2c%22Oid%22%3a%22fe777dbb-4bfd-4275-b5d8-4a1a72b04027%22%7d">Virtual</a>
 <p><br></p>
 ___
 
