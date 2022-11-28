@@ -27,7 +27,7 @@ slug: team
   </div>
 
   <div class="member col s12 m4 l2">
-    <img src="/assets/images/profile/headshot.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+    <img src="/assets/images/profile/grayn.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
     <div class="name strong">Graydon Neill</div>
     <div class="title">Data Science Site Reliability Engineer</div>
   </div>
