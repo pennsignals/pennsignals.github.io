@@ -6,17 +6,11 @@ slug: team
 
 <h2 class="red-text text-darken-4">Team</h2>
 <div id="team" class="row center-align">
-
-  <div class="member col s12 m4 l2">
-    <img src="/assets/images/profile/miked.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
-    <div class="name strong">Michael Draugelis</div>
-    <div class="title">Chief Data Scientist</div>
-  </div>
-
-  <div class="member col s12 m4 l2">
-    <img src="/assets/images/profile/coreyc.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
-    <div class="name strong">Corey Chivers, PhD </div>
-    <div class="title">Lead Data Scientist</div>
+  
+   <div class="member col s12 m4 l2">
+    <img src="/assets/images/profile/jasonl.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+    <div class="name strong">Jason Lubken</div>
+    <div class="title">Data Science Manager &amp; Software Architect</div>
   </div>
 
   <div class="member col s12 m4 l2">
@@ -33,15 +27,9 @@ slug: team
   </div>
 
   <div class="member col s12 m4 l2">
-    <img src="/assets/images/profile/jasonl.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
-    <div class="name strong">Jason Lubken</div>
-    <div class="title">Sr. Data Science Software Engineer</div>
-  </div>
-
-  <div class="member col s12 m4 l2">
-    <img src="/assets/images/profile/thaibinh.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
-    <div class="name strong">ThaiBinh Luong, PhD</div>
-    <div class="title">Data Scientist</div>
+    <img src="/assets/images/profile/headshot.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+    <div class="name strong">Graydon Neill</div>
+    <div class="title">Data Science Site Reliability Engineer</div>
   </div>
 
   <div class="member col s12 m4 l2">
@@ -79,6 +67,3 @@ slug: team
     <div class="title">Chief Quality Officer</div>
   </div>
 </div>
-
-
-
